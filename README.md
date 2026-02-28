@@ -16,7 +16,7 @@ For skills, the value is a number. For quests, the value is a boolean. For items
 
 ```shell
 yarn install
-yarn start
+yarn dev
 ```
 
 

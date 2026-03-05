@@ -1,10 +1,10 @@
-import Skill from "./skill";
+import Skill from "../data/skill";
 
 export type Diaries =
   | "Ardougne"
   | "Desert"
   | "Falador"
-  | "Fremennik"
+  | "Fremennik Province"
   | "Kandarin"
   | "Karamja"
   | "Kourend & Kebos"
@@ -18,7 +18,7 @@ export type DiaryDifficulty = "Easy" | "Medium" | "Hard" | "Elite";
 export type UserData = {
   username: string;
   timestamp: string;
-  quests: { string: number }[];
+  quests: Record<string, 0 | 1 | 2>; // unstarted, in progress, completed
   achievement_diaries: {
     [key in Diaries]: {
       [key in DiaryDifficulty]: { complete: boolean; tasks: boolean[] };

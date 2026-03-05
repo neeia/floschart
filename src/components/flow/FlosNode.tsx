@@ -2,9 +2,12 @@ import Node from "@/types/node";
 import { Handle, Position, type NodeProps } from "@xyflow/react";
 import { Button } from "../ui/button";
 import clsx from "clsx";
-import getSkillSrc from "@/scripts/ui/getSkillSrc";
+import getSkillSrc from "@/util/ui/getSkillSrc";
 import FlosListNodeContainer from "./FlosListNodeContainer";
 import FlosListNode from "./FlosListNode";
+import { Item } from "../ui/item";
+import { Separator } from "../ui/separator";
+import getDiarySrc from "@/util/ui/getDiarySrc";
 
 export default function FlosNode(props: NodeProps<Node>) {
   const { id, data } = props;
@@ -39,7 +42,7 @@ export default function FlosNode(props: NodeProps<Node>) {
           title="Click to see actions"
           variant="shine"
           size="icon-sm"
-          className="relative size-fit bg-card clipped flex h-12"
+          className="relative size-fit bg-card clipped flex h-12 min-w-16 text-base leading-none"
         >
           <div
             className={clsx(
@@ -74,7 +77,7 @@ export default function FlosNode(props: NodeProps<Node>) {
                 />
                 <h2
                   className={clsx(
-                    "text-base leading-0",
+                    "ml-1",
                     goalIsComplete && "font-normal opacity-50",
                   )}
                 >
@@ -114,29 +117,38 @@ export default function FlosNode(props: NodeProps<Node>) {
             (data.type === "diary" && (
               <div className="flex relative size-full items-center min-w-48">
                 <img
-                  src={
-                    data.imgUrl ||
-                    "https://oldschool.runescape.wiki/images/thumb/Achievement_Diaries.png/130px-Achievement_Diaries.png"
-                  }
+                  src={data.imgUrl || getDiarySrc(data.name)}
                   alt=""
                   className="w-6 h-6 my-1 mx-1 object-contain"
                 />
                 <div className={clsx(goalIsComplete && "italic")}>
                   <h2
                     className={clsx(
-                      "text-base leading-none inline",
+                      "inline ml-1",
                       goalIsComplete && "font-normal",
                     )}
                   >
                     {data.name} Diary
                   </h2>
-                  <h3
-                    className={clsx(
-                      "text-2xs leading-none inline ml-1 font-normal",
-                    )}
-                  >
+                  <h3 className={clsx("text-2xs inline ml-1 font-normal")}>
                     ({data.tier})
                   </h3>
+                </div>
+              </div>
+            )) ||
+            (data.type === "collection" && (
+              <div className="flex relative size-full items-center min-w-48">
+                {data.imgUrl != null && (
+                  <img
+                    src={data.imgUrl}
+                    alt=""
+                    className="w-6 h-6 my-1 mx-1 object-contain"
+                  />
+                )}
+                <div className={clsx(goalIsComplete && "italic")}>
+                  <h2 className={clsx("ml-1", goalIsComplete && "font-normal")}>
+                    {data.name}
+                  </h2>
                 </div>
               </div>
             ))}
@@ -146,12 +158,14 @@ export default function FlosNode(props: NodeProps<Node>) {
           type="source"
           className={clsx(
             "arrow",
-            goalIsComplete
-              ? "bg-complete!"
-              : incomingCompletion.every((d) => d)
-                ? "bg-incomplete!"
-                : "bg-unstarted!",
-            data.outgoing.size > 0 ? "opacity-100" : "opacity-25",
+            data.outgoing.size > 0
+              ? goalIsComplete
+                ? "bg-complete!"
+                : incomingCompletion.every((d) => d)
+                  ? "bg-incomplete!"
+                  : "bg-unstarted!"
+              : "bg-card!",
+            data.outgoing.size > 0 ? "opacity-100" : "opacity-50",
           )}
           style={{
             border: "none",
@@ -161,9 +175,17 @@ export default function FlosNode(props: NodeProps<Node>) {
       </span>
       {(data.type === "diary" || data.type === "collection") && (
         <FlosListNodeContainer id={id} expanded={data.expanded}>
-          {data.type === "diary" &&
-            data.items.map((task) => <FlosListNode id={id} task={task} />)}
+          {data.items.map((item) => (
+            <FlosListNode key={item.name} id={id} task={item} />
+          ))}
         </FlosListNodeContainer>
+      )}
+      {data.notes && (
+        <Item className="absolute show-if-selected block bg-card mt-2 p-0 min-w-[calc(100%-12px)] max-w-72 drop-shadow-sm">
+          <h3 className="text-3xs ml-1">notes</h3>
+          <Separator />
+          <p className="text-2xs ml-1 wrap-break-word">{data.notes}</p>
+        </Item>
       )}
     </>
   );

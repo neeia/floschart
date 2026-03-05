@@ -1,4 +1,4 @@
-import Skill from "@/types/skill";
+import Skill from "@/types/data/skill";
 
 export default function getSkillSrc(skill: string) {
   switch (skill) {
@@ -8,6 +8,8 @@ export default function getSkillSrc(skill: string) {
       return "https://oldschool.runescape.wiki/images/Attack_style_icon.png";
     case Skill.Overall:
       return "https://oldschool.runescape.wiki/images/Stats_icon.png";
+    case Skill.Sailing:
+      return "https://oldschool.runescape.wiki/images/Sailing_icon.png";
     default:
       return `https://oldschool.runescape.wiki/images/${skill}_icon_(detail).png`;
   }

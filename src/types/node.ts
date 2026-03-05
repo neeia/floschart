@@ -1,54 +1,57 @@
-import { Diaries, DiaryDifficulty } from "./runelite";
-import type Skill from "./skill";
+import { Diaries, DiaryDifficulty } from "./external/runelite";
+import type Skill from "./data/skill";
 import type { Node as XyNode } from "@xyflow/react";
 
-export type NodeData = {
+export type NodeType =
+  | "skill"
+  | "quest"
+  | "diary"
+  | "item"
+  | "generic"
+  | "collection";
+
+export type NodeData<T extends NodeType = NodeType> = {
   // dev stuff
-  type: string;
+  type: T;
   incoming: Record<string, boolean>;
   outgoing: Set<string>;
 
   // user stuff
   name: string;
-  notes?: string;
-  url?: string;
-  imgUrl?: string;
   target: number;
   current: number;
+  url?: string;
+  imgUrl?: string;
+  notes?: string;
 
   // utilities
   expanded?: boolean; // define iff node is a collection node
 };
 
-type SkillNodeData = NodeData & {
-  type: "skill";
+export type SkillNodeData = NodeData<"skill"> & {
   name: Skill;
   target: number;
   imgUrl?: never;
   expanded?: never;
 };
 
-type QuestNodeData = NodeData & {
-  type: "quest";
+export type QuestNodeData = NodeData<"quest"> & {
   expanded?: never;
 };
 
-type DiaryTaskData = GenericTaskData & {};
-type DiaryNodeData = NodeData & {
-  type: "diary";
+export type DiaryTaskData = GenericTaskData & {};
+export type DiaryNodeData = NodeData<"diary"> & {
   name: Diaries;
   tier: DiaryDifficulty;
   items: DiaryTaskData[];
   expanded: boolean;
 };
 
-type ItemNodeData = NodeData & {
-  type: "item";
+export type ItemNodeData = NodeData<"item"> & {
   expanded?: never;
 };
 
-type GenericNodeData = NodeData & {
-  type: "generic";
+export type GenericNodeData = NodeData<"generic"> & {
   expanded?: never;
 };
 
@@ -57,11 +60,19 @@ export type GenericTaskData = {
   notes?: string;
   completed: boolean;
 };
-type CollectionNodeData = NodeData & {
-  type: "collection";
+export type CollectionNodeData = NodeData<"collection"> & {
   items: GenericTaskData[];
   expanded: boolean;
 };
+
+export const nodeTypes = [
+  "skill",
+  "quest",
+  "diary",
+  "item",
+  "generic",
+  "collection",
+];
 
 type Node =
   | XyNode<SkillNodeData>

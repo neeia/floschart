@@ -1,4 +1,4 @@
-import { UserData } from "@/types/runelite";
+import { UserData } from "@/types/external/runelite";
 
 export default async function fetchRuneliteUser(query: string) {
   const remote = `https://sync.runescape.wiki/runelite/player/${query}/STANDARD`;

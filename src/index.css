@@ -9,8 +9,10 @@
   --text-3xs: 0.5rem;
   --text-4xs: 0.375rem;
   --color-complete: var(--color-green-400);
+  --color-complete-foreground: var(--color-green-900);
   --color-incomplete: var(--color-amber-300);
   --color-unstarted: var(--color-red-700);
+  --color-active-textinput: var(--active-textinput);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -49,6 +51,31 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+
+  --animate-collapsible-down: collapsible-down 0.2s ease-out;
+  --animate-collapsible-up: collapsible-up 0.2s ease-out;
+
+  @keyframes collapsible-down {
+    from {
+      max-height: 0;
+      opacity: 0;
+    }
+    to {
+      max-height: var(--radix-collapsible-content-height);
+      opacity: 1;
+    }
+  }
+
+  @keyframes collapsible-up {
+    from {
+      max-height: var(--radix-collapsible-content-height);
+      opacity: 1;
+    }
+    to {
+      max-height: 0;
+      opacity: 0;
+    }
+  }
 }
 
 :root {
@@ -93,6 +120,9 @@
   --code-number: #747474;
   --selection: #0a0a0a;
   --selection-foreground: #fff;
+
+  --xy-edge-stroke: var(--color-stone-500);
+  --active-textinput: #fff;
 }
 
 .dark {
@@ -136,6 +166,7 @@
   --code-number: #a4a4a4;
   --selection: #e5e5e5;
   --selection-foreground: #171717;
+  --active-textinput: #212121;
 }
 
 @font-face {
@@ -194,5 +225,26 @@
   }
   .crisp {
     image-rendering: crisp-edges;
+  }
+
+  :not(.selected .show-if-selected).show-if-selected {
+    @apply -translate-x-1/2 -translate-y-full opacity-0 scale-0 max-h-0;
+  }
+  .show-if-selected {
+    @apply transition-all scale-100 opacity-100 max-h-dvh;
+  }
+
+  .strikethrough {
+    content: "";
+
+    display: inline;
+    background: linear-gradient(currentColor, currentColor) left 50% no-repeat;
+    background-size: 0% 1px;
+
+    transition: background-size 0.2s ease;
+  }
+
+  .anim-strikethrough {
+    background-size: 100% 1px;
   }
 }

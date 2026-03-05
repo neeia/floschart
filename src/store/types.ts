@@ -1,5 +1,5 @@
 import Node, { NodeData } from "@/types/node";
-import { UserData } from "@/types/runelite";
+import { UserData } from "@/types/external/runelite";
 import {
   type Edge,
   type OnNodesChange,
@@ -7,9 +7,15 @@ import {
   type OnConnect,
   OnEdgesDelete,
 } from "@xyflow/react";
+import Skill from "@/types/data/skill";
 
-export type AppState = {
-  accountData?: UserData;
+export type AccountSlice = {
+  accountData: UserData | null;
+  setAccountData: (data: UserData) => void;
+  getSkillLevel: (skill: Skill) => number;
+};
+
+export type FlowSlice = {
   nodes: Node[];
   edges: Edge[];
   onNodesChange: OnNodesChange<Node>;
@@ -24,3 +30,31 @@ export type AppState = {
   editNode: (nodeId: string, nodeData: NodeData) => void;
   removeNode: (nodeId: string) => void;
 };
+
+type Theme =
+  | "System" // default
+  | "Paper" // osrs wiki, default light
+  | "Daylight" // rs3 wiki
+  | "Candlelit" // warm dark, default dark
+  | "Moonlight" // cool dark (wiki)
+  | "Demonic Pact"; // red and black, default while demonic pact league is up
+
+export type SettingsSlice = {
+  theme: Theme;
+  snapToGrid: boolean;
+  changeTheme: (theme: Theme) => void;
+  toggleSnap: () => void;
+};
+
+type SidebarTabs = "about" | "search" | "filter" | "runelite" | "settings";
+
+export type SidebarSlice = {
+  open: boolean;
+  currentTab?: SidebarTabs;
+  openTab: (tab: SidebarTabs) => void;
+  closeTab: () => void;
+};
+
+export type AllSlice = FlowSlice & SidebarSlice & SettingsSlice & AccountSlice;
+
+export type AppState = AllSlice;

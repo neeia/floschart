@@ -9,20 +9,10 @@ import { AppState } from "@/store/types";
 import useStore from "@/store/store";
 import { useShallow } from "zustand/shallow";
 import clsx from "clsx";
-import { cn } from "@/lib/utils";
-
-const toggleNodeExpand = (node: Node): Node => {
-  if (node.data.expanded == null) return node;
-  return {
-    ...node,
-    data: { ...node.data, expanded: !node.data.expanded },
-  } as Node;
-};
 
 const selector = (state: AppState) => ({
   toggleNodeExpanded: state.toggleNodeExpanded,
 });
-
 interface Props {
   id: string;
   expanded: boolean;
@@ -42,10 +32,15 @@ export default function FlosListNodeContainer(props: Props) {
       open={expanded}
       onOpenChange={() => toggleNodeExpanded(id)}
     >
-      <CollapsibleContent className="text-3xs bg-card">
+      <CollapsibleContent
+        className={clsx(
+          "text-3xs bg-card",
+          "overflow-hidden transition-all data-[state=closed]:animate-collapsible-up data-[state=open]:animate-collapsible-down",
+        )}
+      >
         <ul>{children}</ul>
       </CollapsibleContent>
-      <CollapsibleTrigger className="w-full leading-none text-3xs bg-card border-t border-border hover:underline decoration-1 py-0.5">
+      <CollapsibleTrigger className="w-full leading-none text-3xs bg-card border-t hover:underline decoration-1 py-0.5">
         <span>{expanded ? "collapse" : "expand"}</span>
       </CollapsibleTrigger>
     </Collapsible>

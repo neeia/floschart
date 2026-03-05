@@ -1,0 +1,248 @@
+{
+  "Unlock": {
+    "Gargoyle Smasher": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Gargoyle_icon.png",
+      "name": "Gargoyle Smasher"
+    },
+    "Slug Salter": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Rockslug_icon.png",
+      "name": "Slug Salter"
+    },
+    "Reptile Freezer": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Desert_Lizard_icon.png",
+      "name": "Reptile Freezer"
+    },
+    "'Shroom Sprayer": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Mutated_zygomite_icon.png",
+      "name": "'Shroom Sprayer"
+    },
+    "Broader Fletching": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Broad_arrowheads_5.png",
+      "name": "Broader Fletching"
+    },
+    "Malevolent Masquerade": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Slayer_helmet.png",
+      "name": "Malevolent Masquerade"
+    },
+    "Ring Bling": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Slayer_ring.png",
+      "name": "Ring Bling"
+    },
+    "Seeing Red": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Red_dragon_icon.png",
+      "name": "Seeing Red"
+    },
+    "Watch the Birdie": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Aviansie_icon.png",
+      "name": "Watch the Birdie"
+    },
+    "Hot Stuff": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Tok-Xil_%28Construction%29_icon.png",
+      "name": "Hot Stuff"
+    },
+    "Reptile Got Ripped": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lizardmen_icon.png",
+      "name": "Reptile Got Ripped"
+    },
+    "Like a Boss": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Like_a_boss.png",
+      "name": "Like a Boss"
+    },
+    "Bigger and Badder": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Bigger_and_Badder.png",
+      "name": "Bigger and Badder"
+    },
+    "Duly Noted": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Duly_noted.png",
+      "name": "Duly Noted"
+    },
+    "Stop the Wyvern": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Wyvern_bones.png",
+      "name": "Stop the Wyvern"
+    },
+    "Double Trouble": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Midnight.png",
+      "name": "Double Trouble"
+    },
+    "Basilocked": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Basilisk_icon.png",
+      "name": "Basilocked"
+    },
+    "Actual Vampyre Slayer": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Vampyre_icon.png",
+      "name": "Actual Vampyre Slayer"
+    },
+    "Task Storage": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Barrel_%28The_Tourist_Trap%29.png",
+      "name": "Task Storage"
+    },
+    "I Wildy More Slayer": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Larran%27s_key_4.png",
+      "name": "I Wildy More Slayer"
+    },
+    "Warped Reality": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Warped_Terrorbird_icon.png",
+      "name": "Warped Reality"
+    },
+    "Lured In": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Aquanite_icon.png",
+      "name": "Lured In"
+    },
+    "Wings Spread": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Gryphon_icon.png",
+      "name": "Wings Spread"
+    }
+  },
+  "Extend": {
+    "Need More Darkness": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Dark_beast_icon.png",
+      "name": "Need More Darkness"
+    },
+    "Ankou Very Much": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ankou_icon.png",
+      "name": "Ankou Very Much"
+    },
+    "Suq-a-nother One": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Suqah_leather.png",
+      "name": "Suq-a-nother One"
+    },
+    "Fire & Darkness": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Black_dragon_icon.png",
+      "name": "Fire & Darkness"
+    },
+    "Pedal to the Metals": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Steel_dragon_%28Construction%29_icon.png",
+      "name": "Pedal to the Metals"
+    },
+    "Spiritual Fervour": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Spiritual_mage_icon.png",
+      "name": "Spiritual Fervour"
+    },
+    "Birds of a Feather": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Aviansie_icon.png",
+      "name": "Birds of a Feather"
+    },
+    "Greater Challenge": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Greater_demon_icon.png",
+      "name": "Greater Challenge"
+    },
+    "It's Dark in Here": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Black_demon_icon.png",
+      "name": "It's Dark in Here"
+    },
+    "Bleed Me Dry": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Bloodveld_icon.png",
+      "name": "Bleed Me Dry"
+    },
+    "Smell Ya Later": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Aberrant_spectre_icon.png",
+      "name": "Smell Ya Later"
+    },
+    "Horrorific": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Cave_horror_icon.png",
+      "name": "Horrorific"
+    },
+    "To Dust You Shall Return": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Dust_devil_icon.png",
+      "name": "To Dust You Shall Return"
+    },
+    "Wyver-nother One": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Skeletal_Wyvern_icon.png",
+      "name": "Wyver-nother One"
+    },
+    "Get Smashed": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Gargoyle_icon.png",
+      "name": "Get Smashed"
+    },
+    "Nechs Please": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Nechryael_icon.png",
+      "name": "Nechs Please"
+    },
+    "Augment my Abbies": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Abyssal_demon_icon.png",
+      "name": "Augment my Abbies"
+    },
+    "Krack On": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Cave_kraken_icon.png",
+      "name": "Krack On"
+    },
+    "Get Scabaright on It": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Locust_rider_icon.png",
+      "name": "Get Scabaright on It"
+    },
+    "Wyver-nother Two": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Fossil_Island_wyverns_icon.png",
+      "name": "Wyver-nother Two"
+    },
+    "Basilonger": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Basilisk_icon.png",
+      "name": "Basilonger"
+    },
+    "More at Stake": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Vampyre_icon.png",
+      "name": "More at Stake"
+    },
+    "Revenenenenenants": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Revenant_icon.png",
+      "name": "Revenenenenenants"
+    },
+    "More eyes than sense": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Araxyte_icon.png",
+      "name": "More eyes than sense"
+    },
+    "Un-restraining Order": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Mature_custodian_stalker_icon.png",
+      "name": "Un-restraining Order"
+    },
+    "Let's Stay All Aquanite": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Aquanite_icon.png",
+      "name": "Let's Stay All Aquanite"
+    },
+    "Can of Wyrms": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Wyrm_icon.png",
+      "name": "Can of Wyrms"
+    },
+    "Gryphon and on": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Gryphon_icon.png",
+      "name": "Gryphon and on"
+    }
+  },
+  "undefined": {
+    "King Black Bonnet": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Black_slayer_helmet.png",
+      "name": "King Black Bonnet"
+    },
+    "Kalphite Khat": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Green_slayer_helmet.png",
+      "name": "Kalphite Khat"
+    },
+    "Unholy Helmet": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Red_slayer_helmet.png",
+      "name": "Unholy Helmet"
+    },
+    "Dark Mantle": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Purple_slayer_helmet.png",
+      "name": "Dark Mantle"
+    },
+    "Undead Head": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Turquoise_slayer_helmet.png",
+      "name": "Undead Head"
+    },
+    "Use More Head": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Hydra_slayer_helmet.png",
+      "name": "Use More Head"
+    },
+    "Eye see you": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Araxyte_slayer_helmet.png",
+      "name": "Eye see you"
+    },
+    "Twisted Vision": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Twisted_slayer_helmet.png",
+      "name": "Twisted Vision"
+    },
+    "Absolutely Slayin'": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Hooded_slayer_helmet.png",
+      "name": "Absolutely Slayin'"
+    }
+  }
+}

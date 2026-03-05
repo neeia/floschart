@@ -1,0 +1,98 @@
+{
+  "Amulet of Glory (mounted)": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_Glory_%28mounted%29_icon.png",
+    "name": "Amulet of Glory (mounted)",
+    "url": "https://oldschool.runescape.wiki/w/Amulet_of_Glory_(mounted)",
+    "levelRequirement": 47
+  },
+  "Teleport focus": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Teleport_focus_icon.png",
+    "name": "Teleport focus",
+    "url": "https://oldschool.runescape.wiki/w/Teleport_focus",
+    "levelRequirement": 50
+  },
+  "Mounted xeric's talisman": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Mounted_xeric%27s_talisman_icon.png",
+    "name": "Mounted xeric's talisman",
+    "url": "https://oldschool.runescape.wiki/w/Mounted_xeric%27s_talisman",
+    "levelRequirement": 72
+  },
+  "Spirit tree (Construction)": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Spirit_tree_%28Construction%29_icon.png",
+    "name": "Spirit tree (Construction)",
+    "url": "https://oldschool.runescape.wiki/w/Spirit_tree_(Construction)",
+    "levelRequirement": 75
+  },
+  "Obelisk (Construction)": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Obelisk_%28Construction%29_icon.png",
+    "name": "Obelisk (Construction)",
+    "url": "https://oldschool.runescape.wiki/w/Obelisk_(Construction)",
+    "levelRequirement": 80
+  },
+  "Basic jewellery box": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Basic_jewellery_box_icon.png",
+    "name": "Basic jewellery box",
+    "url": "https://oldschool.runescape.wiki/w/Basic_jewellery_box",
+    "levelRequirement": 81
+  },
+  "Mounted digsite pendant": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Mounted_digsite_pendant_icon.png",
+    "name": "Mounted digsite pendant",
+    "url": "https://oldschool.runescape.wiki/w/Mounted_digsite_pendant",
+    "levelRequirement": 82
+  },
+  "Fairy ring (Construction)": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Fairy_ring_%28Construction%29_icon.png",
+    "name": "Fairy ring (Construction)",
+    "url": "https://oldschool.runescape.wiki/w/Fairy_ring_(Construction)",
+    "levelRequirement": 85
+  },
+  "Fancy jewellery box": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Fancy_jewellery_box_icon.png",
+    "name": "Fancy jewellery box",
+    "url": "https://oldschool.runescape.wiki/w/Fancy_jewellery_box",
+    "levelRequirement": 86
+  },
+  "Ornate jewellery box": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Ornate_jewellery_box_icon.png",
+    "name": "Ornate jewellery box",
+    "url": "https://oldschool.runescape.wiki/w/Ornate_jewellery_box",
+    "levelRequirement": 91
+  },
+  "Spirit tree & fairy ring": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Spirit_tree_%26_fairy_ring_icon.png",
+    "name": "Spirit tree & fairy ring",
+    "url": "https://oldschool.runescape.wiki/w/Spirit_tree_%26_fairy_ring",
+    "levelRequirement": 95
+  },
+  "Restoration pool": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Restoration_pool_icon.png",
+    "name": "Restoration pool",
+    "url": "https://oldschool.runescape.wiki/w/Restoration_pool",
+    "levelRequirement": 65
+  },
+  "Revitalisation pool": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Revitalisation_pool_icon.png",
+    "name": "Revitalisation pool",
+    "url": "https://oldschool.runescape.wiki/w/Revitalisation_pool",
+    "levelRequirement": 70
+  },
+  "Rejuvenation pool": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Rejuvenation_pool_icon.png",
+    "name": "Rejuvenation pool",
+    "url": "https://oldschool.runescape.wiki/w/Rejuvenation_pool",
+    "levelRequirement": 80
+  },
+  "Fancy rejuvenation pool": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Fancy_rejuvenation_pool_icon.png",
+    "name": "Fancy rejuvenation pool",
+    "url": "https://oldschool.runescape.wiki/w/Fancy_rejuvenation_pool",
+    "levelRequirement": 85
+  },
+  "Ornate rejuvenation pool": {
+    "imgUrl": "https://oldschool.runescape.wiki/images/Ornate_rejuvenation_pool_icon.png",
+    "name": "Ornate rejuvenation pool",
+    "url": "https://oldschool.runescape.wiki/w/Ornate_rejuvenation_pool",
+    "levelRequirement": 90
+  }
+}

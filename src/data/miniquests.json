@@ -1,0 +1,395 @@
+{
+  "Alfred Grimhand's Barcrawl": {
+    "isMiniquest": true,
+    "name": "Alfred Grimhand's Barcrawl",
+    "title": "Alfred_Grimhand's_Barcrawl",
+    "difficulty": "Novice",
+    "length": "Medium",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Alfred_Grimhand%27s_Barcrawl",
+    "requirements": {
+      "skills": [],
+      "quests": []
+    }
+  },
+  "Enter the Abyss": {
+    "isMiniquest": true,
+    "name": "Enter the Abyss",
+    "title": "Enter_the_Abyss",
+    "difficulty": "Intermediate",
+    "length": "Very Short",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Enter_the_Abyss",
+    "requirements": {
+      "skills": [],
+      "quests": [
+        {
+          "name": "Rune Mysteries"
+        }
+      ]
+    }
+  },
+  "The General's Shadow": {
+    "isMiniquest": true,
+    "name": "The General's Shadow",
+    "title": "The_General's_Shadow",
+    "difficulty": "Experienced",
+    "length": "Medium",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/The_General%27s_Shadow",
+    "requirements": {
+      "skills": [],
+      "quests": [
+        {
+          "name": "Desert Treasure I"
+        }
+      ]
+    }
+  },
+  "Barbarian Training": {
+    "isMiniquest": true,
+    "name": "Barbarian Training",
+    "title": "Barbarian_Training",
+    "difficulty": "Experienced",
+    "length": "Medium",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Barbarian_Training",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Fishing",
+          "target": 55
+        },
+        {
+          "name": "Firemaking",
+          "target": 35
+        },
+        {
+          "name": "Strength",
+          "target": 35
+        },
+        {
+          "name": "Agility",
+          "target": 15
+        },
+        {
+          "name": "Farming",
+          "target": 15
+        },
+        {
+          "name": "Crafting",
+          "target": 11
+        },
+        {
+          "name": "Smithing",
+          "target": 5
+        },
+        {
+          "name": "Herblore",
+          "target": 4
+        }
+      ],
+      "quests": [
+        {
+          "name": "Tai Bwo Wannai Trio"
+        }
+      ]
+    }
+  },
+  "Skippy and the Mogres": {
+    "isMiniquest": true,
+    "name": "Skippy and the Mogres",
+    "title": "Skippy_and_the_Mogres",
+    "difficulty": "Novice",
+    "length": "Very Short",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Skippy_and_the_Mogres",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Cooking",
+          "target": 20
+        }
+      ],
+      "quests": []
+    }
+  },
+  "Curse of the Empty Lord": {
+    "isMiniquest": true,
+    "name": "Curse of the Empty Lord",
+    "title": "Curse_of_the_Empty_Lord",
+    "difficulty": "Experienced",
+    "length": "Medium",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Curse_of_the_Empty_Lord",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Thieving",
+          "target": 53
+        },
+        {
+          "name": "Prayer",
+          "target": 31
+        }
+      ],
+      "quests": []
+    }
+  },
+  "Lair of Tarn Razorlor": {
+    "isMiniquest": true,
+    "name": "Lair of Tarn Razorlor",
+    "title": "Lair_of_Tarn_Razorlor",
+    "difficulty": "Experienced",
+    "length": "Medium",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Lair_of_Tarn_Razorlor",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Slayer",
+          "target": 40
+        }
+      ],
+      "quests": [
+        {
+          "name": "Haunted Mine"
+        }
+      ]
+    }
+  },
+  "Bear Your Soul": {
+    "isMiniquest": true,
+    "name": "Bear Your Soul",
+    "title": "Bear_Your_Soul",
+    "difficulty": "Intermediate",
+    "length": "Short",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Bear_Your_Soul",
+    "requirements": {
+      "skills": [],
+      "quests": []
+    }
+  },
+  "The Enchanted Key": {
+    "isMiniquest": true,
+    "name": "The Enchanted Key",
+    "title": "The_Enchanted_Key",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/The_Enchanted_Key",
+    "requirements": {
+      "skills": [],
+      "quests": [
+        {
+          "name": "Making History"
+        }
+      ]
+    }
+  },
+  "Mage Arena I": {
+    "isMiniquest": true,
+    "name": "Mage Arena I",
+    "title": "Mage_Arena_I",
+    "difficulty": "Experienced",
+    "length": "Short",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Mage_Arena_I",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Magic",
+          "target": 60
+        }
+      ],
+      "quests": []
+    }
+  },
+  "Family Pest": {
+    "isMiniquest": true,
+    "name": "Family Pest",
+    "title": "Family_Pest",
+    "difficulty": "Intermediate",
+    "length": "Short",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Family_Pest",
+    "requirements": {
+      "skills": [],
+      "quests": [
+        {
+          "name": "Family Crest"
+        }
+      ]
+    }
+  },
+  "Mage Arena II": {
+    "isMiniquest": true,
+    "name": "Mage Arena II",
+    "title": "Mage_Arena_II",
+    "difficulty": "Master",
+    "length": "Medium",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Mage_Arena_II",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Magic",
+          "target": 75
+        }
+      ],
+      "quests": [
+        {
+          "name": "Mage Arena I"
+        }
+      ]
+    }
+  },
+  "In Search of Knowledge": {
+    "isMiniquest": true,
+    "name": "In Search of Knowledge",
+    "title": "In_Search_of_Knowledge",
+    "difficulty": "Experienced",
+    "length": "Medium",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/In_Search_of_Knowledge",
+    "requirements": {
+      "skills": [],
+      "quests": []
+    }
+  },
+  "Daddy's Home": {
+    "isMiniquest": true,
+    "name": "Daddy's Home",
+    "title": "Daddy's_Home",
+    "difficulty": "Novice",
+    "length": "Short",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Daddy%27s_Home",
+    "requirements": {
+      "skills": [],
+      "quests": []
+    }
+  },
+  "The Frozen Door": {
+    "isMiniquest": true,
+    "name": "The Frozen Door",
+    "title": "The_Frozen_Door",
+    "difficulty": "Master",
+    "length": "Short",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/The_Frozen_Door",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Agility",
+          "target": 70
+        },
+        {
+          "name": "Hitpoints",
+          "target": 70
+        },
+        {
+          "name": "Ranged",
+          "target": 70
+        },
+        {
+          "name": "Strength",
+          "target": 70
+        }
+      ],
+      "quests": [
+        {
+          "name": "Desert Treasure I"
+        }
+      ]
+    }
+  },
+  "Hopespear's Will": {
+    "isMiniquest": true,
+    "name": "Hopespear's Will",
+    "title": "Hopespear's_Will",
+    "difficulty": "Master",
+    "length": "Short",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Hopespear%27s_Will",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Prayer",
+          "target": 50
+        }
+      ],
+      "quests": [
+        {
+          "name": "The Restless Ghost"
+        },
+        {
+          "name": "Desert Treasure I"
+        },
+        {
+          "name": "Fairytale II - Cure a Queen"
+        },
+        {
+          "name": "Land of the Goblins"
+        }
+      ]
+    }
+  },
+  "Into the Tombs": {
+    "isMiniquest": true,
+    "name": "Into the Tombs",
+    "title": "Into_the_Tombs",
+    "difficulty": "Master",
+    "length": "Medium",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Into_the_Tombs",
+    "requirements": {
+      "skills": [],
+      "quests": [
+        {
+          "name": "Beneath Cursed Sands"
+        }
+      ]
+    }
+  },
+  "His Faithful Servants": {
+    "isMiniquest": true,
+    "name": "His Faithful Servants",
+    "title": "His_Faithful_Servants",
+    "difficulty": "Experienced",
+    "length": "Very Short",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/His_Faithful_Servants",
+    "requirements": {
+      "skills": [],
+      "quests": [
+        {
+          "name": "Priest in Peril"
+        }
+      ]
+    }
+  },
+  "Vale Totems": {
+    "isMiniquest": true,
+    "name": "Vale Totems",
+    "title": "Vale_Totems",
+    "difficulty": "Novice",
+    "length": "Very Short",
+    "members": true,
+    "url": "https://oldschool.runescape.wiki//w/Vale_Totems_(miniquest)",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Fletching",
+          "target": 20
+        }
+      ],
+      "quests": [
+        {
+          "name": "Children of the Sun"
+        }
+      ]
+    }
+  }
+}

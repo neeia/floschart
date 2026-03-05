@@ -1,0 +1,188 @@
+{
+  "Thick Skin": {
+    "levelRequirement": 1,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Thick_Skin.png",
+    "name": "Thick Skin",
+    "url": "https://oldschool.runescape.wiki/w/Thick_Skin"
+  },
+  "Burst of Strength": {
+    "levelRequirement": 4,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Burst_of_Strength.png",
+    "name": "Burst of Strength",
+    "url": "https://oldschool.runescape.wiki/w/Burst_of_Strength"
+  },
+  "Clarity of Thought": {
+    "levelRequirement": 7,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Clarity_of_Thought.png",
+    "name": "Clarity of Thought",
+    "url": "https://oldschool.runescape.wiki/w/Clarity_of_Thought"
+  },
+  "Sharp Eye": {
+    "levelRequirement": 8,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Sharp_Eye.png",
+    "name": "Sharp Eye",
+    "url": "https://oldschool.runescape.wiki/w/Sharp_Eye"
+  },
+  "Mystic Will": {
+    "levelRequirement": 9,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Mystic_Will.png",
+    "name": "Mystic Will",
+    "url": "https://oldschool.runescape.wiki/w/Mystic_Will"
+  },
+  "Rock Skin": {
+    "levelRequirement": 10,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Rock_Skin.png",
+    "name": "Rock Skin",
+    "url": "https://oldschool.runescape.wiki/w/Rock_Skin"
+  },
+  "Superhuman Strength": {
+    "levelRequirement": 13,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Superhuman_Strength.png",
+    "name": "Superhuman Strength",
+    "url": "https://oldschool.runescape.wiki/w/Superhuman_Strength"
+  },
+  "Improved Reflexes": {
+    "levelRequirement": 16,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Improved_Reflexes.png",
+    "name": "Improved Reflexes",
+    "url": "https://oldschool.runescape.wiki/w/Improved_Reflexes"
+  },
+  "Rapid Restore": {
+    "levelRequirement": 19,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Rapid_Restore.png",
+    "name": "Rapid Restore",
+    "url": "https://oldschool.runescape.wiki/w/Rapid_Restore"
+  },
+  "Rapid Heal": {
+    "levelRequirement": 22,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Rapid_Heal.png",
+    "name": "Rapid Heal",
+    "url": "https://oldschool.runescape.wiki/w/Rapid_Heal"
+  },
+  "Protect Item": {
+    "levelRequirement": 25,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Protect_Item.png",
+    "name": "Protect Item",
+    "url": "https://oldschool.runescape.wiki/w/Protect_Item"
+  },
+  "Hawk Eye": {
+    "levelRequirement": 26,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Hawk_Eye.png",
+    "name": "Hawk Eye",
+    "url": "https://oldschool.runescape.wiki/w/Hawk_Eye"
+  },
+  "Mystic Lore": {
+    "levelRequirement": 27,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Mystic_Lore.png",
+    "name": "Mystic Lore",
+    "url": "https://oldschool.runescape.wiki/w/Mystic_Lore"
+  },
+  "Steel Skin": {
+    "levelRequirement": 28,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Steel_Skin.png",
+    "name": "Steel Skin",
+    "url": "https://oldschool.runescape.wiki/w/Steel_Skin"
+  },
+  "Ultimate Strength": {
+    "levelRequirement": 31,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Ultimate_Strength.png",
+    "name": "Ultimate Strength",
+    "url": "https://oldschool.runescape.wiki/w/Ultimate_Strength"
+  },
+  "Incredible Reflexes": {
+    "levelRequirement": 34,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Incredible_Reflexes.png",
+    "name": "Incredible Reflexes",
+    "url": "https://oldschool.runescape.wiki/w/Incredible_Reflexes"
+  },
+  "Protect from Magic": {
+    "levelRequirement": 37,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Protect_from_Magic.png",
+    "name": "Protect from Magic",
+    "url": "https://oldschool.runescape.wiki/w/Protect_from_Magic"
+  },
+  "Protect from Missiles": {
+    "levelRequirement": 40,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Protect_from_Missiles.png",
+    "name": "Protect from Missiles",
+    "url": "https://oldschool.runescape.wiki/w/Protect_from_Missiles"
+  },
+  "Protect from Melee": {
+    "levelRequirement": 43,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Protect_from_Melee.png",
+    "name": "Protect from Melee",
+    "url": "https://oldschool.runescape.wiki/w/Protect_from_Melee"
+  },
+  "Eagle Eye": {
+    "levelRequirement": 44,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Eagle_Eye.png",
+    "name": "Eagle Eye",
+    "url": "https://oldschool.runescape.wiki/w/Eagle_Eye"
+  },
+  "Mystic Might": {
+    "levelRequirement": 45,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Mystic_Might.png",
+    "name": "Mystic Might",
+    "url": "https://oldschool.runescape.wiki/w/Mystic_Might"
+  },
+  "Retribution": {
+    "levelRequirement": 46,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Retribution.png",
+    "name": "Retribution",
+    "url": "https://oldschool.runescape.wiki/w/Retribution"
+  },
+  "Redemption": {
+    "levelRequirement": 49,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Redemption.png",
+    "name": "Redemption",
+    "url": "https://oldschool.runescape.wiki/w/Redemption"
+  },
+  "Smite": {
+    "levelRequirement": 52,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Smite.png",
+    "name": "Smite",
+    "url": "https://oldschool.runescape.wiki/w/Smite"
+  },
+  "Preserve": {
+    "levelRequirement": 55,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Preserve.png",
+    "name": "Preserve",
+    "url": "https://oldschool.runescape.wiki/w/Preserve"
+  },
+  "Chivalry": {
+    "levelRequirement": 60,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Chivalry.png",
+    "name": "Chivalry",
+    "url": "https://oldschool.runescape.wiki/w/Chivalry"
+  },
+  "Deadeye": {
+    "levelRequirement": 62,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Deadeye.png",
+    "name": "Deadeye",
+    "url": "https://oldschool.runescape.wiki/w/Deadeye"
+  },
+  "Mystic Vigour": {
+    "levelRequirement": 63,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Mystic_Vigour.png",
+    "name": "Mystic Vigour",
+    "url": "https://oldschool.runescape.wiki/w/Mystic_Vigour"
+  },
+  "Piety": {
+    "levelRequirement": 70,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Piety.png",
+    "name": "Piety",
+    "url": "https://oldschool.runescape.wiki/w/Piety"
+  },
+  "Rigour": {
+    "levelRequirement": 74,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Rigour.png",
+    "name": "Rigour",
+    "url": "https://oldschool.runescape.wiki/w/Rigour"
+  },
+  "Augury": {
+    "levelRequirement": 77,
+    "imgUrl": "https://oldschool.runescape.wiki/images/Augury.png",
+    "name": "Augury",
+    "url": "https://oldschool.runescape.wiki/w/Augury"
+  }
+}

@@ -1,0 +1,1204 @@
+{
+  "Standard Spellbook": {
+    "Lumbridge Home Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lumbridge_Home_Teleport_icon_%28mobile%29.png",
+      "name": "Lumbridge Home Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Lumbridge_Home_Teleport",
+      "levelRequirement": 0
+    },
+    "Wind Strike": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Wind_Strike_icon_%28mobile%29.png",
+      "name": "Wind Strike",
+      "url": "https://oldschool.runescape.wiki/w/Wind_Strike",
+      "levelRequirement": 1
+    },
+    "Confuse": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Confuse_icon_%28mobile%29.png",
+      "name": "Confuse",
+      "url": "https://oldschool.runescape.wiki/w/Confuse",
+      "levelRequirement": 3
+    },
+    "Enchant Crossbow Bolt (Opal)": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt_icon_%28mobile%29.png",
+      "name": "Enchant Crossbow Bolt (Opal)",
+      "url": "https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_(Opal)",
+      "levelRequirement": 4
+    },
+    "Water Strike": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Water_Strike_icon_%28mobile%29.png",
+      "name": "Water Strike",
+      "url": "https://oldschool.runescape.wiki/w/Water_Strike",
+      "levelRequirement": 5
+    },
+    "Lvl-1 Enchant": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lvl-1_Enchant_icon_%28mobile%29.png",
+      "name": "Lvl-1 Enchant",
+      "url": "https://oldschool.runescape.wiki/w/Lvl-1_Enchant",
+      "levelRequirement": 7
+    },
+    "Enchant Crossbow Bolt (Sapphire)": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt_icon_%28mobile%29.png",
+      "name": "Enchant Crossbow Bolt (Sapphire)",
+      "url": "https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_(Sapphire)",
+      "levelRequirement": 7
+    },
+    "Earth Strike": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Earth_Strike_icon_%28mobile%29.png",
+      "name": "Earth Strike",
+      "url": "https://oldschool.runescape.wiki/w/Earth_Strike",
+      "levelRequirement": 9
+    },
+    "Weaken": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Weaken_icon_%28mobile%29.png",
+      "name": "Weaken",
+      "url": "https://oldschool.runescape.wiki/w/Weaken",
+      "levelRequirement": 11
+    },
+    "Fire Strike": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Fire_Strike_icon_%28mobile%29.png",
+      "name": "Fire Strike",
+      "url": "https://oldschool.runescape.wiki/w/Fire_Strike",
+      "levelRequirement": 13
+    },
+    "Enchant Crossbow Bolt (Jade)": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt_icon_%28mobile%29.png",
+      "name": "Enchant Crossbow Bolt (Jade)",
+      "url": "https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_(Jade)",
+      "levelRequirement": 14
+    },
+    "Bones to Bananas": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Bones_to_Bananas_icon_%28mobile%29.png",
+      "name": "Bones to Bananas",
+      "url": "https://oldschool.runescape.wiki/w/Bones_to_Bananas",
+      "levelRequirement": 15
+    },
+    "Wind Bolt": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Wind_Bolt_icon_%28mobile%29.png",
+      "name": "Wind Bolt",
+      "url": "https://oldschool.runescape.wiki/w/Wind_Bolt",
+      "levelRequirement": 17
+    },
+    "Curse": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Curse_icon_%28mobile%29.png",
+      "name": "Curse",
+      "url": "https://oldschool.runescape.wiki/w/Curse",
+      "levelRequirement": 19
+    },
+    "Bind": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Bind_icon_%28mobile%29.png",
+      "name": "Bind",
+      "url": "https://oldschool.runescape.wiki/w/Bind",
+      "levelRequirement": 20
+    },
+    "Low Level Alchemy": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Low_Level_Alchemy_icon_%28mobile%29.png",
+      "name": "Low Level Alchemy",
+      "url": "https://oldschool.runescape.wiki/w/Low_Level_Alchemy",
+      "levelRequirement": 21
+    },
+    "Water Bolt": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Water_Bolt_icon_%28mobile%29.png",
+      "name": "Water Bolt",
+      "url": "https://oldschool.runescape.wiki/w/Water_Bolt",
+      "levelRequirement": 23
+    },
+    "Enchant Crossbow Bolt (Pearl)": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt_icon_%28mobile%29.png",
+      "name": "Enchant Crossbow Bolt (Pearl)",
+      "url": "https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_(Pearl)",
+      "levelRequirement": 24
+    },
+    "Varrock Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Varrock_Teleport_icon_%28mobile%29.png",
+      "name": "Varrock Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Varrock_Teleport",
+      "levelRequirement": 25
+    },
+    "Lvl-2 Enchant": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lvl-2_Enchant_icon_%28mobile%29.png",
+      "name": "Lvl-2 Enchant",
+      "url": "https://oldschool.runescape.wiki/w/Lvl-2_Enchant",
+      "levelRequirement": 27
+    },
+    "Enchant Crossbow Bolt (Emerald)": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt_icon_%28mobile%29.png",
+      "name": "Enchant Crossbow Bolt (Emerald)",
+      "url": "https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_(Emerald)",
+      "levelRequirement": 27
+    },
+    "Earth Bolt": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Earth_Bolt_icon_%28mobile%29.png",
+      "name": "Earth Bolt",
+      "url": "https://oldschool.runescape.wiki/w/Earth_Bolt",
+      "levelRequirement": 29
+    },
+    "Enchant Crossbow Bolt (Red Topaz)": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt_icon_%28mobile%29.png",
+      "name": "Enchant Crossbow Bolt (Red Topaz)",
+      "url": "https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_(Red_Topaz)",
+      "levelRequirement": 29
+    },
+    "Lumbridge Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lumbridge_Teleport_icon_%28mobile%29.png",
+      "name": "Lumbridge Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Lumbridge_Teleport",
+      "levelRequirement": 31
+    },
+    "Telekinetic Grab": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Telekinetic_Grab_icon_%28mobile%29.png",
+      "name": "Telekinetic Grab",
+      "url": "https://oldschool.runescape.wiki/w/Telekinetic_Grab",
+      "levelRequirement": 33
+    },
+    "Fire Bolt": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Fire_Bolt_icon_%28mobile%29.png",
+      "name": "Fire Bolt",
+      "url": "https://oldschool.runescape.wiki/w/Fire_Bolt",
+      "levelRequirement": 35
+    },
+    "Falador Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Falador_Teleport_icon_%28mobile%29.png",
+      "name": "Falador Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Falador_Teleport",
+      "levelRequirement": 37
+    },
+    "Crumble Undead": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Crumble_Undead_icon_%28mobile%29.png",
+      "name": "Crumble Undead",
+      "url": "https://oldschool.runescape.wiki/w/Crumble_Undead",
+      "levelRequirement": 39
+    },
+    "Teleport to House": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Teleport_to_House_icon_%28mobile%29.png",
+      "name": "Teleport to House",
+      "url": "https://oldschool.runescape.wiki/w/Teleport_to_House",
+      "levelRequirement": 40
+    },
+    "Wind Blast": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Wind_Blast_icon_%28mobile%29.png",
+      "name": "Wind Blast",
+      "url": "https://oldschool.runescape.wiki/w/Wind_Blast",
+      "levelRequirement": 41
+    },
+    "Monster Inspect": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Monster_Inspect_icon_%28mobile%29.png",
+      "name": "Monster Inspect",
+      "url": "https://oldschool.runescape.wiki/w/Monster_Inspect",
+      "levelRequirement": 42
+    },
+    "Superheat Item": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Superheat_Item_icon_%28mobile%29.png",
+      "name": "Superheat Item",
+      "url": "https://oldschool.runescape.wiki/w/Superheat_Item",
+      "levelRequirement": 43
+    },
+    "Camelot Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Camelot_Teleport_icon_%28mobile%29.png",
+      "name": "Camelot Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Camelot_Teleport",
+      "levelRequirement": 45
+    },
+    "Water Blast": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Water_Blast_icon_%28mobile%29.png",
+      "name": "Water Blast",
+      "url": "https://oldschool.runescape.wiki/w/Water_Blast",
+      "levelRequirement": 47
+    },
+    "Kourend Castle Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Kourend_Castle_Teleport_icon_%28mobile%29.png",
+      "name": "Kourend Castle Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Kourend_Castle_Teleport",
+      "levelRequirement": 48
+    },
+    "Lvl-3 Enchant": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lvl-3_Enchant_icon_%28mobile%29.png",
+      "name": "Lvl-3 Enchant",
+      "url": "https://oldschool.runescape.wiki/w/Lvl-3_Enchant",
+      "levelRequirement": 49
+    },
+    "Enchant Crossbow Bolt (Ruby)": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt_icon_%28mobile%29.png",
+      "name": "Enchant Crossbow Bolt (Ruby)",
+      "url": "https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_(Ruby)",
+      "levelRequirement": 49
+    },
+    "Iban Blast": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Iban_Blast_icon_%28mobile%29.png",
+      "name": "Iban Blast",
+      "url": "https://oldschool.runescape.wiki/w/Iban_Blast",
+      "levelRequirement": 50
+    },
+    "Snare": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Snare_icon_%28mobile%29.png",
+      "name": "Snare",
+      "url": "https://oldschool.runescape.wiki/w/Snare",
+      "levelRequirement": 50
+    },
+    "Magic Dart": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Magic_Dart_icon_%28mobile%29.png",
+      "name": "Magic Dart",
+      "url": "https://oldschool.runescape.wiki/w/Magic_Dart",
+      "levelRequirement": 50
+    },
+    "Ardougne Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ardougne_Teleport_icon_%28mobile%29.png",
+      "name": "Ardougne Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Ardougne_Teleport",
+      "levelRequirement": 51
+    },
+    "Earth Blast": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Earth_Blast_icon_%28mobile%29.png",
+      "name": "Earth Blast",
+      "url": "https://oldschool.runescape.wiki/w/Earth_Blast",
+      "levelRequirement": 53
+    },
+    "Civitas illa Fortis Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Civitas_illa_Fortis_Teleport_icon_%28mobile%29.png",
+      "name": "Civitas illa Fortis Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Civitas_illa_Fortis_Teleport",
+      "levelRequirement": 54
+    },
+    "High Level Alchemy": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/High_Level_Alchemy_icon_%28mobile%29.png",
+      "name": "High Level Alchemy",
+      "url": "https://oldschool.runescape.wiki/w/High_Level_Alchemy",
+      "levelRequirement": 55
+    },
+    "Charge Water Orb": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Charge_Water_Orb_icon_%28mobile%29.png",
+      "name": "Charge Water Orb",
+      "url": "https://oldschool.runescape.wiki/w/Charge_Water_Orb",
+      "levelRequirement": 56
+    },
+    "Summon Boat": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Summon_Boat_icon_%28mobile%29.png",
+      "name": "Summon Boat",
+      "url": "https://oldschool.runescape.wiki/w/Summon_Boat",
+      "levelRequirement": 56
+    },
+    "Lvl-4 Enchant": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lvl-4_Enchant_icon_%28mobile%29.png",
+      "name": "Lvl-4 Enchant",
+      "url": "https://oldschool.runescape.wiki/w/Lvl-4_Enchant",
+      "levelRequirement": 57
+    },
+    "Enchant Crossbow Bolt (Diamond)": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt_icon_%28mobile%29.png",
+      "name": "Enchant Crossbow Bolt (Diamond)",
+      "url": "https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_(Diamond)",
+      "levelRequirement": 57
+    },
+    "Watchtower Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Watchtower_Teleport_icon_%28mobile%29.png",
+      "name": "Watchtower Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Watchtower_Teleport",
+      "levelRequirement": 58
+    },
+    "Fire Blast": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Fire_Blast_icon_%28mobile%29.png",
+      "name": "Fire Blast",
+      "url": "https://oldschool.runescape.wiki/w/Fire_Blast",
+      "levelRequirement": 59
+    },
+    "Charge Earth Orb": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Charge_Earth_Orb_icon_%28mobile%29.png",
+      "name": "Charge Earth Orb",
+      "url": "https://oldschool.runescape.wiki/w/Charge_Earth_Orb",
+      "levelRequirement": 60
+    },
+    "Bones to Peaches": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Bones_to_Peaches_icon_%28mobile%29.png",
+      "name": "Bones to Peaches",
+      "url": "https://oldschool.runescape.wiki/w/Bones_to_Peaches",
+      "levelRequirement": 60
+    },
+    "Saradomin Strike": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Saradomin_Strike_icon_%28mobile%29.png",
+      "name": "Saradomin Strike",
+      "url": "https://oldschool.runescape.wiki/w/Saradomin_Strike",
+      "levelRequirement": 60
+    },
+    "Flames of Zamorak": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Flames_of_Zamorak_icon_%28mobile%29.png",
+      "name": "Flames of Zamorak",
+      "url": "https://oldschool.runescape.wiki/w/Flames_of_Zamorak",
+      "levelRequirement": 60
+    },
+    "Claws of Guthix": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Claws_of_Guthix_icon_%28mobile%29.png",
+      "name": "Claws of Guthix",
+      "url": "https://oldschool.runescape.wiki/w/Claws_of_Guthix",
+      "levelRequirement": 60
+    },
+    "Trollheim Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Trollheim_Teleport_icon_%28mobile%29.png",
+      "name": "Trollheim Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Trollheim_Teleport",
+      "levelRequirement": 61
+    },
+    "Wind Wave": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Wind_Wave_icon_%28mobile%29.png",
+      "name": "Wind Wave",
+      "url": "https://oldschool.runescape.wiki/w/Wind_Wave",
+      "levelRequirement": 62
+    },
+    "Charge Fire Orb": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Charge_Fire_Orb_icon_%28mobile%29.png",
+      "name": "Charge Fire Orb",
+      "url": "https://oldschool.runescape.wiki/w/Charge_Fire_Orb",
+      "levelRequirement": 63
+    },
+    "Ape Atoll Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ape_Atoll_Teleport_%28standard%29_icon_%28mobile%29.png",
+      "name": "Ape Atoll Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Ape_Atoll_Teleport_(standard)",
+      "levelRequirement": 64
+    },
+    "Water Wave": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Water_Wave_icon_%28mobile%29.png",
+      "name": "Water Wave",
+      "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+      "levelRequirement": 65
+    },
+    "Charge Air Orb": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Charge_Air_Orb_icon_%28mobile%29.png",
+      "name": "Charge Air Orb",
+      "url": "https://oldschool.runescape.wiki/w/Charge_Air_Orb",
+      "levelRequirement": 66
+    },
+    "Vulnerability": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Vulnerability_icon_%28mobile%29.png",
+      "name": "Vulnerability",
+      "url": "https://oldschool.runescape.wiki/w/Vulnerability",
+      "levelRequirement": 66
+    },
+    "Teleport to Boat": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Teleport_to_Boat_icon_%28mobile%29.png",
+      "name": "Teleport to Boat",
+      "url": "https://oldschool.runescape.wiki/w/Teleport_to_Boat",
+      "levelRequirement": 67
+    },
+    "Lvl-5 Enchant": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lvl-5_Enchant_icon_%28mobile%29.png",
+      "name": "Lvl-5 Enchant",
+      "url": "https://oldschool.runescape.wiki/w/Lvl-5_Enchant",
+      "levelRequirement": 68
+    },
+    "Enchant Crossbow Bolt (Dragonstone)": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt_icon_%28mobile%29.png",
+      "name": "Enchant Crossbow Bolt (Dragonstone)",
+      "url": "https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_(Dragonstone)",
+      "levelRequirement": 68
+    },
+    "Earth Wave": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Earth_Wave_icon_%28mobile%29.png",
+      "name": "Earth Wave",
+      "url": "https://oldschool.runescape.wiki/w/Earth_Wave",
+      "levelRequirement": 70
+    },
+    "Enfeeble": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Enfeeble_icon_%28mobile%29.png",
+      "name": "Enfeeble",
+      "url": "https://oldschool.runescape.wiki/w/Enfeeble",
+      "levelRequirement": 73
+    },
+    "Teleother Lumbridge": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Teleother_Lumbridge_icon_%28mobile%29.png",
+      "name": "Teleother Lumbridge",
+      "url": "https://oldschool.runescape.wiki/w/Teleother_Lumbridge",
+      "levelRequirement": 74
+    },
+    "Fire Wave": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Fire_Wave_icon_%28mobile%29.png",
+      "name": "Fire Wave",
+      "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+      "levelRequirement": 75
+    },
+    "Entangle": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Entangle_icon_%28mobile%29.png",
+      "name": "Entangle",
+      "url": "https://oldschool.runescape.wiki/w/Entangle",
+      "levelRequirement": 79
+    },
+    "Stun": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Stun_icon_%28mobile%29.png",
+      "name": "Stun",
+      "url": "https://oldschool.runescape.wiki/w/Stun",
+      "levelRequirement": 80
+    },
+    "Charge": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Charge_icon_%28mobile%29.png",
+      "name": "Charge",
+      "url": "https://oldschool.runescape.wiki/w/Charge",
+      "levelRequirement": 80
+    },
+    "Wind Surge": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Wind_Surge_icon_%28mobile%29.png",
+      "name": "Wind Surge",
+      "url": "https://oldschool.runescape.wiki/w/Wind_Surge",
+      "levelRequirement": 81
+    },
+    "Teleother Falador": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Teleother_Falador_icon_%28mobile%29.png",
+      "name": "Teleother Falador",
+      "url": "https://oldschool.runescape.wiki/w/Teleother_Falador",
+      "levelRequirement": 82
+    },
+    "Water Surge": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Water_Surge_icon_%28mobile%29.png",
+      "name": "Water Surge",
+      "url": "https://oldschool.runescape.wiki/w/Water_Surge",
+      "levelRequirement": 85
+    },
+    "Tele Block": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Tele_Block_icon_%28mobile%29.png",
+      "name": "Tele Block",
+      "url": "https://oldschool.runescape.wiki/w/Tele_Block",
+      "levelRequirement": 85
+    },
+    "Teleport to Target": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Teleport_to_Target_icon_%28mobile%29.png",
+      "name": "Teleport to Target",
+      "url": "https://oldschool.runescape.wiki/w/Teleport_to_Target",
+      "levelRequirement": 85
+    },
+    "Lvl-6 Enchant": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lvl-6_Enchant_icon_%28mobile%29.png",
+      "name": "Lvl-6 Enchant",
+      "url": "https://oldschool.runescape.wiki/w/Lvl-6_Enchant",
+      "levelRequirement": 87
+    },
+    "Enchant Crossbow Bolt (Onyx)": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Enchant_Crossbow_Bolt_icon_%28mobile%29.png",
+      "name": "Enchant Crossbow Bolt (Onyx)",
+      "url": "https://oldschool.runescape.wiki/w/Enchant_Crossbow_Bolt_(Onyx)",
+      "levelRequirement": 87
+    },
+    "Teleother Camelot": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Teleother_Camelot_icon_%28mobile%29.png",
+      "name": "Teleother Camelot",
+      "url": "https://oldschool.runescape.wiki/w/Teleother_Camelot",
+      "levelRequirement": 90
+    },
+    "Earth Surge": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Earth_Surge_icon_%28mobile%29.png",
+      "name": "Earth Surge",
+      "url": "https://oldschool.runescape.wiki/w/Earth_Surge",
+      "levelRequirement": 90
+    },
+    "Lvl-7 Enchant": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lvl-7_Enchant_icon_%28mobile%29.png",
+      "name": "Lvl-7 Enchant",
+      "url": "https://oldschool.runescape.wiki/w/Lvl-7_Enchant",
+      "levelRequirement": 93
+    },
+    "Fire Surge": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Fire_Surge_icon_%28mobile%29.png",
+      "name": "Fire Surge",
+      "url": "https://oldschool.runescape.wiki/w/Fire_Surge",
+      "levelRequirement": 95
+    }
+  },
+  "Ancient Magicks": {
+    "Edgeville Home Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Edgeville_Home_Teleport_icon_%28mobile%29.png",
+      "name": "Edgeville Home Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Edgeville_Home_Teleport",
+      "levelRequirement": 0
+    },
+    "Smoke Rush": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Smoke_Rush_icon_%28mobile%29.png",
+      "name": "Smoke Rush",
+      "url": "https://oldschool.runescape.wiki/w/Smoke_Rush",
+      "levelRequirement": 50
+    },
+    "Shadow Rush": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Shadow_Rush_icon_%28mobile%29.png",
+      "name": "Shadow Rush",
+      "url": "https://oldschool.runescape.wiki/w/Shadow_Rush",
+      "levelRequirement": 52
+    },
+    "Paddewwa Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Paddewwa_Teleport_icon_%28mobile%29.png",
+      "name": "Paddewwa Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Paddewwa_Teleport",
+      "levelRequirement": 54
+    },
+    "Blood Rush": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Blood_Rush_icon_%28mobile%29.png",
+      "name": "Blood Rush",
+      "url": "https://oldschool.runescape.wiki/w/Blood_Rush",
+      "levelRequirement": 56
+    },
+    "Ice Rush": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ice_Rush_icon_%28mobile%29.png",
+      "name": "Ice Rush",
+      "url": "https://oldschool.runescape.wiki/w/Ice_Rush",
+      "levelRequirement": 58
+    },
+    "Senntisten Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Senntisten_Teleport_icon_%28mobile%29.png",
+      "name": "Senntisten Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Senntisten_Teleport",
+      "levelRequirement": 60
+    },
+    "Smoke Burst": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Smoke_Burst_icon_%28mobile%29.png",
+      "name": "Smoke Burst",
+      "url": "https://oldschool.runescape.wiki/w/Smoke_Burst",
+      "levelRequirement": 62
+    },
+    "Shadow Burst": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Shadow_Burst_icon_%28mobile%29.png",
+      "name": "Shadow Burst",
+      "url": "https://oldschool.runescape.wiki/w/Shadow_Burst",
+      "levelRequirement": 64
+    },
+    "Kharyrll Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Kharyrll_Teleport_icon_%28mobile%29.png",
+      "name": "Kharyrll Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Kharyrll_Teleport",
+      "levelRequirement": 66
+    },
+    "Blood Burst": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Blood_Burst_icon_%28mobile%29.png",
+      "name": "Blood Burst",
+      "url": "https://oldschool.runescape.wiki/w/Blood_Burst",
+      "levelRequirement": 68
+    },
+    "Ice Burst": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ice_Burst_icon_%28mobile%29.png",
+      "name": "Ice Burst",
+      "url": "https://oldschool.runescape.wiki/w/Ice_Burst",
+      "levelRequirement": 70
+    },
+    "Lassar Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lassar_Teleport_icon_%28mobile%29.png",
+      "name": "Lassar Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Lassar_Teleport",
+      "levelRequirement": 72
+    },
+    "Smoke Blitz": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Smoke_Blitz_icon_%28mobile%29.png",
+      "name": "Smoke Blitz",
+      "url": "https://oldschool.runescape.wiki/w/Smoke_Blitz",
+      "levelRequirement": 74
+    },
+    "Shadow Blitz": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Shadow_Blitz_icon_%28mobile%29.png",
+      "name": "Shadow Blitz",
+      "url": "https://oldschool.runescape.wiki/w/Shadow_Blitz",
+      "levelRequirement": 76
+    },
+    "Dareeyak Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Dareeyak_Teleport_icon_%28mobile%29.png",
+      "name": "Dareeyak Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Dareeyak_Teleport",
+      "levelRequirement": 78
+    },
+    "Blood Blitz": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Blood_Blitz_icon_%28mobile%29.png",
+      "name": "Blood Blitz",
+      "url": "https://oldschool.runescape.wiki/w/Blood_Blitz",
+      "levelRequirement": 80
+    },
+    "Ice Blitz": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ice_Blitz_icon_%28mobile%29.png",
+      "name": "Ice Blitz",
+      "url": "https://oldschool.runescape.wiki/w/Ice_Blitz",
+      "levelRequirement": 82
+    },
+    "Carrallanger Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Carrallanger_Teleport_icon_%28mobile%29.png",
+      "name": "Carrallanger Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Carrallanger_Teleport",
+      "levelRequirement": 84
+    },
+    "Teleport to Target": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Teleport_to_Target_icon_%28mobile%29.png",
+      "name": "Teleport to Target",
+      "url": "https://oldschool.runescape.wiki/w/Teleport_to_Target",
+      "levelRequirement": 85
+    },
+    "Smoke Barrage": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Smoke_Barrage_icon_%28mobile%29.png",
+      "name": "Smoke Barrage",
+      "url": "https://oldschool.runescape.wiki/w/Smoke_Barrage",
+      "levelRequirement": 86
+    },
+    "Shadow Barrage": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Shadow_Barrage_icon_%28mobile%29.png",
+      "name": "Shadow Barrage",
+      "url": "https://oldschool.runescape.wiki/w/Shadow_Barrage",
+      "levelRequirement": 88
+    },
+    "Annakarl Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Annakarl_Teleport_icon_%28mobile%29.png",
+      "name": "Annakarl Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Annakarl_Teleport",
+      "levelRequirement": 90
+    },
+    "Blood Barrage": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Blood_Barrage_icon_%28mobile%29.png",
+      "name": "Blood Barrage",
+      "url": "https://oldschool.runescape.wiki/w/Blood_Barrage",
+      "levelRequirement": 92
+    },
+    "Ice Barrage": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ice_Barrage_icon_%28mobile%29.png",
+      "name": "Ice Barrage",
+      "url": "https://oldschool.runescape.wiki/w/Ice_Barrage",
+      "levelRequirement": 94
+    },
+    "Ghorrock Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ghorrock_Teleport_icon_%28mobile%29.png",
+      "name": "Ghorrock Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Ghorrock_Teleport",
+      "levelRequirement": 96
+    }
+  },
+  "Lunar Spellbook": {
+    "Lunar Home Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lunar_Home_Teleport_icon_%28mobile%29.png",
+      "name": "Lunar Home Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Lunar_Home_Teleport",
+      "levelRequirement": 0
+    },
+    "Bake Pie": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Bake_Pie_icon_%28mobile%29.png",
+      "name": "Bake Pie",
+      "url": "https://oldschool.runescape.wiki/w/Bake_Pie",
+      "levelRequirement": 65
+    },
+    "Geomancy": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Geomancy_icon_%28mobile%29.png",
+      "name": "Geomancy",
+      "url": "https://oldschool.runescape.wiki/w/Geomancy",
+      "levelRequirement": 65
+    },
+    "Cure Plant": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Cure_Plant_icon_%28mobile%29.png",
+      "name": "Cure Plant",
+      "url": "https://oldschool.runescape.wiki/w/Cure_Plant",
+      "levelRequirement": 66
+    },
+    "Monster Examine": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Monster_Examine_icon_%28mobile%29.png",
+      "name": "Monster Examine",
+      "url": "https://oldschool.runescape.wiki/w/Monster_Examine",
+      "levelRequirement": 66
+    },
+    "NPC Contact": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/NPC_Contact_icon_%28mobile%29.png",
+      "name": "NPC Contact",
+      "url": "https://oldschool.runescape.wiki/w/NPC_Contact",
+      "levelRequirement": 67
+    },
+    "Cure Other": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Cure_Other_icon_%28mobile%29.png",
+      "name": "Cure Other",
+      "url": "https://oldschool.runescape.wiki/w/Cure_Other",
+      "levelRequirement": 68
+    },
+    "Humidify": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Humidify_icon_%28mobile%29.png",
+      "name": "Humidify",
+      "url": "https://oldschool.runescape.wiki/w/Humidify",
+      "levelRequirement": 68
+    },
+    "Moonclan Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Moonclan_Teleport_icon_%28mobile%29.png",
+      "name": "Moonclan Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Moonclan_Teleport",
+      "levelRequirement": 69
+    },
+    "Tele Group Moonclan": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Tele_Group_Moonclan_icon_%28mobile%29.png",
+      "name": "Tele Group Moonclan",
+      "url": "https://oldschool.runescape.wiki/w/Tele_Group_Moonclan",
+      "levelRequirement": 70
+    },
+    "Cure Me": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Cure_Me_icon_%28mobile%29.png",
+      "name": "Cure Me",
+      "url": "https://oldschool.runescape.wiki/w/Cure_Me",
+      "levelRequirement": 71
+    },
+    "Ourania Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ourania_Teleport_icon_%28mobile%29.png",
+      "name": "Ourania Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Ourania_Teleport",
+      "levelRequirement": 71
+    },
+    "Hunter Kit": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Hunter_Kit_icon_%28mobile%29.png",
+      "name": "Hunter Kit",
+      "url": "https://oldschool.runescape.wiki/w/Hunter_Kit_(spell)",
+      "levelRequirement": 71
+    },
+    "Waterbirth Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Waterbirth_Teleport_icon_%28mobile%29.png",
+      "name": "Waterbirth Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Waterbirth_Teleport",
+      "levelRequirement": 72
+    },
+    "Tele Group Waterbirth": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Tele_Group_Waterbirth_icon_%28mobile%29.png",
+      "name": "Tele Group Waterbirth",
+      "url": "https://oldschool.runescape.wiki/w/Tele_Group_Waterbirth",
+      "levelRequirement": 73
+    },
+    "Cure Group": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Cure_Group_icon_%28mobile%29.png",
+      "name": "Cure Group",
+      "url": "https://oldschool.runescape.wiki/w/Cure_Group",
+      "levelRequirement": 74
+    },
+    "Stat Spy": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Stat_Spy_icon_%28mobile%29.png",
+      "name": "Stat Spy",
+      "url": "https://oldschool.runescape.wiki/w/Stat_Spy",
+      "levelRequirement": 75
+    },
+    "Barbarian Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Barbarian_Teleport_icon_%28mobile%29.png",
+      "name": "Barbarian Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Barbarian_Teleport",
+      "levelRequirement": 75
+    },
+    "Tele Group Barbarian": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Tele_Group_Barbarian_icon_%28mobile%29.png",
+      "name": "Tele Group Barbarian",
+      "url": "https://oldschool.runescape.wiki/w/Tele_Group_Barbarian",
+      "levelRequirement": 76
+    },
+    "Spin Flax": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Spin_Flax_icon_%28mobile%29.png",
+      "name": "Spin Flax",
+      "url": "https://oldschool.runescape.wiki/w/Spin_Flax",
+      "levelRequirement": 76
+    },
+    "Superglass Make": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Superglass_Make_icon_%28mobile%29.png",
+      "name": "Superglass Make",
+      "url": "https://oldschool.runescape.wiki/w/Superglass_Make",
+      "levelRequirement": 77
+    },
+    "Tan Leather": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Tan_Leather_icon_%28mobile%29.png",
+      "name": "Tan Leather",
+      "url": "https://oldschool.runescape.wiki/w/Tan_Leather",
+      "levelRequirement": 78
+    },
+    "Khazard Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Khazard_Teleport_icon_%28mobile%29.png",
+      "name": "Khazard Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Khazard_Teleport",
+      "levelRequirement": 78
+    },
+    "Tele Group Khazard": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Tele_Group_Khazard_icon_%28mobile%29.png",
+      "name": "Tele Group Khazard",
+      "url": "https://oldschool.runescape.wiki/w/Tele_Group_Khazard",
+      "levelRequirement": 79
+    },
+    "Dream": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Dream_icon_%28mobile%29.png",
+      "name": "Dream",
+      "url": "https://oldschool.runescape.wiki/w/Dream",
+      "levelRequirement": 79
+    },
+    "String Jewellery": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/String_Jewellery_icon_%28mobile%29.png",
+      "name": "String Jewellery",
+      "url": "https://oldschool.runescape.wiki/w/String_Jewellery",
+      "levelRequirement": 80
+    },
+    "Stat Restore Pot Share": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Stat_Restore_Pot_Share_icon_%28mobile%29.png",
+      "name": "Stat Restore Pot Share",
+      "url": "https://oldschool.runescape.wiki/w/Stat_Restore_Pot_Share",
+      "levelRequirement": 81
+    },
+    "Magic Imbue": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Magic_Imbue_icon_%28mobile%29.png",
+      "name": "Magic Imbue",
+      "url": "https://oldschool.runescape.wiki/w/Magic_Imbue",
+      "levelRequirement": 82
+    },
+    "Fertile Soil": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Fertile_Soil_icon_%28mobile%29.png",
+      "name": "Fertile Soil",
+      "url": "https://oldschool.runescape.wiki/w/Fertile_Soil",
+      "levelRequirement": 83
+    },
+    "Boost Potion Share": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Boost_Potion_Share_icon_%28mobile%29.png",
+      "name": "Boost Potion Share",
+      "url": "https://oldschool.runescape.wiki/w/Boost_Potion_Share",
+      "levelRequirement": 84
+    },
+    "Fishing Guild Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Fishing_Guild_Teleport_icon_%28mobile%29.png",
+      "name": "Fishing Guild Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Fishing_Guild_Teleport",
+      "levelRequirement": 85
+    },
+    "Teleport to Target": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Teleport_to_Target_icon_%28mobile%29.png",
+      "name": "Teleport to Target",
+      "url": "https://oldschool.runescape.wiki/w/Teleport_to_Target",
+      "levelRequirement": 85
+    },
+    "Tele Group Fishing Guild": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Tele_Group_Fishing_Guild_icon_%28mobile%29.png",
+      "name": "Tele Group Fishing Guild",
+      "url": "https://oldschool.runescape.wiki/w/Tele_Group_Fishing_Guild",
+      "levelRequirement": 86
+    },
+    "Plank Make": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Plank_Make_icon_%28mobile%29.png",
+      "name": "Plank Make",
+      "url": "https://oldschool.runescape.wiki/w/Plank_Make",
+      "levelRequirement": 86
+    },
+    "Catherby Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Catherby_Teleport_icon_%28mobile%29.png",
+      "name": "Catherby Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Catherby_Teleport",
+      "levelRequirement": 87
+    },
+    "Tele Group Catherby": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Tele_Group_Catherby_icon_%28mobile%29.png",
+      "name": "Tele Group Catherby",
+      "url": "https://oldschool.runescape.wiki/w/Tele_Group_Catherby",
+      "levelRequirement": 88
+    },
+    "Recharge Dragonstone": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Recharge_Dragonstone_icon_%28mobile%29.png",
+      "name": "Recharge Dragonstone",
+      "url": "https://oldschool.runescape.wiki/w/Recharge_Dragonstone",
+      "levelRequirement": 89
+    },
+    "Ice Plateau Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ice_Plateau_Teleport_icon_%28mobile%29.png",
+      "name": "Ice Plateau Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Ice_Plateau_Teleport",
+      "levelRequirement": 89
+    },
+    "Tele Group Ice Plateau": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Tele_Group_Ice_Plateau_icon_%28mobile%29.png",
+      "name": "Tele Group Ice Plateau",
+      "url": "https://oldschool.runescape.wiki/w/Tele_Group_Ice_Plateau",
+      "levelRequirement": 90
+    },
+    "Energy Transfer": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Energy_Transfer_icon_%28mobile%29.png",
+      "name": "Energy Transfer",
+      "url": "https://oldschool.runescape.wiki/w/Energy_Transfer",
+      "levelRequirement": 91
+    },
+    "Heal Other": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Heal_Other_icon_%28mobile%29.png",
+      "name": "Heal Other",
+      "url": "https://oldschool.runescape.wiki/w/Heal_Other",
+      "levelRequirement": 92
+    },
+    "Vengeance Other": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Vengeance_Other_icon_%28mobile%29.png",
+      "name": "Vengeance Other",
+      "url": "https://oldschool.runescape.wiki/w/Vengeance_Other",
+      "levelRequirement": 93
+    },
+    "Vengeance": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Vengeance_icon_%28mobile%29.png",
+      "name": "Vengeance",
+      "url": "https://oldschool.runescape.wiki/w/Vengeance",
+      "levelRequirement": 94
+    },
+    "Heal Group": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Heal_Group_icon_%28mobile%29.png",
+      "name": "Heal Group",
+      "url": "https://oldschool.runescape.wiki/w/Heal_Group",
+      "levelRequirement": 95
+    },
+    "Spellbook Swap": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Spellbook_Swap_icon_%28mobile%29.png",
+      "name": "Spellbook Swap",
+      "url": "https://oldschool.runescape.wiki/w/Spellbook_Swap",
+      "levelRequirement": 96
+    }
+  },
+  "Arceuus Spellbook": {
+    "Arceuus Home Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Arceuus_Home_Teleport_icon_%28mobile%29.png",
+      "name": "Arceuus Home Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Arceuus_Home_Teleport",
+      "levelRequirement": 1
+    },
+    "Arceuus Library Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Arceuus_Library_Teleport_icon_%28mobile%29.png",
+      "name": "Arceuus Library Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Arceuus_Library_Teleport",
+      "levelRequirement": 6
+    },
+    "Basic Reanimation": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Basic_Reanimation_icon_%28mobile%29.png",
+      "name": "Basic Reanimation",
+      "url": "https://oldschool.runescape.wiki/w/Basic_Reanimation",
+      "levelRequirement": 16
+    },
+    "Draynor Manor Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Draynor_Manor_Teleport_icon_%28mobile%29.png",
+      "name": "Draynor Manor Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Draynor_Manor_Teleport",
+      "levelRequirement": 17
+    },
+    "Battlefront Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Battlefront_Teleport_icon_%28mobile%29.png",
+      "name": "Battlefront Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Battlefront_Teleport",
+      "levelRequirement": 23
+    },
+    "Mind Altar Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Mind_Altar_Teleport_icon_%28mobile%29.png",
+      "name": "Mind Altar Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Mind_Altar_Teleport",
+      "levelRequirement": 28
+    },
+    "Respawn Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Respawn_Teleport_icon_%28mobile%29.png",
+      "name": "Respawn Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Respawn_Teleport",
+      "levelRequirement": 34
+    },
+    "Ghostly Grasp": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ghostly_Grasp_icon_%28mobile%29.png",
+      "name": "Ghostly Grasp",
+      "url": "https://oldschool.runescape.wiki/w/Ghostly_Grasp",
+      "levelRequirement": 35
+    },
+    "Resurrect Lesser Ghost": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Resurrect_Lesser_Ghost_icon_%28mobile%29.png",
+      "name": "Resurrect Lesser Ghost",
+      "url": "https://oldschool.runescape.wiki/w/Resurrect_Lesser_Ghost",
+      "levelRequirement": 38
+    },
+    "Resurrect Lesser Skeleton": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Resurrect_Lesser_Skeleton_icon_%28mobile%29.png",
+      "name": "Resurrect Lesser Skeleton",
+      "url": "https://oldschool.runescape.wiki/w/Resurrect_Lesser_Skeleton",
+      "levelRequirement": 38
+    },
+    "Resurrect Lesser Zombie": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Resurrect_Lesser_Zombie_icon_%28mobile%29.png",
+      "name": "Resurrect Lesser Zombie",
+      "url": "https://oldschool.runescape.wiki/w/Resurrect_Lesser_Zombie",
+      "levelRequirement": 38
+    },
+    "Salve Graveyard Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Salve_Graveyard_Teleport_icon_%28mobile%29.png",
+      "name": "Salve Graveyard Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Salve_Graveyard_Teleport",
+      "levelRequirement": 40
+    },
+    "Adept Reanimation": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Adept_Reanimation_icon_%28mobile%29.png",
+      "name": "Adept Reanimation",
+      "url": "https://oldschool.runescape.wiki/w/Adept_Reanimation",
+      "levelRequirement": 41
+    },
+    "Inferior Demonbane": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Inferior_Demonbane_icon_%28mobile%29.png",
+      "name": "Inferior Demonbane",
+      "url": "https://oldschool.runescape.wiki/w/Inferior_Demonbane",
+      "levelRequirement": 44
+    },
+    "Shadow Veil": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Shadow_Veil_icon_%28mobile%29.png",
+      "name": "Shadow Veil",
+      "url": "https://oldschool.runescape.wiki/w/Shadow_Veil",
+      "levelRequirement": 47
+    },
+    "Fenkenstrain's Castle Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Fenkenstrain%27s_Castle_Teleport_icon_%28mobile%29.png",
+      "name": "Fenkenstrain's Castle Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Fenkenstrain%27s_Castle_Teleport",
+      "levelRequirement": 48
+    },
+    "Dark Lure": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Dark_Lure_icon_%28mobile%29.png",
+      "name": "Dark Lure",
+      "url": "https://oldschool.runescape.wiki/w/Dark_Lure",
+      "levelRequirement": 50
+    },
+    "Skeletal Grasp": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Skeletal_Grasp_icon_%28mobile%29.png",
+      "name": "Skeletal Grasp",
+      "url": "https://oldschool.runescape.wiki/w/Skeletal_Grasp",
+      "levelRequirement": 56
+    },
+    "Resurrect Superior Ghost": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Resurrect_Superior_Ghost_icon_%28mobile%29.png",
+      "name": "Resurrect Superior Ghost",
+      "url": "https://oldschool.runescape.wiki/w/Resurrect_Superior_Ghost",
+      "levelRequirement": 57
+    },
+    "Resurrect Superior Skeleton": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Resurrect_Superior_Skeleton_icon_%28mobile%29.png",
+      "name": "Resurrect Superior Skeleton",
+      "url": "https://oldschool.runescape.wiki/w/Resurrect_Superior_Skeleton",
+      "levelRequirement": 57
+    },
+    "Resurrect Superior Zombie": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Resurrect_Superior_Zombie_icon_%28mobile%29.png",
+      "name": "Resurrect Superior Zombie",
+      "url": "https://oldschool.runescape.wiki/w/Resurrect_Superior_Zombie",
+      "levelRequirement": 57
+    },
+    "Mark of Darkness": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Mark_of_Darkness_icon_%28mobile%29.png",
+      "name": "Mark of Darkness",
+      "url": "https://oldschool.runescape.wiki/w/Mark_of_Darkness",
+      "levelRequirement": 59
+    },
+    "West Ardougne Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/West_Ardougne_Teleport_icon_%28mobile%29.png",
+      "name": "West Ardougne Teleport",
+      "url": "https://oldschool.runescape.wiki/w/West_Ardougne_Teleport",
+      "levelRequirement": 61
+    },
+    "Superior Demonbane": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Superior_Demonbane_icon_%28mobile%29.png",
+      "name": "Superior Demonbane",
+      "url": "https://oldschool.runescape.wiki/w/Superior_Demonbane",
+      "levelRequirement": 62
+    },
+    "Lesser Corruption": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Lesser_Corruption_icon_%28mobile%29.png",
+      "name": "Lesser Corruption",
+      "url": "https://oldschool.runescape.wiki/w/Lesser_Corruption",
+      "levelRequirement": 64
+    },
+    "Harmony Island Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Harmony_Island_Teleport_icon_%28mobile%29.png",
+      "name": "Harmony Island Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Harmony_Island_Teleport",
+      "levelRequirement": 65
+    },
+    "Vile Vigour": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Vile_Vigour_icon_%28mobile%29.png",
+      "name": "Vile Vigour",
+      "url": "https://oldschool.runescape.wiki/w/Vile_Vigour",
+      "levelRequirement": 66
+    },
+    "Degrime": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Degrime_icon_%28mobile%29.png",
+      "name": "Degrime",
+      "url": "https://oldschool.runescape.wiki/w/Degrime",
+      "levelRequirement": 70
+    },
+    "Cemetery Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Cemetery_Teleport_icon_%28mobile%29.png",
+      "name": "Cemetery Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Cemetery_Teleport",
+      "levelRequirement": 71
+    },
+    "Expert Reanimation": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Expert_Reanimation_icon_%28mobile%29.png",
+      "name": "Expert Reanimation",
+      "url": "https://oldschool.runescape.wiki/w/Expert_Reanimation",
+      "levelRequirement": 72
+    },
+    "Ward of Arceuus": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ward_of_Arceuus_icon_%28mobile%29.png",
+      "name": "Ward of Arceuus",
+      "url": "https://oldschool.runescape.wiki/w/Ward_of_Arceuus",
+      "levelRequirement": 73
+    },
+    "Resurrect Greater Ghost": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Resurrect_Greater_Ghost_icon_%28mobile%29.png",
+      "name": "Resurrect Greater Ghost",
+      "url": "https://oldschool.runescape.wiki/w/Resurrect_Greater_Ghost",
+      "levelRequirement": 76
+    },
+    "Resurrect Greater Skeleton": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Resurrect_Greater_Skeleton_icon_%28mobile%29.png",
+      "name": "Resurrect Greater Skeleton",
+      "url": "https://oldschool.runescape.wiki/w/Resurrect_Greater_Skeleton",
+      "levelRequirement": 76
+    },
+    "Resurrect Greater Zombie": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Resurrect_Greater_Zombie_icon_%28mobile%29.png",
+      "name": "Resurrect Greater Zombie",
+      "url": "https://oldschool.runescape.wiki/w/Resurrect_Greater_Zombie",
+      "levelRequirement": 76
+    },
+    "Resurrect Crops": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Resurrect_Crops_icon_%28mobile%29.png",
+      "name": "Resurrect Crops",
+      "url": "https://oldschool.runescape.wiki/w/Resurrect_Crops",
+      "levelRequirement": 78
+    },
+    "Undead Grasp": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Undead_Grasp_icon_%28mobile%29.png",
+      "name": "Undead Grasp",
+      "url": "https://oldschool.runescape.wiki/w/Undead_Grasp",
+      "levelRequirement": 79
+    },
+    "Death Charge": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Death_Charge_icon_%28mobile%29.png",
+      "name": "Death Charge",
+      "url": "https://oldschool.runescape.wiki/w/Death_Charge",
+      "levelRequirement": 80
+    },
+    "Dark Demonbane": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Dark_Demonbane_icon_%28mobile%29.png",
+      "name": "Dark Demonbane",
+      "url": "https://oldschool.runescape.wiki/w/Dark_Demonbane",
+      "levelRequirement": 82
+    },
+    "Barrows Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Barrows_Teleport_icon_%28mobile%29.png",
+      "name": "Barrows Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Barrows_Teleport",
+      "levelRequirement": 83
+    },
+    "Demonic Offering": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Demonic_Offering_icon_%28mobile%29.png",
+      "name": "Demonic Offering",
+      "url": "https://oldschool.runescape.wiki/w/Demonic_Offering",
+      "levelRequirement": 84
+    },
+    "Greater Corruption": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Greater_Corruption_icon_%28mobile%29.png",
+      "name": "Greater Corruption",
+      "url": "https://oldschool.runescape.wiki/w/Greater_Corruption",
+      "levelRequirement": 85
+    },
+    "Teleport to Target": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Teleport_to_Target_icon_%28mobile%29.png",
+      "name": "Teleport to Target",
+      "url": "https://oldschool.runescape.wiki/w/Teleport_to_Target",
+      "levelRequirement": 85
+    },
+    "Master Reanimation": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Master_Reanimation_icon_%28mobile%29.png",
+      "name": "Master Reanimation",
+      "url": "https://oldschool.runescape.wiki/w/Master_Reanimation",
+      "levelRequirement": 90
+    },
+    "Ape Atoll Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Ape_Atoll_Teleport_%28Arceuus%29_icon_%28mobile%29.png",
+      "name": "Ape Atoll Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Ape_Atoll_Teleport_(Arceuus)",
+      "levelRequirement": 90
+    },
+    "Sinister Offering": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Sinister_Offering_icon_%28mobile%29.png",
+      "name": "Sinister Offering",
+      "url": "https://oldschool.runescape.wiki/w/Sinister_Offering",
+      "levelRequirement": 92
+    }
+  }
+}

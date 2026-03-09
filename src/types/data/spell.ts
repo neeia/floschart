@@ -1,6 +1,5 @@
-export type Spell = {
-  name: string;
+import { Item } from "./item";
+
+export type Spell = Item & {
   levelRequirement: number;
-  url: string;
-  imgUrl: string;
 };

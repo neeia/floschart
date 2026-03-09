@@ -5,7 +5,7 @@ import type PageData from "../src/types/external/wikiPageData";
 import type { Unlock } from "../src/types/data/unlock";
 import path from "path";
 
-const categories = ["Unlock", "Extend"] as const;
+const categories = ["Unlock", "Extend", "Cosmetics"] as const;
 
 const url =
   "https://oldschool.runescape.wiki/api.php?action=parse&page=Slayer_Rewards&format=json";
@@ -21,9 +21,10 @@ export default async function fetchSlayerUnlocks() {
   > = {
     Unlock: {},
     Extend: {},
+    Cosmetics: {},
   };
 
-  // four spellbooks
+  // three tables
   $("table.wikitable.lighttable > tbody").each((b, tb) => {
     const category = categories[b];
     slayerUnlocks[category] = {};

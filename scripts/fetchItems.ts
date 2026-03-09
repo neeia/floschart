@@ -5,6 +5,15 @@ import fetchClog from "./items/fetchClog";
 import fetchGear from "./items/fetchGear";
 import fetchOutfits from "./items/fetchOutfits";
 import fetchTele from "./items/fetchTele";
+import { Item } from "../src/types/data/item";
+
+export type ItemMap = Record<
+  string, // category
+  Record<
+    string, // item name
+    { category: string[]; item: Item }
+  >
+>;
 
 export default async function fetchItems() {
   const clog = await fetchClog();
@@ -13,10 +22,10 @@ export default async function fetchItems() {
   const gear = await fetchGear();
 
   const items = {
-    clog,
-    teleports,
-    skilling,
-    gear,
+    ...gear,
+    ...skilling,
+    ...teleports,
+    ...clog,
   };
 
   const __filename = fileURLToPath(import.meta.url);

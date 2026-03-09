@@ -9,7 +9,7 @@ export const createSidebarSlice: StateCreator<
 > = (set, get) => ({
   open: false,
   openTab: (tab) => {
-    if (tab === get().currentTab) set({ open: false });
+    if (tab === get().currentTab) set({ currentTab: undefined, open: false });
     else set({ currentTab: tab, open: true });
   },
   closeTab: () => {

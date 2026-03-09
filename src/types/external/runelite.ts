@@ -27,7 +27,7 @@ export type UserData = {
   levels: {
     [key in Exclude<
       Skill,
-      "Combat_Level" | "Total_Level" | "Quest_Points"
+      "Combat_Level" | "Quest_Points"
     >]: number;
   };
   music_tracks: { string: boolean };

@@ -69,7 +69,8 @@ export default async function fetchQuests() {
                   q.length = s as QuestLength;
                   break;
                 case 4: // quest points
-                  q.qp = +s;
+                  if (q.name === "Recipe for Disaster") q.qp = 0;
+                  else q.qp = +s;
                   break;
                 case 5: // quest series
                   break;

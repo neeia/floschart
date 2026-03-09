@@ -1,6 +1,8 @@
 import { load } from "cheerio";
 import type PageData from "../../src/types/external/wikiPageData";
 import type { Item } from "../../src/types/data/item";
+import capitalizeFirstLetter from "../../src/util/capitalizeFirstLetter";
+import { ItemMap } from "../fetchItems";
 
 type Tuple<T, N extends number> = N extends N
   ? number extends N
@@ -40,9 +42,6 @@ const exceptions: Record<string, string[]> = {
 function isUsefulGear(slot: string, bonuses: Tuple<number, 14>): boolean {
   return bonuses.some((bonus, i) => bonus >= thresholds[slot][i]);
 }
-function capitalizeFirstLetter(s: string) {
-  return String(s).charAt(0).toUpperCase() + String(s).slice(1);
-}
 // Strategy
 // iterate through each of the gear by slot pages
 // for each row, call a helper function that checks its bonuses and determines whether it's relevant
@@ -54,11 +53,10 @@ function capitalizeFirstLetter(s: string) {
 
 export default async function () {
   console.log("fetching gear");
-  const gear: Record<string, Record<string, Item>> = {};
+  const gear: ItemMap = {};
 
   for (let category of Object.keys(thresholds)) {
     const url = `https://oldschool.runescape.wiki/api.php?action=parse&page=${capitalizeFirstLetter(category)}_slot_table&format=json`;
-    gear[category] = {};
 
     const response = (await (await fetch(url)).json()) as PageData;
     if (!response)
@@ -101,13 +99,15 @@ export default async function () {
         (exceptions[category].includes(item.name) ||
           isUsefulGear(category, bonuses))
       ) {
-        gear[category][item.name] ??= item as Item;
+        gear[`Equipment / ${category}`] ??= {};
+        gear[`Equipment / ${category}`][item.name] ??= {
+          category: ["Equipment", category],
+          item: item as Item,
+        };
       }
     });
-    console.log(
-      `${category}: returned ${Object.values(gear[category]).length} items`,
-    );
   }
+  console.log(`gear: returned ${Object.values(gear).length} items`);
 
   return gear;
 }

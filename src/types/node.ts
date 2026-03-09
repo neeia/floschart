@@ -7,6 +7,7 @@ export type NodeType =
   | "quest"
   | "diary"
   | "item"
+  | "unlock"
   | "generic"
   | "collection";
 
@@ -26,6 +27,7 @@ export type NodeData<T extends NodeType = NodeType> = {
 
   // utilities
   expanded?: boolean; // define iff node is a collection node
+  items?: GenericTaskData[];
 };
 
 export type SkillNodeData = NodeData<"skill"> & {
@@ -33,10 +35,13 @@ export type SkillNodeData = NodeData<"skill"> & {
   target: number;
   imgUrl?: never;
   expanded?: never;
+  items?: never;
 };
 
 export type QuestNodeData = NodeData<"quest"> & {
+  target: 1;
   expanded?: never;
+  items?: never;
 };
 
 export type DiaryTaskData = GenericTaskData & {};
@@ -49,10 +54,18 @@ export type DiaryNodeData = NodeData<"diary"> & {
 
 export type ItemNodeData = NodeData<"item"> & {
   expanded?: never;
+  items?: never;
+};
+
+export type UnlockNodeData = NodeData<"unlock"> & {
+  expanded?: never;
+  items?: never;
+  target: 1;
 };
 
 export type GenericNodeData = NodeData<"generic"> & {
   expanded?: never;
+  items?: never;
 };
 
 export type GenericTaskData = {
@@ -70,6 +83,7 @@ export const nodeTypes = [
   "quest",
   "diary",
   "item",
+  "unlock",
   "generic",
   "collection",
 ];
@@ -79,6 +93,7 @@ type Node =
   | XyNode<QuestNodeData>
   | XyNode<DiaryNodeData>
   | XyNode<ItemNodeData>
+  | XyNode<UnlockNodeData>
   | XyNode<GenericNodeData>
   | XyNode<CollectionNodeData>;
 export default Node;

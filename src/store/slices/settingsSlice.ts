@@ -8,11 +8,12 @@ export const createSettingsSlice: StateCreator<
   SettingsSlice
 > = (set) => ({
   snapToGrid: true,
-  theme: "System",
+  theme: "Paper",
   changeTheme: (t) => {
-    set({
-      theme: t,
-    });
+    if (t)
+      set({
+        theme: t,
+      });
   },
   toggleSnap: () => {
     set((state) => ({ snapToGrid: !state.snapToGrid }));

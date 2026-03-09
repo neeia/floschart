@@ -1,6 +1,5 @@
-export type Furniture = {
-  name: string;
+import { Item } from "./item";
+
+export type Furniture = Item & {
   levelRequirement: number;
-  url: string;
-  imgUrl: string;
 };

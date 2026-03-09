@@ -20,6 +20,7 @@ import { Button } from "../ui/button";
 import { ButtonGroup } from "../ui/button-group";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 import { ToggleGroup, ToggleGroupItem } from "../ui/toggle-group";
+import AddNodeButton from "./AddNodeButton";
 
 const nodeTypes = {
   node: FlosNode,
@@ -121,19 +122,32 @@ const selector = (state: AppState) => ({
   onEdgesChange: state.onEdgesChange,
   onEdgesDelete: state.onEdgesDelete,
   onConnect: state.onConnect,
+  currentTab: state.currentTab,
+  openTab: state.openTab,
+  snapToGrid: state.snapToGrid,
 });
 
 const proOptions = { hideAttribution: true };
 
 interface ButtonProps extends React.ClassAttributes<HTMLButtonElement> {
   title: string;
+  onClick: () => void;
   children?: React.ReactNode;
 }
-function ButtonWithTooltip({ title, children, ...props }: ButtonProps) {
+function ButtonWithTooltip({
+  title,
+  onClick,
+  children,
+  ...props
+}: ButtonProps) {
   return (
     <Tooltip>
-      <TooltipTrigger asChild>
-        <ToggleGroupItem value="title" size="sm" {...props}>
+      <TooltipTrigger asChild onClick={onClick} {...props}>
+        <ToggleGroupItem
+          value="title"
+          size="sm"
+          className="rounded-none! transition-colors hover:bg-accent"
+        >
           {children}
         </ToggleGroupItem>
       </TooltipTrigger>
@@ -150,77 +164,87 @@ export default function Flow() {
     onEdgesChange,
     onEdgesDelete,
     onConnect,
+    currentTab,
+    openTab,
+    snapToGrid,
   } = useStore(useShallow(selector));
 
   return (
-    <ReactFlowProvider>
-      <ReactFlow
-        nodes={nodes}
-        edges={edges}
-        nodeTypes={nodeTypes}
-        onNodesChange={onNodesChange}
-        onEdgesChange={onEdgesChange}
-        onEdgesDelete={onEdgesDelete}
-        onConnect={onConnect}
-        onNodeDrag={onNodeDrag}
-        nodeDragThreshold={4}
-        snapToGrid
-        snapGrid={[24, 24]}
-        selectNodesOnDrag={false}
-        fitView
-        fitViewOptions={fitViewOptions}
-        defaultEdgeOptions={defaultEdgeOptions}
-        proOptions={proOptions}
-        className="leading-none"
-        minZoom={0.25}
-        maxZoom={4}
-      >
-        <Background variant={BackgroundVariant.Dots} gap={24} offset={24.5} />
-        <Panel position="top-right" className="flex flex-col items-end gap-2">
-          <MiniMap
-            pannable
-            aria-label="Overview"
-            nodeColor={getNodeColor}
-            nodeBorderRadius={0}
-            className="static! m-0!"
-          />
-          <ToggleGroup type="multiple" className="bg-secondary">
-            <ButtonWithTooltip title="About floschart">
-              <Info />
-            </ButtonWithTooltip>
-            <ButtonWithTooltip title="Filter">
-              <Filter />
-            </ButtonWithTooltip>
-            <ButtonWithTooltip title="Link with RuneLite">
-              <img
-                src="https://oldschool.runescape.wiki/images/RuneLite_icon.png"
-                width={16}
-                height={16}
-              />
-            </ButtonWithTooltip>
-            <ButtonWithTooltip title="Settings">
-              <Settings />
-            </ButtonWithTooltip>
-          </ToggleGroup>
-        </Panel>
-        <Panel position="bottom-right">
-          <Button
-            variant="default"
-            className="absolute bottom-0 right-0 rounded-full size-16"
+    <ReactFlow
+      nodes={nodes}
+      edges={edges}
+      nodeTypes={nodeTypes}
+      onNodesChange={onNodesChange}
+      onEdgesChange={onEdgesChange}
+      onEdgesDelete={onEdgesDelete}
+      onConnect={onConnect}
+      onNodeDrag={onNodeDrag}
+      nodeDragThreshold={4}
+      snapToGrid={snapToGrid}
+      snapGrid={[24, 24]}
+      selectNodesOnDrag={false}
+      fitView
+      fitViewOptions={fitViewOptions}
+      defaultEdgeOptions={defaultEdgeOptions}
+      proOptions={proOptions}
+      className="leading-none"
+      minZoom={0.25}
+      maxZoom={4}
+    >
+      <Background variant={BackgroundVariant.Dots} gap={24} offset={24.5} />
+      <Panel position="top-right" className="flex flex-col items-end gap-2">
+        <MiniMap
+          pannable
+          aria-label="Overview"
+          nodeColor={getNodeColor}
+          nodeBorderRadius={0}
+          className="static! m-0!"
+        />
+        <ToggleGroup
+          type="multiple"
+          className="bg-secondary text-secondary-foreground rounded-none **:rounded-none"
+        >
+          <ButtonWithTooltip
+            title="About floschart"
+            onClick={() => openTab("about")}
           >
-            <DiamondPlus className="size-3/4" />
-          </Button>
-        </Panel>
-        <Panel position="top-left" className="pointer-events-none">
+            <Info />
+          </ButtonWithTooltip>
+          <ButtonWithTooltip onClick={() => openTab("filter")} title="Filter">
+            <Filter />
+          </ButtonWithTooltip>
+          <ButtonWithTooltip
+            onClick={() => openTab("runelite")}
+            title="Link with RuneLite"
+          >
+            <img
+              src="https://oldschool.runescape.wiki/images/RuneLite_icon.png"
+              width={16}
+              height={16}
+            />
+          </ButtonWithTooltip>
+          <ButtonWithTooltip
+            onClick={() => openTab("settings")}
+            title="Settings"
+          >
+            <Settings />
+          </ButtonWithTooltip>
+        </ToggleGroup>
+      </Panel>
+      <Panel position="bottom-right">
+        <AddNodeButton />
+      </Panel>
+      <Panel position="top-left" className="pointer-events-none">
+        <h1>
           <img
             src="flos.png"
             width={64}
             height={64}
-            className="opacity-75 select-none"
+            className="opacity-75 select-none dark:invert"
           />
-        </Panel>
-        <Toolbar />
-      </ReactFlow>
-    </ReactFlowProvider>
+        </h1>
+      </Panel>
+      <Toolbar />
+    </ReactFlow>
   );
 }

@@ -1,6 +1,7 @@
 import { load } from "cheerio";
 import type PageData from "../../src/types/external/wikiPageData";
 import type { Item } from "../../src/types/data/item";
+import { ItemMap } from "../fetchItems";
 
 const url =
   "https://oldschool.runescape.wiki/api.php?action=parse&page=Skilling_equipment&format=json";
@@ -12,7 +13,7 @@ export default async function () {
     throw new Error("Failure to fetch Skilling equipment : no response body");
 
   const $ = load(response.parse.text["*"]);
-  const outfits: Record<string, Item> = {};
+  const outfits: ItemMap = {};
 
   $("table.wikitable.lighttable > tbody > tr").each((_, r) => {
     const item: Partial<Item> = {};
@@ -22,7 +23,7 @@ export default async function () {
         const $td = $(td);
         switch (c) {
           case 0: // icon
-            item.imgUrl = `https://oldschool.runescape.wiki/images${$td.find("img").first().attr("src")!.split("?")[0]}`;
+            item.imgUrl = `https://oldschool.runescape.wiki${$td.find("img").first().attr("src")!.split("?")[0]}`;
             break;
           case 1: // name
             item.name = $td.text().trim();
@@ -31,7 +32,13 @@ export default async function () {
           default:
           // we don't care about any of the other cells
         }
-        if (item.name) outfits[item.name] = item as Item;
+        if (item.name) {
+          outfits["Skilling Items"] ??= {};
+          outfits["Skilling Items"][item.name] = {
+            category: ["Skilling Items"],
+            item: item as Item,
+          };
+        }
       });
   });
 

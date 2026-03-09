@@ -8,6 +8,8 @@ export default function getNodeTypeIcon(type: string) {
       return "https://oldschool.runescape.wiki/images/Achievement_Diaries.png";
     case "item":
       return "https://oldschool.runescape.wiki/images/Inventory.png";
+    case "unlock":
+      return "https://oldschool.runescape.wiki/images/Spellbook.png";
     case "generic":
       return "https://oldschool.runescape.wiki/images/Cow_chathead.png";
     case "collection":

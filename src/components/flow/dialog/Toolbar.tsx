@@ -51,7 +51,8 @@ export default function Toolbar() {
 
   const active = editing || activeNodes.length === 1;
 
-  const goalIsComplete = current?.data.current === current?.data.target;
+  const goalIsComplete =
+    current && current?.data.current >= current?.data.target;
 
   return (
     <>
@@ -78,7 +79,7 @@ export default function Toolbar() {
               : "-translate-x-1/2 translate-y-2/3 opacity-0 scale-0",
           )}
         >
-          <div className="flex gap-1 h-fit bg-card/25 p-1 -m-1 rounded-full items-center backdrop-blur-xs backdrop-grayscale-50">
+          <div className="flex gap-1 h-fit bg-card/75 p-1 -m-1 rounded-full items-center backdrop-blur-xs backdrop-grayscale-50">
             <Button
               title={
                 goalIsComplete
@@ -94,7 +95,7 @@ export default function Toolbar() {
             </Button>
             <Button
               title="Edit Goal"
-              variant="secondary"
+              variant="ghost"
               className={clsx(
                 "rounded-full h-8 px-2!",
                 editing ? "w-fit" : "w-8",

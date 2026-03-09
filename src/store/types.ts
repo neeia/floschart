@@ -1,4 +1,4 @@
-import Node, { NodeData } from "@/types/node";
+import Node, { NodeData, NodeType } from "@/types/node";
 import { UserData } from "@/types/external/runelite";
 import {
   type Edge,
@@ -16,6 +16,8 @@ export type AccountSlice = {
 };
 
 export type FlowSlice = {
+  id: number;
+  getId: () => number;
   nodes: Node[];
   edges: Edge[];
   onNodesChange: OnNodesChange<Node>;
@@ -28,16 +30,16 @@ export type FlowSlice = {
   toggleSubnodeCompleted: (nodeId: string, subnodeName: string) => void;
   toggleNodeExpanded: (nodeId: string) => void;
   editNode: (nodeId: string, nodeData: NodeData) => void;
+  addNode: (node: Node) => void;
   removeNode: (nodeId: string) => void;
 };
 
-type Theme =
-  | "System" // default
-  | "Paper" // osrs wiki, default light
-  | "Daylight" // rs3 wiki
-  | "Candlelit" // warm dark, default dark
-  | "Moonlight" // cool dark (wiki)
-  | "Demonic Pact"; // red and black, default while demonic pact league is up
+export type Theme =
+  | "Paper" // warm light, default
+  | "Daylight" // cool light
+  | "Campfire" // warm dark
+  | "Moonlight" // cool dark
+  | "Demonic"; // red and black
 
 export type SettingsSlice = {
   theme: Theme;
@@ -46,7 +48,7 @@ export type SettingsSlice = {
   toggleSnap: () => void;
 };
 
-type SidebarTabs = "about" | "search" | "filter" | "runelite" | "settings";
+type SidebarTabs = "about" | "filter" | "runelite" | "settings";
 
 export type SidebarSlice = {
   open: boolean;
@@ -55,6 +57,26 @@ export type SidebarSlice = {
   closeTab: () => void;
 };
 
-export type AllSlice = FlowSlice & SidebarSlice & SettingsSlice & AccountSlice;
+type Filter = {
+  search: string;
+  types: NodeType[];
+  completion: number[];
+  prereqCompletion: number[];
+};
+export type FilterSlice = {
+  filter: Filter;
+  setSearch: (search: string) => void;
+  setTypes: (type: NodeType[]) => void;
+  // 0: unstarted, 1: partial, 2: completed
+  setCompletion: (n: number[]) => void;
+  setPrereqCompletion: (n: number[]) => void;
+  filterNode: (n: Node) => boolean;
+};
+
+export type AllSlice = FlowSlice &
+  SidebarSlice &
+  SettingsSlice &
+  AccountSlice &
+  FilterSlice;
 
 export type AppState = AllSlice;

@@ -11,8 +11,9 @@ import getDiarySrc from "@/util/ui/getDiarySrc";
 
 export default function FlosNode(props: NodeProps<Node>) {
   const { id, data } = props;
-  const goalIsComplete = data.current === data.target;
+  const goalIsComplete = data.current >= data.target;
   const incomingCompletion = Object.values(data.incoming);
+  const completeStyle = "font-normal italic text-complete-foreground";
 
   return (
     <>
@@ -42,15 +43,18 @@ export default function FlosNode(props: NodeProps<Node>) {
           title="Click to see actions"
           variant="shine"
           size="icon-sm"
-          className="relative size-fit bg-card clipped flex h-12 min-w-16 text-base leading-none"
+          className="relative size-fit bg-card clipped flex h-12 min-w-16 text-base leading-none text-card-foreground hover:text-card-foreground/95"
         >
           <div
             className={clsx(
               "absolute size-full left-0 top-0 bottom-0 transition-all -z-10",
-              data.current >= data.target ? "bg-complete" : "bg-incomplete",
+              goalIsComplete ? "bg-complete" : "bg-incomplete",
             )}
             style={{
-              width: `calc(${(100 * data.current) / data.target}% - var(--cutout-size))`,
+              width:
+                data.target === 0
+                  ? "100%"
+                  : `calc(${(100 * data.current) / data.target}% - var(--cutout-size))`,
             }}
           />
           {(data.type === "skill" && (
@@ -75,12 +79,7 @@ export default function FlosNode(props: NodeProps<Node>) {
                   alt=""
                   className="w-8 h-8 my-1 mx-1 object-contain"
                 />
-                <h2
-                  className={clsx(
-                    "ml-1",
-                    goalIsComplete && "font-normal opacity-50",
-                  )}
-                >
+                <h2 className={clsx("ml-1", goalIsComplete && completeStyle)}>
                   {data.name}
                 </h2>
               </div>
@@ -100,20 +99,10 @@ export default function FlosNode(props: NodeProps<Node>) {
                   )}
                 </div>
               ) : (
-                <h2>{data.name}</h2>
+                <h2 className={clsx("px-2", goalIsComplete && completeStyle)}>
+                  {data.name}
+                </h2>
               ))) ||
-            (data.type === "generic" && (
-              <div className="flex relative">
-                {data.imgUrl != null && (
-                  <img
-                    src={data.imgUrl}
-                    alt=""
-                    className="w-8 h-8 my-1 mx-1 object-contain pixelate"
-                  />
-                )}
-                <h2>{data.name}</h2>
-              </div>
-            )) ||
             (data.type === "diary" && (
               <div className="flex relative size-full items-center min-w-48">
                 <img
@@ -121,7 +110,7 @@ export default function FlosNode(props: NodeProps<Node>) {
                   alt=""
                   className="w-6 h-6 my-1 mx-1 object-contain"
                 />
-                <div className={clsx(goalIsComplete && "italic")}>
+                <div className={clsx(goalIsComplete && completeStyle)}>
                   <h2
                     className={clsx(
                       "inline ml-1",
@@ -136,6 +125,20 @@ export default function FlosNode(props: NodeProps<Node>) {
                 </div>
               </div>
             )) ||
+            (data.type === "generic" && (
+              <div className="flex relative">
+                {data.imgUrl != null && (
+                  <img
+                    src={data.imgUrl}
+                    alt=""
+                    className="w-8 h-8 my-1 mx-1 object-contain pixelate"
+                  />
+                )}
+                <h2 className={clsx(goalIsComplete && completeStyle)}>
+                  {data.name}
+                </h2>
+              </div>
+            )) ||
             (data.type === "collection" && (
               <div className="flex relative size-full items-center min-w-48">
                 {data.imgUrl != null && (
@@ -145,7 +148,7 @@ export default function FlosNode(props: NodeProps<Node>) {
                     className="w-6 h-6 my-1 mx-1 object-contain"
                   />
                 )}
-                <div className={clsx(goalIsComplete && "italic")}>
+                <div className={clsx(goalIsComplete && completeStyle)}>
                   <h2 className={clsx("ml-1", goalIsComplete && "font-normal")}>
                     {data.name}
                   </h2>

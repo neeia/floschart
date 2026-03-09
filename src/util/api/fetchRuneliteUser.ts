@@ -6,6 +6,6 @@ export default async function fetchRuneliteUser(query: string) {
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
   }
-  const data = await response.json();
+  const data = await response.json() as UserData;
   return data as UserData;
 }

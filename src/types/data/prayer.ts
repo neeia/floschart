@@ -1,6 +1,5 @@
-export type Prayer = {
-  name: string;
+import { Item } from "./item";
+
+export type Prayer = Item & {
   levelRequirement: number;
-  url: string;
-  imgUrl: string;
 };

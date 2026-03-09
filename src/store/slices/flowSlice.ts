@@ -5,12 +5,21 @@ import { initialNodes } from "./defaults/nodes";
 import { initialEdges } from "./defaults/edges";
 import { AllSlice, FlowSlice } from "../types";
 import Node, { NodeData } from "@/types/node";
+import Skill from "@/types/data/skill";
+import { getCombatLevel } from "@/util/getCombatLevel";
+import { getQuestPoints } from "@/util/getQuestPoints";
 
 // this is our useStore hook that we can use in our components to get parts of the store and call actions
 const createFlowSlice: StateCreator<AllSlice, [], [], FlowSlice> = (
   set,
   get,
 ) => ({
+  id: initialNodes.length,
+  getId: () => {
+    const id = get().id;
+    set({ id: id + 1 });
+    return id + 1;
+  },
   nodes: initialNodes,
   edges: initialEdges,
   onNodesChange: (changes) => {
@@ -207,6 +216,9 @@ const createFlowSlice: StateCreator<AllSlice, [], [], FlowSlice> = (
       }),
     });
   },
+  addNode: (node: Node) => {
+    set({ nodes: [...get().nodes, node] });
+  },
   removeNode: (nodeId: string) => {
     set({
       nodes: get()
@@ -216,6 +228,65 @@ const createFlowSlice: StateCreator<AllSlice, [], [], FlowSlice> = (
           delete n.data.incoming[nodeId];
           return { ...n };
         }),
+    });
+  },
+  syncNodesToAccountData: () => {
+    const accountData = get().accountData;
+    if (!accountData) return;
+    set({
+      nodes: get().nodes.map((n) => {
+        if (["collection", "generic", "item"].includes(n.data.type)) return n;
+
+        switch (n.data.type) {
+          case "skill":
+            const skillNodeData = { ...n.data };
+            let skillLevel = skillNodeData.current;
+            switch (skillNodeData.name) {
+              case Skill.Quest_Points:
+                skillLevel = getQuestPoints(
+                  Object.entries(accountData.quests)
+                    .filter(([_, n]) => n === 2)
+                    .map(([s]) => s),
+                );
+                break;
+              case Skill.Combat_Level:
+                skillLevel = getCombatLevel(accountData.levels);
+                break;
+              case Skill.Overall:
+                skillLevel = Object.values(accountData.levels).reduce(
+                  (acc, cur) => acc + cur,
+                  0,
+                );
+                break;
+              default:
+                skillLevel = accountData.levels[skillNodeData.name];
+            }
+            return n;
+          case "quest":
+            const questNodeData = { ...n.data };
+            const questCompletion =
+              accountData.quests[questNodeData.name] === 2;
+            questNodeData.current = questCompletion ? 1 : 0;
+            return { ...n, data: questNodeData };
+          case "diary":
+            const diaryNodeData = { ...n.data };
+            const taskCompletion =
+              accountData.achievement_diaries[diaryNodeData.name][
+                diaryNodeData.tier
+              ].tasks;
+            diaryNodeData.items = diaryNodeData.items.map(
+              ({ name, notes }, i) => ({
+                name,
+                completed: taskCompletion[i],
+                notes,
+              }),
+            );
+            diaryNodeData.current = taskCompletion.filter((b) => b).length;
+            return { ...n, data: diaryNodeData };
+          default:
+            return n;
+        }
+      }),
     });
   },
 });

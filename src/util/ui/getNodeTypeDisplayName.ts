@@ -1,13 +1,11 @@
-function capitalizeFirstLetter(s: string) {
-  return String(s).charAt(0).toUpperCase() + String(s).slice(1);
-}
+import capitalizeFirstLetter from "../capitalizeFirstLetter";
 
 export default function getNodeTypeDisplayName(type: string) {
   switch (type) {
     case "generic":
       return "Other";
     case "collection":
-      return "Other (Group)";
+      return "Group";
     default:
       return capitalizeFirstLetter(type);
   }

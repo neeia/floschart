@@ -39,7 +39,7 @@ export default function Autosize(props: Props) {
       onFocus={onFocus}
       onBlur={onBlur}
       className={clsx(
-        "min-h-6 autosize resize-none rounded-xs hover:bg-secondary focus:bg-sidebar",
+        "min-h-6 autosize resize-none rounded-xs transition-colors hover:bg-secondary focus-within:bg-active-textinput",
         className,
       )}
       {...rest}

@@ -13,6 +13,6 @@ export function createSkillNodeData(
     target: getMaxSkilllevel(name),
     url: `https://oldschool.runescape.wiki/w/${name.replace(" ", "_")}`,
     incoming: {},
-    outgoing: new Set(),
+    outgoing: {},
   };
 }

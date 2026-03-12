@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+import { ButtonGroup } from "@/components/ui/button-group";
 import {
   Field,
   FieldContent,
@@ -11,6 +13,8 @@ import useStore from "@/store/store";
 import { AppState, Theme } from "@/store/types";
 import clsx from "clsx";
 import { useShallow } from "zustand/shallow";
+import Autosize from "../edit/Autosize";
+import SettingsData from "./SettingsData";
 
 interface ThemeProps {
   name: string;
@@ -87,6 +91,8 @@ export default function Settings() {
           />
         </Field>
       </div>
+      <Separator />
+      <SettingsData />
       <Separator />
       <div className="p-2">
         <h2>Display</h2>

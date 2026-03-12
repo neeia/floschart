@@ -6,7 +6,6 @@ import {
   Background,
   BackgroundVariant,
   MiniMap,
-  ReactFlowProvider,
   Panel,
 } from "@xyflow/react";
 import FlosNode from "./FlosNode";
@@ -14,10 +13,9 @@ import { AppState } from "@/store/types";
 import { useShallow } from "zustand/shallow";
 import useStore from "@/store/store";
 import Toolbar from "./dialog/Toolbar";
-import { DiamondPlus, Filter, Info, Search, Settings } from "lucide-react";
+import { Filter, Info, Settings, X } from "lucide-react";
 import Node from "@/types/node";
 import { Button } from "../ui/button";
-import { ButtonGroup } from "../ui/button-group";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 import { ToggleGroup, ToggleGroupItem } from "../ui/toggle-group";
 import AddNodeButton from "./AddNodeButton";
@@ -118,7 +116,9 @@ const getNodeColor = (node: Node) => {
 const selector = (state: AppState) => ({
   nodes: state.nodes,
   edges: state.edges,
+  setNodes: state.setNodes,
   onNodesChange: state.onNodesChange,
+  onNodesDelete: state.onNodesDelete,
   onEdgesChange: state.onEdgesChange,
   onEdgesDelete: state.onEdgesDelete,
   onConnect: state.onConnect,
@@ -160,14 +160,26 @@ export default function Flow() {
   const {
     nodes,
     edges,
+    setNodes,
     onNodesChange,
+    onNodesDelete,
     onEdgesChange,
     onEdgesDelete,
     onConnect,
-    currentTab,
     openTab,
     snapToGrid,
   } = useStore(useShallow(selector));
+
+  const numSelected = nodes.filter((node) => node.selected).length;
+
+  function selectAllNodes() {
+    setNodes(
+      nodes.map((node) => {
+        if (node.selected) return { ...node, selected: false };
+        return node;
+      }),
+    );
+  }
 
   return (
     <ReactFlow
@@ -175,6 +187,7 @@ export default function Flow() {
       edges={edges}
       nodeTypes={nodeTypes}
       onNodesChange={onNodesChange}
+      onNodesDelete={onNodesDelete}
       onEdgesChange={onEdgesChange}
       onEdgesDelete={onEdgesDelete}
       onConnect={onConnect}
@@ -233,6 +246,19 @@ export default function Flow() {
       </Panel>
       <Panel position="bottom-right">
         <AddNodeButton />
+      </Panel>
+      <Panel position="bottom-center">
+        {numSelected > 1 && (
+          <span className="bg-muted flex items-center justify-center p-2 pr-3 gap-1 rounded-full leading-none">
+            <Button
+              className="size-4 p-0 bg-transparent!"
+              onClick={selectAllNodes}
+            >
+              <X />
+            </Button>
+            {numSelected} nodes selected
+          </span>
+        )}
       </Panel>
       <Panel position="top-left" className="pointer-events-none">
         <h1>

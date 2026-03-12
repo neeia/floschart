@@ -1,3 +1,4 @@
+import { Kbd, KbdGroup } from "@/components/ui/kbd";
 import clsx from "clsx";
 
 export default function About() {
@@ -6,7 +7,7 @@ export default function About() {
       className={clsx(
         "font-[osrs] [&>h3]:font-bold text-lg px-2",
         "[&_ul]:ml-4 [&_ul]:list-outside [&_ul]:list-disc [&_li]:marker:content-['-__']",
-        "leading-5 [&_p]:mb-2",
+        "leading-5 [&_p]:mb-2 [&_a]:decoration-accent",
       )}
     >
       <h3>What is floschart?</h3>
@@ -15,6 +16,35 @@ export default function About() {
         goals and track your progression. The name "floschart" is a combination
         of flowchart and os (for oldschool).
       </p>
+      <h3>Controls</h3>
+      <ul>
+        <li>
+          <span className="flex items-center">
+            <KbdGroup>
+              <Kbd>Shift</Kbd>
+              <Kbd>LMB</Kbd>
+            </KbdGroup>
+            : Select area
+          </span>
+        </li>
+        <li>
+          <span className="flex items-center">
+            <KbdGroup>
+              <Kbd>Backspace</Kbd>
+            </KbdGroup>
+            : Delete selected node
+          </span>
+        </li>
+        <li>
+          <span className="flex items-center">
+            <KbdGroup>
+              <Kbd>Scroll</Kbd>
+            </KbdGroup>
+            : Zoom in / out
+          </span>
+        </li>
+      </ul>
+      <p></p>
       <h3>Features</h3>
       <p>
         You can create nodes and draw dependencies between them by dragging a
@@ -82,6 +112,18 @@ export default function About() {
           className="underline decoration-dotted"
         >
           Discord
+        </a>
+        .
+      </p>
+      <p>
+        powered by{" "}
+        <a
+          href="https://reactflow.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline decoration-dotted"
+        >
+          react flow
         </a>
         .
       </p>

@@ -1,5 +1,10 @@
 import { StateCreator } from "zustand";
-import { addEdge, applyNodeChanges, applyEdgeChanges } from "@xyflow/react";
+import {
+  addEdge,
+  applyNodeChanges,
+  applyEdgeChanges,
+  Edge,
+} from "@xyflow/react";
 
 import { initialNodes } from "./defaults/nodes";
 import { initialEdges } from "./defaults/edges";
@@ -27,30 +32,63 @@ const createFlowSlice: StateCreator<AllSlice, [], [], FlowSlice> = (
       nodes: applyNodeChanges(changes, get().nodes),
     });
   },
-  onEdgesChange: (changes) => {
-    set({
-      edges: applyEdgeChanges(changes, get().edges),
+  onNodesDelete: (deleted) => {
+    const deletedOutgoing: Record<string, string[]> = {};
+    const deletedIncoming: Record<string, string[]> = {};
+    deleted.forEach((n) => {
+      deletedOutgoing[n.id] ??= [];
+      deletedOutgoing[n.id].push(...Object.keys(n.data.outgoing));
+      Object.keys(n.data.incoming).map((id) => {
+        deletedIncoming[id] ??= [];
+        deletedIncoming[id].push(n.id);
+      });
     });
-  },
-  onEdgesDelete: (deleted) => {
-    const deletedOutgoing = Object.fromEntries(
-      deleted.map((e) => [e.source, e.target]),
-    );
-    const deletedIncoming = Object.fromEntries(
-      deleted.map((e) => [e.target, e.source]),
-    );
     set({
       nodes: get().nodes.map((n) => {
         if (n.id in deletedOutgoing) {
           const outgoing = n.data.outgoing;
-          outgoing.delete(deletedOutgoing[n.id]);
+          deletedOutgoing[n.id].forEach((id) => delete outgoing[id]);
           return {
             ...n,
             data: { ...n.data, outgoing },
           } as Node;
         } else if (n.id in deletedIncoming) {
           const incoming = { ...n.data.incoming };
-          delete incoming[deletedIncoming[n.id]];
+          deletedIncoming[n.id].forEach((id) => delete incoming[id]);
+          return {
+            ...n,
+            data: { ...n.data, incoming },
+          } as Node;
+        } else return n;
+      }),
+    });
+  },
+  onEdgesChange: (changes) => {
+    set({
+      edges: applyEdgeChanges(changes, get().edges),
+    });
+  },
+  onEdgesDelete: (deleted) => {
+    const deletedOutgoing: Record<string, string[]> = {};
+    const deletedIncoming: Record<string, string[]> = {};
+    deleted.forEach((e) => {
+      deletedOutgoing[e.source] ??= [];
+      deletedOutgoing[e.source].push(e.target);
+      deletedIncoming[e.target] ??= [];
+      deletedIncoming[e.target].push(e.source);
+    });
+    set({
+      nodes: get().nodes.map((n) => {
+        if (n.id in deletedOutgoing) {
+          const outgoing = n.data.outgoing;
+          deletedOutgoing[n.id].forEach((id) => delete outgoing[id]);
+          return {
+            ...n,
+            data: { ...n.data, outgoing },
+          } as Node;
+        } else if (n.id in deletedIncoming) {
+          const incoming = { ...n.data.incoming };
+          deletedIncoming[n.id].forEach((id) => delete incoming[id]);
           return {
             ...n,
             data: { ...n.data, incoming },
@@ -68,7 +106,7 @@ const createFlowSlice: StateCreator<AllSlice, [], [], FlowSlice> = (
         if (connection.source === n.id) {
           // Found the source node - add connection.target as outgoer
           const outgoing = n.data.outgoing;
-          outgoing.add(connection.target);
+          outgoing[connection.target] = true;
           return { ...n, data: { ...n.data, outgoing } } as Node;
         } else if (connection.target === n.id) {
           // Found the target node - add connection.source as incomer
@@ -204,7 +242,7 @@ const createFlowSlice: StateCreator<AllSlice, [], [], FlowSlice> = (
             ...n,
             data,
           } as Node;
-        } else if (data.outgoing.has(n.id)) {
+        } else if (n.id in data.outgoing) {
           // Found node that has target node as an incomer - update its completion accordingly
           const incoming = { ...n.data.incoming };
           incoming[id] = isCompleted;
@@ -219,12 +257,15 @@ const createFlowSlice: StateCreator<AllSlice, [], [], FlowSlice> = (
   addNode: (node: Node) => {
     set({ nodes: [...get().nodes, node] });
   },
+  addEdge: (edge: Edge) => {
+    set({ edges: [...get().edges, edge] });
+  },
   removeNode: (nodeId: string) => {
     set({
       nodes: get()
         .nodes.filter((n) => n.id !== nodeId)
         .map((n) => {
-          n.data.outgoing.delete(nodeId);
+          delete n.data.outgoing[nodeId];
           delete n.data.incoming[nodeId];
           return { ...n };
         }),

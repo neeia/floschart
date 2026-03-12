@@ -6,7 +6,7 @@ const mountedGlory: UnlockNodeData = {
   current: 0,
   target: 1,
   incoming: {},
-  outgoing: new Set(),
+  outgoing: {},
   url: "https://oldschool.runescape.wiki/w/Amulet_of_Glory_(mounted)",
   imgUrl:
     "https://oldschool.runescape.wiki/images/Amulet_of_Glory_%28mounted%29_icon.png",

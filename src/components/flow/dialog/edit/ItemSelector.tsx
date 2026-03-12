@@ -100,7 +100,7 @@ export default function ItemSelector(props: Props) {
                     src={item.imgUrl}
                     width={16}
                     height={16}
-                    className="size-4"
+                    className="size-4 object-contain"
                   />
                   <span className="text-wrap text-start">{item.name}</span>
                 </Button>

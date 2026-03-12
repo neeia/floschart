@@ -6,7 +6,7 @@ const rottenTomato: ItemNodeData = {
   current: 0,
   target: 1,
   incoming: {},
-  outgoing: new Set(),
+  outgoing: {},
   url: "https://oldschool.runescape.wiki/w/Rotten_tomato",
   imgUrl: "https://oldschool.runescape.wiki/images/Rotten_tomato.png",
 };

@@ -10,6 +10,7 @@ import {
   Pencil,
   Trash,
   Undo2,
+  Workflow,
 } from "lucide-react";
 import { useRef, useState } from "react";
 import { Separator } from "../../ui/separator";
@@ -17,6 +18,7 @@ import Node from "@/types/node";
 import clsx from "clsx";
 import Edit from "./Edit";
 import clamp from "@/util/clamp";
+import AddDependencies from "./AddDependencies";
 
 const selector = (state: AppState) => ({
   nodes: state.nodes,
@@ -125,6 +127,9 @@ export default function Toolbar() {
             >
               <Pencil /> {editing && "Editing"}
             </Button>
+            {current &&
+              (current.data.type === "diary" ||
+                current.data.type === "quest") && <AddDependencies node={current} />}
             <Separator
               orientation="vertical"
               decorative

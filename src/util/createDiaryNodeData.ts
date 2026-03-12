@@ -23,7 +23,7 @@ export function createDiaryNodeData(
     target: items.length,
     url: `${diariesJson[name].url}#${tier}`,
     incoming: {},
-    outgoing: new Set(),
+    outgoing: {},
     expanded: false,
   };
 }

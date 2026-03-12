@@ -17,7 +17,7 @@ export default function FlosNode(props: NodeProps<Node>) {
 
   return (
     <>
-      <span className="clipped-container relative">
+      <span id={`node-${id}`} className="clipped-container relative">
         <Handle
           position={Position.Left}
           type="target"
@@ -161,14 +161,16 @@ export default function FlosNode(props: NodeProps<Node>) {
           type="source"
           className={clsx(
             "arrow",
-            data.outgoing.size > 0
+            Object.keys(data.outgoing).length > 0
               ? goalIsComplete
                 ? "bg-complete!"
                 : incomingCompletion.every((d) => d)
                   ? "bg-incomplete!"
                   : "bg-unstarted!"
               : "bg-card!",
-            data.outgoing.size > 0 ? "opacity-100" : "opacity-50",
+            Object.keys(data.outgoing).length > 0
+              ? "opacity-100"
+              : "opacity-50",
           )}
           style={{
             border: "none",

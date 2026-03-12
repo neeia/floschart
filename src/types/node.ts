@@ -15,7 +15,7 @@ export type NodeData<T extends NodeType = NodeType> = {
   // dev stuff
   type: T;
   incoming: Record<string, boolean>;
-  outgoing: Set<string>;
+  outgoing: Record<string, boolean>;
 
   // user stuff
   name: string;

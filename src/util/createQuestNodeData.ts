@@ -12,6 +12,6 @@ export function createQuestNodeData(
     target: 1,
     url: questJson[name].url,
     incoming: {},
-    outgoing: new Set(),
+    outgoing: {},
   };
 }

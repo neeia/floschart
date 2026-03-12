@@ -24,7 +24,9 @@ export default function CreateNode(props: Props) {
 
   const { screenToFlowPosition } = useReactFlow();
 
-  const [draftNode, setDraftNode] = useState<Node["data"]>(rottenTomato);
+  const [draftNode, setDraftNode] = useState<Node["data"]>(
+    structuredClone(rottenTomato),
+  );
 
   const buttonRef = useRef<HTMLButtonElement>(null);
 

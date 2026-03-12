@@ -83,7 +83,7 @@
   --card-foreground: oklch(0.13 0.028 261.692);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.13 0.028 261.692);
-  --primary: #d9c2a6;
+  --primary: #e9be89;
   --primary-foreground: #2e1a02;
   --secondary: #fafafa;
   --secondary-foreground: #171717;
@@ -109,9 +109,7 @@
   --code-highlight: #f2f2f2;
   --code-number: #747474;
 
-  --ring: var(--accent)
-
-  --xy-edge-stroke: var(--primary-foreground);
+  --ring: var(--accent) --xy-edge-stroke: var(--primary-foreground);
   --xy-minimap-background-color: var(--secondary);
   --xy-minimap-mask-background-color: #f0f0f099;
 
@@ -137,7 +135,7 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.13 0.028 261.692);
   --primary: #bce3ee;
-  --primary-foreground: #2e1a02;
+  --primary-foreground: #02102e;
   --secondary: #f7fdff;
   --secondary-foreground: #171717;
   --muted: #f5f5f5;
@@ -266,6 +264,44 @@
 }
 
 @layer components {
+  .active-animation {
+    background-image:
+      linear-gradient(90deg, var(--primary) 50%, transparent 50%),
+      linear-gradient(90deg, var(--primary) 50%, transparent 50%),
+      linear-gradient(0deg, var(--primary) 50%, transparent 50%),
+      linear-gradient(0deg, var(--primary) 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size:
+      16px 4px,
+      16px 4px,
+      4px 16px,
+      4px 16px;
+    background-position:
+      left top,
+      right bottom,
+      left bottom,
+      right top;
+    animation: border-dance 2s infinite linear;
+  }
+
+  @keyframes border-dance {
+    0% {
+      background-position:
+        left top,
+        right bottom,
+        left bottom 8px,
+        right top 8px;
+    }
+
+    100% {
+      background-position:
+        left 16px top,
+        right 16px bottom,
+        left bottom 24px,
+        right top 24px;
+    }
+  }
+
   .clipped-container {
     --cutout-size: 12px;
 
@@ -292,6 +328,25 @@
       height: calc(2.5 * (var(--cutout-size) - 4px)) !important;
       transform: translate(-0.5px, -50%) !important;
     }
+  }
+
+  /* If multiple nodes are selected */
+  div.react-flow__nodes
+    > div.react-flow__node.selected
+    ~ div.react-flow__node.selected::after,
+  div.react-flow__nodes
+    > div.react-flow__node.selected:has(
+      ~ div.react-flow__node.selected
+    )::after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--secondary);
+    border: 2px solid var(--secondary-foreground);
   }
 }
 

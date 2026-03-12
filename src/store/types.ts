@@ -6,6 +6,7 @@ import {
   type OnEdgesChange,
   type OnConnect,
   OnEdgesDelete,
+  OnNodesDelete,
 } from "@xyflow/react";
 import Skill from "@/types/data/skill";
 
@@ -21,6 +22,7 @@ export type FlowSlice = {
   nodes: Node[];
   edges: Edge[];
   onNodesChange: OnNodesChange<Node>;
+  onNodesDelete: OnNodesDelete<Node>;
   onEdgesChange: OnEdgesChange;
   onEdgesDelete: OnEdgesDelete;
   onConnect: OnConnect;
@@ -31,6 +33,7 @@ export type FlowSlice = {
   toggleNodeExpanded: (nodeId: string) => void;
   editNode: (nodeId: string, nodeData: NodeData) => void;
   addNode: (node: Node) => void;
+  addEdge: (edge: Edge) => void;
   removeNode: (nodeId: string) => void;
 };
 

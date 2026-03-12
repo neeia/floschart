@@ -15,6 +15,7 @@ import clsx from "clsx";
 import { useShallow } from "zustand/shallow";
 import Autosize from "../edit/Autosize";
 import SettingsData from "./SettingsData";
+import { SquaresUnite } from "lucide-react";
 
 interface ThemeProps {
   name: string;
@@ -66,9 +67,10 @@ const selector = (state: AppState) => ({
   changeTheme: state.changeTheme,
   snapToGrid: state.snapToGrid,
   toggleSnap: state.toggleSnap,
+  deduplicate: state.deduplicate,
 });
 export default function Settings() {
-  const { theme, changeTheme, snapToGrid, toggleSnap } = useStore(
+  const { theme, changeTheme, snapToGrid, toggleSnap, deduplicate } = useStore(
     useShallow(selector),
   );
 
@@ -77,7 +79,7 @@ export default function Settings() {
       <div className="p-2">
         <h2 className="mb-2">Graph</h2>
         <Field orientation="horizontal">
-          <FieldContent>
+          <FieldContent className="gap-0">
             <FieldLabel htmlFor="switch-settings-snap">Snap to Grid</FieldLabel>
             <FieldDescription>
               Turning on this setting will not relocate any existing nodes.
@@ -89,6 +91,17 @@ export default function Settings() {
             onCheckedChange={toggleSnap}
             className="**:bg-sidebar"
           />
+        </Field>
+        <Field orientation="horizontal" className="mt-2">
+          <FieldContent className="gap-0">
+            <FieldLabel>Merge Duplicate Nodes</FieldLabel>
+            <FieldDescription>
+              Merges any duplicate quest, skill, and diary requirements.
+            </FieldDescription>
+          </FieldContent>
+          <Button variant="outline" size="icon-sm" onClick={deduplicate}>
+            <SquaresUnite className="size-4" />
+          </Button>
         </Field>
       </div>
       <Separator />

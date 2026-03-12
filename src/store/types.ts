@@ -35,6 +35,7 @@ export type FlowSlice = {
   addNode: (node: Node) => void;
   addEdge: (edge: Edge) => void;
   removeNode: (nodeId: string) => void;
+  deduplicate: () => void;
 };
 
 export type Theme =

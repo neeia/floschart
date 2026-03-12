@@ -271,64 +271,88 @@ const createFlowSlice: StateCreator<AllSlice, [], [], FlowSlice> = (
         }),
     });
   },
-  syncNodesToAccountData: () => {
-    const accountData = get().accountData;
-    if (!accountData) return;
-    set({
-      nodes: get().nodes.map((n) => {
-        if (["collection", "generic", "item"].includes(n.data.type)) return n;
+  deduplicate: () => {
+    const nodes = get().nodes;
+    const edges = get().edges;
 
-        switch (n.data.type) {
-          case "skill":
-            const skillNodeData = { ...n.data };
-            let skillLevel = skillNodeData.current;
-            switch (skillNodeData.name) {
-              case Skill.Quest_Points:
-                skillLevel = getQuestPoints(
-                  Object.entries(accountData.quests)
-                    .filter(([_, n]) => n === 2)
-                    .map(([s]) => s),
-                );
-                break;
-              case Skill.Combat_Level:
-                skillLevel = getCombatLevel(accountData.levels);
-                break;
-              case Skill.Overall:
-                skillLevel = Object.values(accountData.levels).reduce(
-                  (acc, cur) => acc + cur,
-                  0,
-                );
-                break;
-              default:
-                skillLevel = accountData.levels[skillNodeData.name];
-            }
-            return n;
-          case "quest":
-            const questNodeData = { ...n.data };
-            const questCompletion =
-              accountData.quests[questNodeData.name] === 2;
-            questNodeData.current = questCompletion ? 1 : 0;
-            return { ...n, data: questNodeData };
-          case "diary":
-            const diaryNodeData = { ...n.data };
-            const taskCompletion =
-              accountData.achievement_diaries[diaryNodeData.name][
-                diaryNodeData.tier
-              ].tasks;
-            diaryNodeData.items = diaryNodeData.items.map(
-              ({ name, notes }, i) => ({
-                name,
-                completed: taskCompletion[i],
-                notes,
-              }),
-            );
-            diaryNodeData.current = taskCompletion.filter((b) => b).length;
-            return { ...n, data: diaryNodeData };
-          default:
-            return n;
-        }
-      }),
+    /** Records any duplicate nodes that are found in the graph.
+     *
+     * @remarks
+     * Only compares quests, diaries, and skills.
+     *
+     * @param key - For quests, node name. For diaries, node name + tier. For skills, node name + target.
+     * @param value - The first occurring node data that duplicate nodes will update / merge into.
+     */
+    const nodeLog: Record<string, Node> = {};
+    // keep track of merged IDs (<original:new>) to update edges with
+    const mergedIds: Record<string, string> = {};
+    nodes.forEach((node) => {
+      node.selected = false;
+      const _node = structuredClone(node);
+      const data = _node.data;
+      let key = "";
+      switch (data.type) {
+        case "skill":
+          key = `${data.name}${data.target}`;
+          break;
+        case "quest":
+          key = `${data.name}`;
+          break;
+        case "diary":
+          key = `${data.name}${data.tier}`;
+          break;
+        default:
+          nodeLog[_node.id] = _node;
+          return;
+      }
+      const existingNode = nodeLog[key];
+      if (!existingNode) {
+        nodeLog[key] = _node;
+        return;
+      }
+      // we are currently on a duplicate node
+      // add its incoming and outgoing connections to the existing node
+      mergedIds[_node.id] = existingNode.id;
+      Object.entries(_node.data.outgoing).forEach(([id, value]) => {
+        existingNode.data.outgoing[id] = value;
+      });
+      Object.entries(_node.data.incoming).forEach(([id, value]) => {
+        existingNode.data.incoming[id] = value;
+      });
+      existingNode.selected = true;
     });
+
+    // now apply any merged IDs
+    const _nodes = Object.values(nodeLog).map((node) => {
+      node.data.incoming = Object.fromEntries(
+        Object.entries(node.data.incoming).map(([k, v]) => [
+          mergedIds[k] || k,
+          v,
+        ]),
+      );
+      node.data.outgoing = Object.fromEntries(
+        Object.entries(node.data.outgoing).map(([k, v]) => [
+          mergedIds[k] || k,
+          v,
+        ]),
+      );
+
+      return { ...node };
+    });
+
+    const edgeMap: Record<string, Edge> = {};
+    edges.forEach((e) => {
+      const source = mergedIds[e.source] || e.source;
+      const target = mergedIds[e.target] || e.target;
+      const id = `xy-edge__${source}-${target}`;
+      edgeMap[id] = {
+        id,
+        source,
+        target,
+      };
+    });
+
+    set({ nodes: _nodes, edges: Object.values(edgeMap) });
   },
 });
 

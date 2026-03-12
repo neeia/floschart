@@ -1,7 +1,6 @@
 import {
   ReactFlow,
   type FitViewOptions,
-  type OnNodeDrag,
   type DefaultEdgeOptions,
   Background,
   BackgroundVariant,
@@ -31,8 +30,6 @@ const fitViewOptions: FitViewOptions = {
 const defaultEdgeOptions: DefaultEdgeOptions = {
   animated: true,
 };
-
-const onNodeDrag: OnNodeDrag = (_, node) => {};
 
 const getNodeColor = (node: Node) => {
   let saturation;
@@ -191,7 +188,6 @@ export default function Flow() {
       onEdgesChange={onEdgesChange}
       onEdgesDelete={onEdgesDelete}
       onConnect={onConnect}
-      onNodeDrag={onNodeDrag}
       nodeDragThreshold={4}
       snapToGrid={snapToGrid}
       snapGrid={[24, 24]}

@@ -5,7 +5,7 @@ import { Separator } from "@/components/ui/separator";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import useStore from "@/store/store";
 import { AppState } from "@/store/types";
-import Node, { NodeType, nodeTypes } from "@/types/node";
+import Node, { nodeTypes } from "@/types/node";
 import getNodeTypeDisplayName from "@/util/ui/getNodeTypeDisplayName";
 import getNodeTypeIcon from "@/util/ui/getNodeTypeIcon";
 import { useReactFlow, ViewportPortal } from "@xyflow/react";

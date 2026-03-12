@@ -2,9 +2,6 @@ import { StateCreator } from "zustand";
 import { AllSlice, FilterSlice } from "../types";
 import Node, { NodeType } from "@/types/node";
 
-const toggle = <T>(arr: T[], value: T): T[] =>
-  arr.includes(value) ? arr.filter((v) => v !== value) : [...arr, value];
-
 export const createFilterSlice: StateCreator<AllSlice, [], [], FilterSlice> = (
   set,
   get,

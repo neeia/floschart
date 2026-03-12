@@ -5,8 +5,7 @@ import clsx from "clsx";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import CreateNode from "./dialog/CreateNode";
 
-interface Props {}
-export default function AddNodeButton(props: Props) {
+export default function AddNodeButton() {
   const [expanded, setExpanded] = useState(false);
   const toggleRef = useRef<HTMLButtonElement>(null);
 

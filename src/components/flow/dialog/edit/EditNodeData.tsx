@@ -35,9 +35,7 @@ import {
   diariesJson,
   itemsJson,
   miniquestJson,
-  prayerJson,
   questJson,
-  spellJson,
 } from "@/data";
 import getDiarySrc from "@/util/ui/getDiarySrc";
 import getNodeTypeIcon from "@/util/ui/getNodeTypeIcon";
@@ -58,7 +56,6 @@ import {
   ComboboxList,
   ComboboxSeparator,
 } from "@/components/ui/combobox";
-import mountedGlory from "@/util/templates/mountedGlory";
 import ItemSelector from "./ItemSelector";
 import { Item } from "@/types/data/item";
 import UnlockSelector from "./UnlockSelector";

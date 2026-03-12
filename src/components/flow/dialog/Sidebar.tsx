@@ -14,11 +14,10 @@ import Settings from "./sidebar/Settings";
 
 const selector = (state: AppState) => ({
   currentTab: state.currentTab,
-  closeTab: state.closeTab,
 });
 
 export default function Sidebar() {
-  const { currentTab, closeTab } = useStore(useShallow(selector));
+  const { currentTab } = useStore(useShallow(selector));
 
   return (
     <Shadbar

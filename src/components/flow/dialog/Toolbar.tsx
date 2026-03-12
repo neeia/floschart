@@ -10,7 +10,6 @@ import {
   Pencil,
   Trash,
   Undo2,
-  Workflow,
 } from "lucide-react";
 import { useRef, useState } from "react";
 import { Separator } from "../../ui/separator";

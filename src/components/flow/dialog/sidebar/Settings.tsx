@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { ButtonGroup } from "@/components/ui/button-group";
 import {
   Field,
   FieldContent,
@@ -13,7 +12,6 @@ import useStore from "@/store/store";
 import { AppState, Theme } from "@/store/types";
 import clsx from "clsx";
 import { useShallow } from "zustand/shallow";
-import Autosize from "../edit/Autosize";
 import SettingsData from "./SettingsData";
 import { SquaresUnite } from "lucide-react";
 

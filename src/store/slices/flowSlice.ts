@@ -10,9 +10,6 @@ import { initialNodes } from "./defaults/nodes";
 import { initialEdges } from "./defaults/edges";
 import { AllSlice, FlowSlice } from "../types";
 import Node, { NodeData } from "@/types/node";
-import Skill from "@/types/data/skill";
-import { getCombatLevel } from "@/util/getCombatLevel";
-import { getQuestPoints } from "@/util/getQuestPoints";
 
 // this is our useStore hook that we can use in our components to get parts of the store and call actions
 const createFlowSlice: StateCreator<AllSlice, [], [], FlowSlice> = (

@@ -27,8 +27,7 @@ const selector = (state: AppState) => ({
   setNodes: state.setNodes,
   setEdges: state.setEdges,
 });
-interface Props {}
-export default function SettingsData(props: Props) {
+export default function SettingsData() {
   const { nodes, edges, getId, setNodes, setEdges } = useStore(
     useShallow(selector),
   );

@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
-  DialogClose,
   DialogContent,
-  DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
@@ -213,7 +211,7 @@ export default function AddDependencies(props: Props) {
       const y = parentNode.position.y;
       reqs.skills
         .filter((q) => filter(q, { isSkill: true, depth }))
-        .forEach((s, i) => {
+        .forEach((s) => {
           if (s.checked) {
             const skillLevel = getSkillLevel(s.name);
 
@@ -257,7 +255,7 @@ export default function AddDependencies(props: Props) {
 
       reqs.quests
         .filter((q) => filter(q, { isSkill: false, depth }))
-        .forEach((q, i) => {
+        .forEach((q) => {
           if (q.checked) {
             const questCompleted = accountData
               ? accountData.quests[q.name] === 2

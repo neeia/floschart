@@ -207,7 +207,7 @@ export default function Flow() {
           aria-label="Overview"
           nodeColor={getNodeColor}
           nodeBorderRadius={0}
-          className="static! m-0!"
+          className="static! m-0! hidden md:block"
         />
         <ToggleGroup
           type="multiple"

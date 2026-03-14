@@ -349,7 +349,7 @@ export default function AddDependencies(props: Props) {
         <Collapsible
           open={optionsExpanded}
           onOpenChange={() => setOptionsExpanded(!optionsExpanded)}
-          className="bg-card rounded-t-sm"
+          className="bg-card rounded-t-sm max-h-dvh"
         >
           <CollapsibleTrigger className="w-full text-sm flex justify-center items-center gap-1">
             options

@@ -31,12 +31,7 @@ import { useShallow } from "zustand/shallow";
 import clamp from "@/util/clamp";
 import { createSkillNodeData } from "@/util/createSkillNodeData";
 import { Diaries, DiaryDifficulty } from "@/types/external/runelite";
-import {
-  diariesJson,
-  itemsJson,
-  miniquestJson,
-  questJson,
-} from "@/data";
+import { diariesJson, itemsJson, miniquestJson, questJson } from "@/data";
 import getDiarySrc from "@/util/ui/getDiarySrc";
 import getNodeTypeIcon from "@/util/ui/getNodeTypeIcon";
 import { Separator } from "@/components/ui/separator";
@@ -463,7 +458,6 @@ export default function EditNodeData(props: Props) {
                     onChange={(n) =>
                       onChange({
                         ...draftNode,
-                        current: Math.min(draftNode.current, n),
                         target: n,
                       } as typeof draftNode)
                     }

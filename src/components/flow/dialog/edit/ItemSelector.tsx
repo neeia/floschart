@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Item } from "@/types/data/item";
 import clsx from "clsx";
-import { useDeferredValue } from "react";
+import { useDeferredValue, useRef } from "react";
 import { GroupedVirtuoso } from "react-virtuoso";
 import WikiItemSearch from "./WikiItemSearch";
 import { Separator } from "@/components/ui/separator";
@@ -22,6 +22,8 @@ export default function ItemSelector(props: Props) {
   const { id, value, onChange, groups } = props;
   const _value = useDeferredValue(value);
 
+  const input = useRef<HTMLInputElement>(null);
+
   const filteredGroups: typeof groups = groups
     .map(([categoryName, items]) => {
       return [
@@ -40,6 +42,7 @@ export default function ItemSelector(props: Props) {
   return (
     <div className="w-full relative focus-within:[&_.dropdown]:scale-y-100 focus-within:[&_.dropdown]:opacity-100">
       <Input
+        ref={input}
         id={id}
         value={value}
         onChange={(e) => onChange(e.target.value)}
@@ -63,8 +66,10 @@ export default function ItemSelector(props: Props) {
                   onClick={(r) => {
                     onChange(r.title, {
                       url: `https://oldschool.runescape.wiki/w/?curid=${r.pageid}`,
-                      imgUrl: `https://oldschool.runescape.wiki/images/${r.title.replaceAll(" ", "_")}.png`
+                      imgUrl: `https://oldschool.runescape.wiki/images/${r.title.replaceAll(" ", "_")}.png`,
                     });
+                    input.current?.focus();
+                    input.current?.blur();
                   }}
                 />
               ) : undefined,
@@ -95,6 +100,8 @@ export default function ItemSelector(props: Props) {
                   onClick={(e) => {
                     e.preventDefault();
                     onChange(item.name, { url: item.url, imgUrl: item.imgUrl });
+                    input.current?.focus();
+                    input.current?.blur();
                   }}
                 >
                   <img

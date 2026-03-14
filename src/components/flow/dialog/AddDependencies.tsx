@@ -224,6 +224,7 @@ export default function AddDependencies(props: Props) {
               id: getId().toString(),
               type: "node",
               position: { x, y },
+              selected: true,
               data: {
                 type: "skill",
                 name: s.name,
@@ -271,6 +272,7 @@ export default function AddDependencies(props: Props) {
               id: getId().toString(),
               type: "node",
               position: { x, y },
+              selected: true,
               data: {
                 type: "quest",
                 name: q.name,

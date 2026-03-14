@@ -8,7 +8,7 @@ import { ReactFlowProvider } from "@xyflow/react";
 
 function App() {
   return (
-    <div className="w-screen h-screen">
+    <div className="w-screen h-dvh">
       <ThemeProvider>
         <SidebarProvider className="h-full">
           <TooltipProvider>

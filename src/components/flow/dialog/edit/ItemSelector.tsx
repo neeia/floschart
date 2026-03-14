@@ -63,6 +63,7 @@ export default function ItemSelector(props: Props) {
                   onClick={(r) => {
                     onChange(r.title, {
                       url: `https://oldschool.runescape.wiki/w/?curid=${r.pageid}`,
+                      imgUrl: `https://oldschool.runescape.wiki/images/${r.title.replaceAll(" ", "_")}.png`
                     });
                   }}
                 />

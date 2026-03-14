@@ -224,11 +224,13 @@ export default function EditNodeData(props: Props) {
                       draftNode.target,
                       getMaxSkilllevel(name),
                     );
+                    const url = name.replaceAll(" ", "_");
                     onChange({
                       ...draftNode,
                       name,
                       current,
                       target,
+                      url,
                     } as typeof draftNode);
                   }}
                 >

@@ -145,7 +145,7 @@ export default function SettingsData() {
           <DialogContent>
             <DialogTitle>Import</DialogTitle>
             <Autosize
-              className="max-h-[50vh] min-h-20 no-scrollbar text-xs!"
+              className="max-h-[50dvh] min-h-20 no-scrollbar text-xs!"
               value={data}
               onChange={(e) => setData(e.target.value)}
             />
@@ -193,7 +193,7 @@ export default function SettingsData() {
             </DialogDescription>
             <Textarea
               value={data}
-              className="resize-none max-h-[50vh] no-scrollbar text-xs!"
+              className="resize-none max-h-[50dvh] no-scrollbar text-xs!"
               readOnly
             />
             <DialogFooter>

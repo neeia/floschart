@@ -20,6 +20,6 @@ export default function SidebarProvider(props: Props) {
       className="h-full"
       open={currentTab != null}
       {...rest}
-    ></ShadbarProvider>
+    />
   );
 }

@@ -441,7 +441,7 @@ export default function AddDependencies(props: Props) {
         </ButtonGroup>
         <div
           className={clsx(
-            "max-h-[50vh] overflow-y-auto [&_ul]:ml-4",
+            "max-h-[50dvh] overflow-y-auto [&_ul]:ml-4",
             strikeCompleted &&
               "[&_.completed]:italic [&_.completed]:line-through [&_.completed]:text-muted-foreground",
           )}

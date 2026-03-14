@@ -123,7 +123,7 @@ export default function FlosNode(props: NodeProps<Node>) {
               </div>
             )) ||
             (data.type === "generic" && (
-              <div className="flex items-center relative">
+              <div className="flex items-center px-2 relative">
                 {data.imgUrl != null && (
                   <img
                     src={data.imgUrl}

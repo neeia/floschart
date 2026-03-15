@@ -100,6 +100,20 @@ export default function FlosNode(props: NodeProps<Node>) {
                   {data.name}
                 </h2>
               ))) ||
+            (data.type === "unlock" &&
+              (data.imgUrl != null ? (
+                <div className="flex relative">
+                  <img
+                    src={data.imgUrl}
+                    alt=""
+                    className="w-10 h-10 my-1 mx-1 object-contain pixelate"
+                  />
+                </div>
+              ) : (
+                <h2 className={clsx("px-2", goalIsComplete && completeStyle)}>
+                  {data.name}
+                </h2>
+              ))) ||
             (data.type === "diary" && (
               <div className="flex relative size-full items-center min-w-48">
                 <img

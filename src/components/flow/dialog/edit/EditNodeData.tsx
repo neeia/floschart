@@ -343,7 +343,12 @@ export default function EditNodeData(props: Props) {
                   groups={itemGroups}
                   value={draftNode.name}
                   onChange={(s, { url, imgUrl } = {}) =>
-                    onChange({ ...draftNode, name: s, url, imgUrl })
+                    onChange({
+                      ...draftNode,
+                      name: s,
+                      url: url || draftNode.url,
+                      imgUrl: imgUrl || draftNode.imgUrl,
+                    })
                   }
                 />
               </Field>

@@ -83,11 +83,11 @@ export default function FlosNode(props: NodeProps<Node>) {
             )) ||
             (data.type === "item" &&
               (data.imgUrl != null ? (
-                <div className="flex relative">
+              <div className="flex items-center px-2 gap-2 relative">
                   <img
                     src={data.imgUrl}
                     alt=""
-                    className="w-10 h-10 my-1 mx-1 object-contain pixelate"
+                    className="w-10 h-10 my-1 object-contain pixelate"
                   />
                   {data.target > 1 && (
                     <span className="caption bg-card/75 absolute bottom-0.5 right-0.5">
@@ -102,15 +102,15 @@ export default function FlosNode(props: NodeProps<Node>) {
               ))) ||
             (data.type === "unlock" &&
               (data.imgUrl != null ? (
-                <div className="flex relative">
+              <div className="flex items-center px-2 gap-2 relative">
                   <img
                     src={data.imgUrl}
                     alt=""
-                    className="w-10 h-10 my-1 mx-1 object-contain pixelate"
+                    className="w-10 h-10 my-1 object-contain pixelate"
                   />
                 </div>
               ) : (
-                <h2 className={clsx("px-2", goalIsComplete && completeStyle)}>
+                <h2 className={clsx(goalIsComplete && completeStyle)}>
                   {data.name}
                 </h2>
               ))) ||
@@ -137,12 +137,12 @@ export default function FlosNode(props: NodeProps<Node>) {
               </div>
             )) ||
             (data.type === "generic" && (
-              <div className="flex items-center px-2 relative">
+              <div className="flex items-center px-2 gap-2 relative">
                 {data.imgUrl != null && (
                   <img
                     src={data.imgUrl}
                     alt=""
-                    className="w-8 h-8 my-1 mx-1 object-contain pixelate"
+                    className="w-8 h-8 my-1 object-contain pixelate"
                   />
                 )}
                 <h2 className={clsx(goalIsComplete && completeStyle)}>

@@ -1,2 +1,2 @@
-- add more items to json (e.g. rune pouch, meat & fur pouches)
-- make quest searching easier (match quest names by first syllables w/ II mapped to 2; e.g. dt2 / ds2 / rfd)
+- add more items to json (e.g. rune pouch, meat & fur pouches, essence pouches)
+- add full quality snapshot export to .png

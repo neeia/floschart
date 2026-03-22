@@ -301,6 +301,36 @@ export default function EditNodeData(props: Props) {
                       : null
                   }
                   items={questGroups}
+                  filter={(questName, query) => {
+                    const q = query
+                      .toLowerCase()
+                      .trim()
+                      .replaceAll(/[^a-z0-9 ]/g, "");
+                    const name = questName.toLowerCase();
+                    const _name = name
+                      .replace(" i ", " 1 ")
+                      .replace(" ii ", " 2 ");
+
+                    if (name.includes(q) || _name.includes(q)) return true;
+
+                    const alphanumeric = name.replaceAll(/[^a-z0-9 ]/g, "");
+                    const _alphanumeric = _name.replaceAll(/[^a-z0-9 ]/g, "");
+                    if (alphanumeric.includes(q) || _alphanumeric.includes(q))
+                      return true;
+
+                    const initials = name
+                      .split(" ")
+                      .map((w) => w[0])
+                      .join("");
+                    const _initials = _name
+                      .split(" ")
+                      .map((w) => w[0])
+                      .join("");
+                    if (initials.includes(q) || _initials.includes(q))
+                      return true;
+
+                    return false;
+                  }}
                   autoHighlight
                 >
                   <ComboboxInput

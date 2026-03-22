@@ -8,7 +8,14 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "update": "node ./scripts/scraper.js"
+    "update": "node ./scripts/scraper.js",
+    "fetch:diaries": "npx tsx scripts/fetchDiaries.ts",
+    "fetch:furniture": "npx tsx scripts/fetchFurniture.ts",
+    "fetch:items": "npx tsx scripts/fetchItems.ts",
+    "fetch:prayers": "npx tsx scripts/fetchPrayers.ts",
+    "fetch:quests": "npx tsx scripts/fetchQuests.ts",
+    "fetch:slayer": "npx tsx scripts/fetchSlayerUnlocks.ts",
+    "fetch:spells": "npx tsx scripts/fetchSpells.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.2.0",

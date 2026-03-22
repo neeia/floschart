@@ -23,6 +23,7 @@ const thresholds: Record<string, number[]> = {
   "one-handed": [45, 45, 45, 10, 35, 10, 10, 10, 15, 10, 40, 30, 1, 6],
   "two-handed": [50, 50, 55, 10, 50, 30, 30, 30, 5, 5, 50, 1, 1, 5],
   hands: [10, 10, 10, 10, 11, 10, 10, 10, 6, 10, 10, 1, 1, 2],
+  feet: [2, 2, 2, 3, 5, 12, 13, 14, 3, 3, 2, 1, 1, 1],
   ring: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 0.1, 2],
 };
 
@@ -36,6 +37,7 @@ const exceptions: Record<string, string[]> = {
   "one-handed": [],
   "two-handed": [],
   hands: ["Void knight gloves"],
+  feet: [],
   ring: [],
 };
 
@@ -106,6 +108,9 @@ export default async function () {
         };
       }
     });
+    console.log(
+      `${category}: returned ${Object.values(gear[`Equipment / ${category}`]).length} items`,
+    );
   }
   console.log(`gear: returned ${Object.values(gear).length} items`);
 

@@ -1,4 +1,4 @@
-# FlOSChart
+# floschart
 
 A companion website to Oldschool RuneScape to track and organize goals.
 

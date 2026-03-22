@@ -189,7 +189,9 @@ export default function Runelite() {
                 />
                 <Check className="size-5 absolute -bottom-1 -right-1 text-complete" />
               </span>
-              {Object.values(accountData.quests).filter((n) => n === 2).length +
+              {Object.entries(accountData.quests).filter(
+                ([name, n]) => n === 2 && name in questJson,
+              ).length +
                 " / " +
                 Object.keys(questJson).length}
             </span>

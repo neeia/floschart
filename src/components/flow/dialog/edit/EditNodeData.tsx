@@ -308,8 +308,8 @@ export default function EditNodeData(props: Props) {
                       .replaceAll(/[^a-z0-9 ]/g, "");
                     const name = questName.toLowerCase();
                     const _name = name
-                      .replace(" i ", " 1 ")
-                      .replace(" ii ", " 2 ");
+                      .replace(/\bi\b/g, "1")
+                      .replace(/\bii\b/g, "2");
 
                     if (name.includes(q) || _name.includes(q)) return true;
 

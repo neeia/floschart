@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import clsx from "clsx";
-import React, { useDeferredValue } from "react";
+import React, { useDeferredValue, useRef } from "react";
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { furnitureJson, prayerJson, slayerJson, spellJson } from "@/data";
@@ -18,10 +18,12 @@ interface Props {
 export default function UnlockSelector(props: Props) {
   const { id, value, onChange } = props;
   const _value = useDeferredValue(value);
+  const input = useRef<HTMLInputElement>(null);
 
   return (
     <div className="w-full relative focus-within:[&_.dropdown]:scale-y-100 focus-within:[&_.dropdown]:opacity-100">
       <Input
+        ref={input}
         id={id}
         value={value}
         onChange={(e) => onChange(e.target.value)}
@@ -82,6 +84,8 @@ export default function UnlockSelector(props: Props) {
                     onChange(r.title, {
                       url: `https://oldschool.runescape.wiki/w/?curid=${r.pageid}`,
                     });
+                    input.current?.focus();
+                    input.current?.blur();
                   }}
                 />
               ) : undefined}
@@ -100,6 +104,8 @@ export default function UnlockSelector(props: Props) {
                         url: furniture.url,
                         imgUrl: furniture.imgUrl,
                       });
+                      input.current?.focus();
+                      input.current?.blur();
                     }}
                   >
                     <img

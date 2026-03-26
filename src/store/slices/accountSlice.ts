@@ -30,6 +30,16 @@ export const createAccountSlice: StateCreator<
         modifiedNodes[n.id] = completed;
       return newNode;
     });
+    const _achievement_diaries = { ...accountData.achievement_diaries };
+    _achievement_diaries["Fremennik Province"] = (_achievement_diaries as any)[
+      "Fremennik"
+    ];
+    delete (_achievement_diaries as any)["Fremennik"];
+    const achievement_diaries = Object.fromEntries(
+      Object.entries(_achievement_diaries).sort(([n1], [n2]) =>
+        n1.localeCompare(n2),
+      ),
+    ) as typeof accountData.achievement_diaries;
     const networkedNodes = nodes.map((node) => {
       const incoming = { ...node.data.incoming };
       Object.keys(incoming).forEach((id) => {
@@ -40,7 +50,14 @@ export const createAccountSlice: StateCreator<
         data: { ...node.data, incoming },
       } as Node;
     });
-    set({ accountData: { ...accountData, quests }, nodes: networkedNodes });
+    set({
+      accountData: {
+        ...accountData,
+        quests,
+        achievement_diaries,
+      },
+      nodes: networkedNodes,
+    });
   },
   getSkillLevel: (skill: Skill) => {
     const accountData = get().accountData;

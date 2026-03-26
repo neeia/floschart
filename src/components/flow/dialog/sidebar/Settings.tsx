@@ -32,8 +32,8 @@ function ThemeItem(props: ThemeProps) {
       aria-label={value}
       className={clsx(
         "flex flex-col items-start justify-start h-fit p-4 relative leading-none",
-        "aria-checked:border-4",
-        mg && "pr-8!",
+        "aria-checked:border-4 overflow-hidden",
+        mg && "pl-5!",
       )}
       style={{ backgroundColor: bg, color: fg }}
     >
@@ -45,7 +45,7 @@ function ThemeItem(props: ThemeProps) {
       )}
       {mg && (
         <div
-          className="w-2 h-full absolute right-4 top-0"
+          className="w-2 h-full absolute left-1 top-0"
           style={{ backgroundColor: mg }}
         />
       )}
@@ -165,12 +165,14 @@ export default function Settings() {
               fg="#e3ecff"
               colors={["#CBD9F4", "#313E59", "#afb6d6"]}
             >
-              The mooooon haunts you... no, wrong game.
+              {theme === "Moonlight"
+                ? "The mooooon haunts you!"
+                : "Like the moon, I shine in darkness.... wait, wrong game."}
             </ThemeItem>
             <ThemeItem
               value="Demonic"
               name="Demonic Pact"
-              bg="#170D0D"
+              bg="#271616"
               mg="#0c0b0b"
               fg="#DDBBBB"
               colors={["#9F1000", "#f3eed0", "#601711"]}

@@ -1,6 +1,4 @@
-import { load } from "cheerio";
 import type CategoryMemberResults from "../../src/types/external/wikiCategoryMemberResults";
-import type { Item } from "../../src/types/data/item";
 import { ItemMap } from "../fetchItems";
 
 const exceptions = ["Basket", "Empty sack", "Gnomish firelighter"];

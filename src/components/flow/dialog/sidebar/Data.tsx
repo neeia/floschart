@@ -13,7 +13,6 @@ import { useShallow } from "zustand/shallow";
 import ImportExport from "./data/ImportExport";
 import {
   CheckLine,
-  Pencil,
   Plus,
   Settings2,
   SquaresUnite,
@@ -37,7 +36,7 @@ import { Input } from "@/components/ui/input";
 import NewProfile from "./data/NewProfile";
 import { DialogTrigger } from "@/components/ui/dialog";
 import { useState } from "react";
-import DownloadFlow from "../../DownloadFLow";
+import DownloadFlow from "../../DownloadFlow";
 
 const selector = (state: AppState) => ({
   deduplicate: state.deduplicate,
@@ -75,6 +74,7 @@ export default function Data() {
             <SquaresUnite className="size-4" />
           </Button>
         </Field>
+      <DownloadFlow />
       </div>
       <Separator />
       <div className="flex flex-col p-2">
@@ -187,7 +187,6 @@ export default function Data() {
       </div>
       <Separator />
       <ImportExport />
-      <DownloadFlow />
     </div>
   );
 }

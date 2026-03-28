@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
   Field,
   FieldContent,
@@ -12,8 +11,6 @@ import useStore from "@/store/store";
 import { AppState, Theme } from "@/store/types";
 import clsx from "clsx";
 import { useShallow } from "zustand/shallow";
-import SettingsData from "./SettingsData";
-import { SquaresUnite } from "lucide-react";
 
 interface ThemeProps {
   name: string;
@@ -65,10 +62,9 @@ const selector = (state: AppState) => ({
   changeTheme: state.changeTheme,
   snapToGrid: state.snapToGrid,
   toggleSnap: state.toggleSnap,
-  deduplicate: state.deduplicate,
 });
 export default function Settings() {
-  const { theme, changeTheme, snapToGrid, toggleSnap, deduplicate } = useStore(
+  const { theme, changeTheme, snapToGrid, toggleSnap } = useStore(
     useShallow(selector),
   );
 
@@ -90,23 +86,10 @@ export default function Settings() {
             className="**:bg-sidebar"
           />
         </Field>
-        <Field orientation="horizontal" className="mt-2">
-          <FieldContent className="gap-0">
-            <FieldLabel>Merge Duplicate Nodes</FieldLabel>
-            <FieldDescription>
-              Merges any duplicate quest, skill, and diary requirements.
-            </FieldDescription>
-          </FieldContent>
-          <Button variant="outline" size="icon-sm" onClick={deduplicate}>
-            <SquaresUnite className="size-4" />
-          </Button>
-        </Field>
       </div>
       <Separator />
-      <SettingsData />
-      <Separator />
       <div className="p-2">
-        <h2>Display</h2>
+        <h2 className="pb-2">Display</h2>
         <Field>
           <FieldLabel>Theme</FieldLabel>
           <ToggleGroup

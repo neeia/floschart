@@ -16,11 +16,22 @@ export type AccountSlice = {
   getSkillLevel: (skill: Skill) => number;
 };
 
+type NodeProfile = {
+  nodes: Node[];
+  edges: Edge[];
+  id: number;
+  accountData: UserData | null;
+};
 export type FlowSlice = {
   id: number;
   getId: () => number;
   nodes: Node[];
   edges: Edge[];
+  currentProfile: string;
+  profiles: Record<string, NodeProfile>;
+  switchProfile: (profile: string) => void;
+  renameProfile: (newName: string) => void;
+  deleteProfile: (name: string) => void;
   onNodesChange: OnNodesChange<Node>;
   onNodesDelete: OnNodesDelete<Node>;
   onEdgesChange: OnEdgesChange;
@@ -52,7 +63,7 @@ export type SettingsSlice = {
   toggleSnap: () => void;
 };
 
-type SidebarTabs = "about" | "filter" | "runelite" | "settings";
+type SidebarTabs = "about" | "filter" | "runelite" | "data" | "settings";
 
 export type SidebarSlice = {
   open: boolean;

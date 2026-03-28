@@ -24,6 +24,57 @@ const createFlowSlice: StateCreator<AllSlice, [], [], FlowSlice> = (
   },
   nodes: initialNodes,
   edges: initialEdges,
+  currentProfile: "Default",
+  profiles: {
+    Default: {
+      nodes: initialNodes,
+      edges: initialEdges,
+      accountData: null,
+      id: initialNodes.length,
+    },
+  },
+  switchProfile: (profile) => {
+    const {
+      currentProfile,
+      profiles,
+      nodes: currentNodes,
+      edges: currentEdges,
+      accountData,
+      id,
+    } = get();
+    if (!(profile in profiles))
+      profiles[profile] = { nodes: [], edges: [], id: 0, accountData: null };
+
+    const _profiles = { ...profiles };
+    _profiles[currentProfile] = {
+      nodes: currentNodes,
+      edges: currentEdges,
+      accountData,
+      id,
+    };
+    const { nodes, edges } = profiles[profile];
+    set({ nodes, edges, profiles: _profiles, currentProfile: profile });
+  },
+  renameProfile: (newName: string) => {
+    const { profiles, currentProfile } = get();
+
+    const newProfiles = Object.fromEntries(
+      Object.entries(profiles).map(([id, value]) =>
+        id === currentProfile ? [newName, value] : [id, value],
+      ),
+    );
+    const { nodes, edges } = profiles[currentProfile];
+    set({ profiles: newProfiles, nodes, edges, currentProfile: newName });
+  },
+  deleteProfile: (name: string) => {
+    const { profiles } = get();
+
+    const newProfiles = Object.fromEntries(
+      Object.entries(profiles).filter(([id]) => id !== name),
+    );
+    const { nodes, edges } = profiles["Default"];
+    set({ profiles: newProfiles, nodes, edges, currentProfile: "Default" });
+  },
   onNodesChange: (changes) => {
     set({
       nodes: applyNodeChanges(changes, get().nodes),

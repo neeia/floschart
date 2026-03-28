@@ -13,6 +13,7 @@ import Runelite from "./sidebar/Runelite";
 import Settings from "./sidebar/Settings";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Data from "./sidebar/Data";
 
 const selector = (state: AppState) => ({
   currentTab: state.currentTab,
@@ -45,6 +46,7 @@ export default function Sidebar() {
         {(currentTab === "about" && <About />) ||
           (currentTab === "filter" && <Filter />) ||
           (currentTab === "runelite" && <Runelite />) ||
+          (currentTab === "data" && <Data />) ||
           (currentTab === "settings" && <Settings />)}
       </SidebarContent>
     </Shadbar>

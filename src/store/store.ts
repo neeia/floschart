@@ -23,17 +23,15 @@ const useStore = create<AppState>()(
         Object.fromEntries(
           Object.entries(state).filter(
             ([key]) =>
-              ![
-                "open",
-                "currentTab",
-                "openTab",
-                "closeTab",
-                "filter",
-                "setSearch",
-                "setTypes",
-                "setCompletion",
-                "setPrereqCompletion",
-                "filterNode",
+              [
+                "accountData",
+                "edges",
+                "nodes",
+                "id",
+                "snapToGrid",
+                "theme",
+                "currentProfile",
+                "profiles"
               ].includes(key),
           ),
         ),

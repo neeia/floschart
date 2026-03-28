@@ -12,7 +12,7 @@ import { AppState } from "@/store/types";
 import { useShallow } from "zustand/shallow";
 import useStore from "@/store/store";
 import Toolbar from "./dialog/Toolbar";
-import { Filter, Info, Settings, X } from "lucide-react";
+import { Filter, HardDrive, Info, Settings, X } from "lucide-react";
 import Node from "@/types/node";
 import { Button } from "../ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
@@ -231,6 +231,9 @@ export default function Flow() {
               width={16}
               height={16}
             />
+          </ButtonWithTooltip>
+          <ButtonWithTooltip onClick={() => openTab("data")} title="Data">
+            <HardDrive />
           </ButtonWithTooltip>
           <ButtonWithTooltip
             onClick={() => openTab("settings")}

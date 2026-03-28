@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Autosize from "../edit/Autosize";
+import Autosize from "../../edit/Autosize";
 import { AppState } from "@/store/types";
 import useStore from "@/store/store";
 import { useShallow } from "zustand/shallow";
@@ -27,7 +27,7 @@ const selector = (state: AppState) => ({
   setNodes: state.setNodes,
   setEdges: state.setEdges,
 });
-export default function SettingsData() {
+export default function ImportExport() {
   const { nodes, edges, getId, setNodes, setEdges } = useStore(
     useShallow(selector),
   );
@@ -124,7 +124,7 @@ export default function SettingsData() {
 
   return (
     <div className="p-2">
-      <h2>Data</h2>
+      <h2>Transfer</h2>
       <div className="flex mt-2 gap-2">
         <Dialog
           open={deOpen}

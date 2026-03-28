@@ -1,15 +1,11 @@
 import { useEffect } from "react";
 import { toPng } from "html-to-image";
-import {
-  getNodesBounds,
-  getViewportForBounds,
-  useReactFlow,
-} from "@xyflow/react";
+import { useReactFlow } from "@xyflow/react";
 import { Button } from "../ui/button";
 import { ImageDown } from "lucide-react";
 
 export default function DownloadFlow() {
-  const { getNodes } = useReactFlow();
+  const { getNodes, getNodesBounds } = useReactFlow();
 
   useEffect(() => {}, [getNodes]);
 
@@ -17,31 +13,32 @@ export default function DownloadFlow() {
     const nodesBounds = getNodesBounds(getNodes());
     const imageWidth = nodesBounds.width;
     const imageHeight = nodesBounds.height;
-    const transform = getViewportForBounds(
-      nodesBounds,
-      imageWidth,
-      imageHeight,
-      0.25,
-      4,
-      0,
-    );
+
+    const translateX = 60 - nodesBounds.x * 2;
+    const translateY = 60 - nodesBounds.y * 2;
 
     const el = document.querySelector(".react-flow__viewport") as HTMLElement;
+    el.classList.add("print");
+    el.style.setProperty("--translate-x", `${translateX}px`);
+    el.style.setProperty("--translate-y", `${translateY}px`);
 
     toPng(el, {
       width: imageWidth * 2 + 108,
       height: imageHeight * 2 + 120,
-      backgroundColor: "var(--background)",
       style: {
         width: String(imageWidth * 2),
         height: String(imageHeight * 2),
-        transform: `translate(${60 + transform.x * 2}px, ${60 + transform.y * 2}px) scale(${transform.zoom * 2})`,
-        backgroundImage: "radial-gradient(#91919a 1px, transparent 0)",
+        backgroundColor: "var(--background)",
+        backgroundImage: "radial-gradient(#91919a 0.5px, transparent 0)",
         backgroundSize: "24px 24px",
-        backgroundPosition: "12.5px 12.5px",
+        backgroundPosition: "12px 12px",
+        transform: `translate(${translateX * -1}px, ${translateY * -1}px) scale(2)`,
       },
     }).then((dataUrl) => {
       downloadImage(dataUrl);
+      el.classList.remove("print");
+      el.style.removeProperty("--translate-x");
+      el.style.removeProperty("--translate-y");
     });
   }
 

@@ -264,6 +264,10 @@
 }
 
 @layer components {
+  .react-flow__viewport.print > * {
+    transform: translate(var(--translate-x), var(--translate-y));
+  }
+
   .active-animation {
     background-image:
       linear-gradient(90deg, var(--primary) 50%, transparent 50%),

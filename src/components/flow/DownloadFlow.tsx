@@ -31,11 +31,11 @@ export default function DownloadFlow() {
     toPng(el, {
       width: imageWidth * 2 + 108,
       height: imageHeight * 2 + 120,
+      backgroundColor: "var(--background)",
       style: {
         width: String(imageWidth * 2),
         height: String(imageHeight * 2),
         transform: `translate(${60 + transform.x * 2}px, ${60 + transform.y * 2}px) scale(${transform.zoom * 2})`,
-        backgroundColor: "var(--background)",
         backgroundImage: "radial-gradient(#91919a 1px, transparent 0)",
         backgroundSize: "24px 24px",
         backgroundPosition: "12.5px 12.5px",

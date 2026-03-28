@@ -35,6 +35,7 @@ export default function DownloadFlow() {
         width: String(imageWidth * 2),
         height: String(imageHeight * 2),
         transform: `translate(${60 + transform.x * 2}px, ${60 + transform.y * 2}px) scale(${transform.zoom * 2})`,
+        backgroundColor: "var(--background)",
         backgroundImage: "radial-gradient(#91919a 1px, transparent 0)",
         backgroundSize: "24px 24px",
         backgroundPosition: "12.5px 12.5px",

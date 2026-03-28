@@ -5,6 +5,7 @@ import fetchClog from "./items/fetchClog";
 import fetchGear from "./items/fetchGear";
 import fetchOutfits from "./items/fetchOutfits";
 import fetchTele from "./items/fetchTele";
+import fetchEtc from "./items/fetchEtc";
 import { Item } from "../src/types/data/item";
 
 export type ItemMap = Record<
@@ -20,11 +21,13 @@ export default async function fetchItems() {
   const teleports = await fetchTele();
   const skilling = await fetchOutfits();
   const gear = await fetchGear();
+  const storage = await fetchEtc();
 
   const items = {
     ...gear,
     ...skilling,
     ...teleports,
+    ...storage,
     ...clog,
   };
 

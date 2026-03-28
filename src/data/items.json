@@ -7607,6 +7607,388 @@
       }
     }
   },
+  "Storage": {
+    "Steel key ring": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Steel key ring",
+        "url": "https://oldschool.runescape.wiki/w/?curid=16352",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Steel_key_ring.png"
+      }
+    },
+    "Small pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Small pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=19349",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Small_pouch.png"
+      }
+    },
+    "Bolt pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Bolt pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=22055",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Bolt_pouch.png"
+      }
+    },
+    "Medium pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Medium pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=24716",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Medium_pouch.png"
+      }
+    },
+    "Large pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Large pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=27358",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Large_pouch.png"
+      }
+    },
+    "Giant pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Giant pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=28496",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Giant_pouch.png"
+      }
+    },
+    "Looting bag": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Looting bag",
+        "url": "https://oldschool.runescape.wiki/w/?curid=31284",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Looting_bag.png"
+      }
+    },
+    "Coal bag": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Coal bag",
+        "url": "https://oldschool.runescape.wiki/w/?curid=35484",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Coal_bag.png"
+      }
+    },
+    "Gem bag": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Gem bag",
+        "url": "https://oldschool.runescape.wiki/w/?curid=35486",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Gem_bag.png"
+      }
+    },
+    "Rune pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Rune pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=36526",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Rune_pouch.png"
+      }
+    },
+    "Flamtaer bag": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Flamtaer bag",
+        "url": "https://oldschool.runescape.wiki/w/?curid=42291",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Flamtaer_bag.png"
+      }
+    },
+    "Herb sack": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Herb sack",
+        "url": "https://oldschool.runescape.wiki/w/?curid=55120",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Herb_sack.png"
+      }
+    },
+    "Seed box": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Seed box",
+        "url": "https://oldschool.runescape.wiki/w/?curid=70561",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Seed_box.png"
+      }
+    },
+    "Collection bag": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Collection bag",
+        "url": "https://oldschool.runescape.wiki/w/?curid=70816",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Collection_bag.png"
+      }
+    },
+    "Master scroll book": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Master scroll book",
+        "url": "https://oldschool.runescape.wiki/w/?curid=101630",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Master_scroll_book.png"
+      }
+    },
+    "Plank sack": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Plank sack",
+        "url": "https://oldschool.runescape.wiki/w/?curid=272549",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Plank_sack.png"
+      }
+    },
+    "Fish barrel": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Fish barrel",
+        "url": "https://oldschool.runescape.wiki/w/?curid=291298",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Fish_barrel.png"
+      }
+    },
+    "Bronze coffin": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Bronze coffin",
+        "url": "https://oldschool.runescape.wiki/w/?curid=299329",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Bronze_coffin.png"
+      }
+    },
+    "Steel coffin": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Steel coffin",
+        "url": "https://oldschool.runescape.wiki/w/?curid=299330",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Steel_coffin.png"
+      }
+    },
+    "Black coffin": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Black coffin",
+        "url": "https://oldschool.runescape.wiki/w/?curid=299331",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Black_coffin.png"
+      }
+    },
+    "Silver coffin": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Silver coffin",
+        "url": "https://oldschool.runescape.wiki/w/?curid=299332",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Silver_coffin.png"
+      }
+    },
+    "Gold coffin": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Gold coffin",
+        "url": "https://oldschool.runescape.wiki/w/?curid=299333",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Gold_coffin.png"
+      }
+    },
+    "Tackle box": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Tackle box",
+        "url": "https://oldschool.runescape.wiki/w/?curid=306295",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Tackle_box.png"
+      }
+    },
+    "Fish sack barrel": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Fish sack barrel",
+        "url": "https://oldschool.runescape.wiki/w/?curid=306489",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Fish_sack_barrel.png"
+      }
+    },
+    "Colossal pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Colossal pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=350438",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Colossal_pouch.png"
+      }
+    },
+    "Divine rune pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Divine rune pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=363149",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Divine_rune_pouch.png"
+      }
+    },
+    "Log basket": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Log basket",
+        "url": "https://oldschool.runescape.wiki/w/?curid=386083",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Log_basket.png"
+      }
+    },
+    "Forestry kit": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Forestry kit",
+        "url": "https://oldschool.runescape.wiki/w/?curid=386195",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Forestry_kit.png"
+      }
+    },
+    "Forestry basket": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Forestry basket",
+        "url": "https://oldschool.runescape.wiki/w/?curid=386280",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Forestry_basket.png"
+      }
+    },
+    "Small fur pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Small fur pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=417158",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Small_fur_pouch.png"
+      }
+    },
+    "Medium fur pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Medium fur pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=417161",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Medium_fur_pouch.png"
+      }
+    },
+    "Large fur pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Large fur pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=417162",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Large_fur_pouch.png"
+      }
+    },
+    "Small meat pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Small meat pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=417163",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Small_meat_pouch.png"
+      }
+    },
+    "Large meat pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Large meat pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=417164",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Large_meat_pouch.png"
+      }
+    },
+    "Huntsman's kit": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Huntsman's kit",
+        "url": "https://oldschool.runescape.wiki/w/?curid=458495",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Huntsman's_kit.png"
+      }
+    },
+    "Fur pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Fur pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=460449",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Fur_pouch.png"
+      }
+    },
+    "Reagent pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Reagent pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=535790",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Reagent_pouch.png"
+      }
+    },
+    "Silklined herb sack": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Silklined herb sack",
+        "url": "https://oldschool.runescape.wiki/w/?curid=646253",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Silklined_herb_sack.png"
+      }
+    }
+  },
   "Collection / Bosses / Abyssal Sire": {
     "Abyssal orphan": {
       "category": [

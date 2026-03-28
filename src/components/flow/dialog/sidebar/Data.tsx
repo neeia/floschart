@@ -37,6 +37,7 @@ import { Input } from "@/components/ui/input";
 import NewProfile from "./data/NewProfile";
 import { DialogTrigger } from "@/components/ui/dialog";
 import { useState } from "react";
+import DownloadFlow from "../../DownloadFLow";
 
 const selector = (state: AppState) => ({
   deduplicate: state.deduplicate,
@@ -186,6 +187,7 @@ export default function Data() {
       </div>
       <Separator />
       <ImportExport />
+      <DownloadFlow />
     </div>
   );
 }

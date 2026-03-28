@@ -19,6 +19,7 @@ import { Edge } from "@xyflow/react";
 import Node from "@/types/node";
 import { toast } from "sonner";
 import { Download, Upload } from "lucide-react";
+import clsx from "clsx";
 
 const selector = (state: AppState) => ({
   nodes: state.nodes,
@@ -137,12 +138,15 @@ export default function ImportExport() {
             onClick={() => {
               setData("");
             }}
-            className="border rounded-lg p-4 pb-2 flex flex-col gap-1 items-center w-full"
+            className={clsx(
+              "border rounded-lg p-4 pb-2 flex flex-col gap-1 items-center w-full",
+              "bg-transparent hover:bg-accent transition-all",
+            )}
           >
             <Download className="size-8" />
             Import
           </DialogTrigger>
-          <DialogContent>
+          <DialogContent aria-describedby={undefined}>
             <DialogTitle>Import</DialogTitle>
             <Autosize
               className="max-h-[50dvh] min-h-20 no-scrollbar text-xs!"
@@ -181,12 +185,15 @@ export default function ImportExport() {
         <Dialog open={reOpen} onOpenChange={setReOpen}>
           <DialogTrigger
             onClick={compress}
-            className="border rounded-lg p-4 pb-2 flex flex-col gap-1 items-center w-full"
+            className={clsx(
+              "border rounded-lg p-4 pb-2 flex flex-col gap-1 items-center w-full",
+              "bg-transparent hover:bg-accent transition-all",
+            )}
           >
             <Upload className="size-8" />
             Export
           </DialogTrigger>
-          <DialogContent>
+          <DialogContent aria-describedby={undefined}>
             <DialogTitle>Export</DialogTitle>
             <DialogDescription>
               Export your data into a file that can be imported by other users.

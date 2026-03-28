@@ -1,10 +1,12 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { toPng } from "html-to-image";
 import {
   getNodesBounds,
   getViewportForBounds,
   useReactFlow,
 } from "@xyflow/react";
+import { Button } from "../ui/button";
+import { ImageDown } from "lucide-react";
 
 export default function DownloadFlow() {
   const { getNodes } = useReactFlow();
@@ -42,7 +44,12 @@ export default function DownloadFlow() {
     });
   }
 
-  return <button onClick={handleActualDownload}>Download</button>;
+  return (
+    <Button className="my-2" variant="outline" onClick={handleActualDownload}>
+      <ImageDown />
+      Download as .png
+    </Button>
+  );
 }
 
 function downloadImage(dataUrl: string) {

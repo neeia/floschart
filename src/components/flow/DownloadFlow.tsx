@@ -14,13 +14,21 @@ export default function DownloadFlow() {
     const imageWidth = nodesBounds.width;
     const imageHeight = nodesBounds.height;
 
-    const translateX = 60 - nodesBounds.x * 2;
-    const translateY = 60 - nodesBounds.y * 2;
+    let translateX = 60 - nodesBounds.x * 2;
+    let translateY = 60 - nodesBounds.y * 2;
 
     const el = document.querySelector(".react-flow__viewport") as HTMLElement;
     el.classList.add("print");
-    el.style.setProperty("--translate-x", `${translateX}px`);
-    el.style.setProperty("--translate-y", `${translateY}px`);
+    el.style.setProperty("--translate-x", `0px`);
+    el.style.setProperty("--translate-y", `0px`);
+    if (nodesBounds.x < 0) {
+      el.style.setProperty("--translate-x", `${translateX}px`);
+      translateX *= -1;
+    }
+    if (nodesBounds.y < 0) {
+      el.style.setProperty("--translate-y", `${translateY}px`);
+      translateY *= -1;
+    }
 
     toPng(el, {
       width: imageWidth * 2 + 108,
@@ -32,7 +40,7 @@ export default function DownloadFlow() {
         backgroundImage: "radial-gradient(#91919a 0.5px, transparent 0)",
         backgroundSize: "24px 24px",
         backgroundPosition: "12px 12px",
-        transform: `translate(${translateX * -1}px, ${translateY * -1}px) scale(2)`,
+        transform: `translate(${translateX}px, ${translateY}px) scale(2)`,
       },
     }).then((dataUrl) => {
       downloadImage(dataUrl);

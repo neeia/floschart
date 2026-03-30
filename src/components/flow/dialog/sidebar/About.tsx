@@ -97,7 +97,7 @@ export default function About() {
       <p>
         For info about development, visit the{" "}
         <a
-          href="https://oldschool.runescape.wiki/w/RuneScape:WikiSync"
+          href="https://github.com/neeia/floschart"
           target="_blank"
           rel="noopener noreferrer"
           className="underline decoration-dotted"

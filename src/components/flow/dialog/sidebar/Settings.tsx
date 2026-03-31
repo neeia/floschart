@@ -62,30 +62,99 @@ const selector = (state: AppState) => ({
   changeTheme: state.changeTheme,
   snapToGrid: state.snapToGrid,
   toggleSnap: state.toggleSnap,
+  showCurrent: state.showCurrent,
+  toggleShowCurrent: state.toggleShowCurrent,
+  skillProgress: state.skillProgress,
+  toggleSkillProgress: state.toggleSkillProgress,
+  lineAnimation: state.lineAnimation,
+  toggleLineAnimation: state.toggleLineAnimation,
 });
 export default function Settings() {
-  const { theme, changeTheme, snapToGrid, toggleSnap } = useStore(
-    useShallow(selector),
-  );
+  const {
+    theme,
+    changeTheme,
+    snapToGrid,
+    toggleSnap,
+    showCurrent,
+    toggleShowCurrent,
+    skillProgress,
+    toggleSkillProgress,
+    lineAnimation,
+    toggleLineAnimation,
+  } = useStore(useShallow(selector));
 
   return (
     <div>
       <div className="p-2">
         <h2 className="mb-2">Graph</h2>
-        <Field orientation="horizontal">
-          <FieldContent className="gap-0">
-            <FieldLabel htmlFor="switch-settings-snap">Snap to Grid</FieldLabel>
-            <FieldDescription>
-              Turning on this setting will not relocate any existing nodes.
-            </FieldDescription>
-          </FieldContent>
-          <Switch
-            id="switch-settings-snap"
-            checked={snapToGrid}
-            onCheckedChange={toggleSnap}
-            className="**:bg-sidebar"
-          />
-        </Field>
+        <div className="flex flex-col gap-2">
+          <Field orientation="horizontal">
+            <FieldContent className="gap-0">
+              <FieldLabel htmlFor="switch-settings-snap">
+                Snap to Grid
+              </FieldLabel>
+              <FieldDescription>
+                Turning on this setting will not relocate any existing nodes.
+              </FieldDescription>
+            </FieldContent>
+            <Switch
+              id="switch-settings-snap"
+              checked={snapToGrid}
+              onCheckedChange={(c) => toggleSnap(c)}
+              className="**:bg-sidebar"
+            />
+          </Field>
+          <Field orientation="horizontal">
+            <FieldContent className="gap-0">
+              <FieldLabel htmlFor="switch-settings-current">
+                Show Current Progress
+              </FieldLabel>
+              <FieldDescription>
+                Shows the current value of progress-based nodes.
+              </FieldDescription>
+            </FieldContent>
+            <Switch
+              id="switch-settings-current"
+              checked={showCurrent}
+              onCheckedChange={(c) => toggleShowCurrent(c)}
+              className="**:bg-sidebar"
+            />
+          </Field>
+          <Field orientation="horizontal">
+            <FieldContent className="gap-0">
+              <FieldLabel htmlFor="switch-settings-progress">
+                Actual Skill Progress
+              </FieldLabel>
+              <FieldDescription>
+                Makes the background progress bar of skill nodes show the actual
+                progress of the skill based on EXP.
+                <div className="italic">(i.e. 92 is half of 99)</div>
+              </FieldDescription>
+            </FieldContent>
+            <Switch
+              id="switch-settings-progress"
+              checked={skillProgress}
+              onCheckedChange={(c) => toggleSkillProgress(c)}
+              className="**:bg-sidebar"
+            />
+          </Field>
+          <Field orientation="horizontal">
+            <FieldContent className="gap-0">
+              <FieldLabel htmlFor="switch-settings-line-anim">
+                Toggle Line Movement
+              </FieldLabel>
+              <FieldDescription>
+                Enables / Disables the animation of edges.
+              </FieldDescription>
+            </FieldContent>
+            <Switch
+              id="switch-settings-line-anim"
+              checked={lineAnimation}
+              onCheckedChange={(c) => toggleLineAnimation(c)}
+              className="**:bg-sidebar"
+            />
+          </Field>
+        </div>
       </div>
       <Separator />
       <div className="p-2">

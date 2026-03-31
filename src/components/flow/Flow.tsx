@@ -18,6 +18,7 @@ import { Button } from "../ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 import { ToggleGroup, ToggleGroupItem } from "../ui/toggle-group";
 import AddNodeButton from "./AddNodeButton";
+import clsx from "clsx";
 
 const nodeTypes = {
   node: FlosNode,
@@ -122,6 +123,9 @@ const selector = (state: AppState) => ({
   currentTab: state.currentTab,
   openTab: state.openTab,
   snapToGrid: state.snapToGrid,
+  showCurrent: state.showCurrent,
+  skillProgress: state.skillProgress,
+  lineAnimation: state.lineAnimation,
 });
 
 const proOptions = { hideAttribution: true };
@@ -165,6 +169,9 @@ export default function Flow() {
     onConnect,
     openTab,
     snapToGrid,
+    showCurrent,
+    skillProgress,
+    lineAnimation,
   } = useStore(useShallow(selector));
 
   const numSelected = nodes.filter((node) => node.selected).length;
@@ -196,7 +203,12 @@ export default function Flow() {
       fitViewOptions={fitViewOptions}
       defaultEdgeOptions={defaultEdgeOptions}
       proOptions={proOptions}
-      className="leading-none"
+      className={clsx(
+        "leading-none",
+        !lineAnimation && "s-no-line-anim",
+        !showCurrent && "s-hide-current-value",
+        skillProgress && "s-show-true-progress",
+      )}
       minZoom={0.25}
       maxZoom={4}
     >

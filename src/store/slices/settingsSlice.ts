@@ -7,7 +7,6 @@ export const createSettingsSlice: StateCreator<
   [],
   SettingsSlice
 > = (set) => ({
-  snapToGrid: true,
   theme: "Paper",
   changeTheme: (t) => {
     if (t)
@@ -15,7 +14,20 @@ export const createSettingsSlice: StateCreator<
         theme: t,
       });
   },
-  toggleSnap: () => {
-    set((state) => ({ snapToGrid: !state.snapToGrid }));
+  snapToGrid: true,
+  toggleSnap: (snapToGrid: boolean) => {
+    set(() => ({ snapToGrid }));
+  },
+  showCurrent: false,
+  toggleShowCurrent: (showCurrent: boolean) => {
+    set(() => ({ showCurrent }));
+  },
+  skillProgress: false,
+  toggleSkillProgress: (skillProgress: boolean) => {
+    set(() => ({ skillProgress }));
+  },
+  lineAnimation: true,
+  toggleLineAnimation: (lineAnimation: boolean) => {
+    set(() => ({ lineAnimation }));
   },
 });

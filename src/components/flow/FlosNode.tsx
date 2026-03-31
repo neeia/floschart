@@ -11,6 +11,7 @@ import getDiarySrc from "@/util/ui/getDiarySrc";
 
 export default function FlosNode(props: NodeProps<Node>) {
   const { id, data } = props;
+
   const goalIsComplete = data.current >= data.target;
   const incomingCompletion = Object.values(data.incoming);
   const completeStyle = "font-normal italic text-complete-foreground";
@@ -40,14 +41,24 @@ export default function FlosNode(props: NodeProps<Node>) {
           title="Click to see actions"
           variant="shine"
           size="icon-sm"
-          className="relative size-fit bg-card clipped flex h-12 min-w-16 text-base leading-none text-card-foreground hover:text-card-foreground/95"
+          className={clsx(
+            "relative size-fit bg-card clipped flex h-12 min-w-16 text-base leading-none text-card-foreground hover:text-card-foreground/95",
+            goalIsComplete && "[&_.current-value]:hidden",
+          )}
         >
           <div
             className={clsx(
               "absolute size-full left-0 top-0 bottom-0 transition-all -z-10",
+              data.type === "skill" && "skill-progress",
               goalIsComplete ? "bg-complete" : "bg-incomplete",
             )}
             style={{
+              minWidth:
+                data.type === "skill"
+                  ? goalIsComplete
+                    ? "100%"
+                    : `${(1 / Math.pow(1.1, data.target - data.current)) * 100}%`
+                  : undefined,
               width:
                 data.target === 0
                   ? "100%"
@@ -61,6 +72,9 @@ export default function FlosNode(props: NodeProps<Node>) {
                 alt={data.name}
                 className="w-8 h-8 my-1 mx-1 object-contain pixelate brightness-125"
               />
+              <span className="caption bg-card/75 absolute bottom-0.5 left-0 current-value">
+                {data.current}
+              </span>
               <span className="caption bg-card/75 absolute bottom-0.5 right-0.5">
                 {data.target}
               </span>
@@ -83,16 +97,21 @@ export default function FlosNode(props: NodeProps<Node>) {
             )) ||
             (data.type === "item" &&
               (data.imgUrl != null ? (
-              <div className="flex items-center px-2 gap-2 relative">
+                <div className="flex items-center px-2 gap-2 relative">
                   <img
                     src={data.imgUrl}
                     alt=""
                     className="w-10 h-10 my-1 object-contain pixelate"
                   />
                   {data.target > 1 && (
-                    <span className="caption bg-card/75 absolute bottom-0.5 right-0.5">
-                      {data.target}
-                    </span>
+                    <>
+                      <span className="caption bg-card/75 absolute bottom-0.5 left-0 current-value">
+                        {data.current}
+                      </span>
+                      <span className="caption bg-card/75 absolute bottom-0.5 right-0.5">
+                        {data.target}
+                      </span>
+                    </>
                   )}
                 </div>
               ) : (
@@ -102,7 +121,7 @@ export default function FlosNode(props: NodeProps<Node>) {
               ))) ||
             (data.type === "unlock" &&
               (data.imgUrl != null ? (
-              <div className="flex items-center px-2 gap-2 relative">
+                <div className="flex items-center px-2 gap-2 relative">
                   <img
                     src={data.imgUrl}
                     alt=""
@@ -116,11 +135,21 @@ export default function FlosNode(props: NodeProps<Node>) {
               ))) ||
             (data.type === "diary" && (
               <div className="flex relative size-full items-center min-w-48">
-                <img
-                  src={data.imgUrl || getDiarySrc(data.name)}
-                  alt=""
-                  className="w-6 h-6 my-1 mx-1 object-contain"
-                />
+                <div className="relative">
+                  <img
+                    src={data.imgUrl || getDiarySrc(data.name)}
+                    alt=""
+                    className="w-6 h-6 my-1 mx-1 object-contain"
+                  />
+                  <span className="current-value caption">
+                    <span className="bg-card/75 absolute bottom-0.5 left-0">
+                      {data.current}
+                    </span>
+                    <span className="bg-card/75 absolute bottom-0.5 right-0.5">
+                      {data.target}
+                    </span>
+                  </span>
+                </div>
                 <div className={clsx(goalIsComplete && completeStyle)}>
                   <h2
                     className={clsx(

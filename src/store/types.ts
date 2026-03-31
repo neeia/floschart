@@ -60,7 +60,13 @@ export type SettingsSlice = {
   theme: Theme;
   snapToGrid: boolean;
   changeTheme: (theme: Theme) => void;
-  toggleSnap: () => void;
+  toggleSnap: (snap: boolean) => void;
+  showCurrent: boolean;
+  toggleShowCurrent: (show: boolean) => void;
+  skillProgress: boolean;
+  toggleSkillProgress: (skillProgress: boolean) => void;
+  lineAnimation: boolean;
+  toggleLineAnimation: (lineAnimation: boolean) => void;
 };
 
 type SidebarTabs = "about" | "filter" | "runelite" | "data" | "settings";

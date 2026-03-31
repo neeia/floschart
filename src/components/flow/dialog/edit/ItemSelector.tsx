@@ -47,6 +47,9 @@ export default function ItemSelector(props: Props) {
         value={value}
         onChange={(e) => onChange(e.target.value)}
         autoComplete="off"
+        onFocus={(e) => {
+          e.target.select();
+        }}
       />
       <div
         className={clsx(

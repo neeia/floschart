@@ -336,9 +336,12 @@ export default function EditNodeData(props: Props) {
                   <ComboboxInput
                     placeholder="Select a quest"
                     id={`${id}-node-quest`}
+                    onFocus={(e) => {
+                      e.target.select();
+                    }}
                   />
                   <ComboboxContent>
-                    <ComboboxEmpty>No items found.</ComboboxEmpty>
+                    <ComboboxEmpty>No quests found.</ComboboxEmpty>
                     <ComboboxList className="py-0">
                       {(group, i) => (
                         <ComboboxGroup
@@ -410,6 +413,9 @@ export default function EditNodeData(props: Props) {
                         name: e.target.value,
                       } as typeof draftNode)
                     }
+                    onFocus={(e) => {
+                      e.target.select();
+                    }}
                   />
                   <div
                     className={clsx(

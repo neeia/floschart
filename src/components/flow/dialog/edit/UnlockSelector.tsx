@@ -27,6 +27,9 @@ export default function UnlockSelector(props: Props) {
         id={id}
         value={value}
         onChange={(e) => onChange(e.target.value)}
+        onFocus={(e) => {
+          e.target.select();
+        }}
       />
       <div
         className={clsx(

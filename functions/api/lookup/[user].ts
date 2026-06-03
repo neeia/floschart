@@ -1,4 +1,3 @@
-import { UserData } from "@/types/external/runelite";
 import type { EventContext } from "@cloudflare/workers-types";
 
 export async function onRequest(

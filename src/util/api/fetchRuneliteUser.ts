@@ -1,7 +1,7 @@
 import { UserData } from "@/types/external/runelite";
 
 export default async function fetchRuneliteUser(query: string) {
-  const remote = `https://sync.runescape.wiki/runelite/player/${query}/STANDARD`;
+  const remote = `https://flosch.art/api/lookup/${query}`;
   const response = await fetch(remote);
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);

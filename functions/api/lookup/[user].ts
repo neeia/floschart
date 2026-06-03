@@ -7,7 +7,8 @@ export async function onRequest(
   const remote = `https://sync.runescape.wiki/runelite/player/${context.params.user}/STANDARD`;
   const response = await fetch(remote);
   const data = (await response.json()) as UserData;
-  return new Response(JSON.stringify(data), {
+  console.log(data);
+  return new Response(response.body, {
     headers: { "Content-Type": "application/json" },
   });
 }

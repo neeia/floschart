@@ -293,6 +293,11 @@
     reselect "^5.1.1"
     use-sync-external-store "^1.6.0"
 
+"@cloudflare/workers-types@^4.20260603.1":
+  version "4.20260603.1"
+  resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-4.20260603.1.tgz#99960f9cca0cc52740125a6f99e79412eecc58e8"
+  integrity sha512-TLeVHoBbcYv35S5TdRWUoj3IJ56BhHtrsuci+O7ithU8yz7ttNdCk6rAl1QUSGNVEWSIp54bWOuV/xmX1zu79g==
+
 "@dotenvx/dotenvx@^1.48.4":
   version "1.52.0"
   resolved "https://registry.yarnpkg.com/@dotenvx/dotenvx/-/dotenvx-1.52.0.tgz#39cb1a70eead336171d9de4cc9de4aa23b709547"

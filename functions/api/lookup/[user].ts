@@ -9,7 +9,6 @@ export async function onRequest(
       "User-Agent": "floschart - (https://github.com/neeia/floschart)",
     },
   });
-  console.log(response.body);
   return new Response(response.body, {
     headers: { "Content-Type": "application/json" },
   });

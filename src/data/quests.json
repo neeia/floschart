@@ -3498,6 +3498,10 @@
         {
           "name": "Hunter",
           "target": 62
+        },
+        {
+          "name": "Firemaking",
+          "target": 49
         }
       ],
       "quests": [
@@ -3824,7 +3828,10 @@
       "skills": [],
       "quests": [
         {
-          "name": "Cook's Assistant"
+          "name": "Recipe for Disaster/Another Cook's Quest"
+        },
+        {
+          "name": "Goblin Diplomacy"
         }
       ]
     },
@@ -3843,6 +3850,9 @@
     "requirements": {
       "skills": [],
       "quests": [
+        {
+          "name": "Recipe for Disaster/Another Cook's Quest"
+        },
         {
           "name": "Fishing Contest"
         }
@@ -5123,6 +5133,69 @@
       ]
     }
   },
+  "The Blood Moon Rises": {
+    "isMiniquest": false,
+    "id": 180,
+    "name": "The Blood Moon Rises",
+    "title": "The_Blood_Moon_Rises",
+    "difficulty": "Grandmaster",
+    "length": "Very Long",
+    "qp": 4,
+    "members": true,
+    "url": "https://oldschool.runescape.wiki/w/The_Blood_Moon_Rises",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Slayer",
+          "target": 74
+        },
+        {
+          "name": "Woodcutting",
+          "target": 74
+        },
+        {
+          "name": "Smithing",
+          "target": 72
+        },
+        {
+          "name": "Cooking",
+          "target": 72
+        },
+        {
+          "name": "Fletching",
+          "target": 70
+        },
+        {
+          "name": "Mining",
+          "target": 66
+        },
+        {
+          "name": "Hunter",
+          "target": 65
+        },
+        {
+          "name": "Crafting",
+          "target": 64
+        },
+        {
+          "name": "Herblore",
+          "target": 64
+        },
+        {
+          "name": "Magic",
+          "target": 57
+        }
+      ],
+      "quests": [
+        {
+          "name": "A Night at the Theatre"
+        },
+        {
+          "name": "Sins of the Father"
+        }
+      ]
+    }
+  },
   "The Final Dawn": {
     "isMiniquest": false,
     "id": 171,
@@ -5272,6 +5345,34 @@
       "quests": [
         {
           "name": "Pandemonium"
+        }
+      ]
+    }
+  },
+  "The Red Reef": {
+    "isMiniquest": false,
+    "id": 179,
+    "name": "The Red Reef",
+    "title": "The_Red_Reef",
+    "difficulty": "Experienced",
+    "length": "Medium",
+    "qp": 2,
+    "members": true,
+    "url": "https://oldschool.runescape.wiki/w/The_Red_Reef",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Sailing",
+          "target": 52
+        },
+        {
+          "name": "Smithing",
+          "target": 48
+        }
+      ],
+      "quests": [
+        {
+          "name": "Troubled Tortugans"
         }
       ]
     }

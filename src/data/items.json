@@ -231,17 +231,6 @@
         "url": "/w/Brassica_halo#Normal"
       }
     },
-    "Corrupted helm": {
-      "category": [
-        "Equipment",
-        "head"
-      ],
-      "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Corrupted_helm_%28attuned%29.png",
-        "name": "Corrupted helm",
-        "url": "/w/Corrupted_helm_(attuned)"
-      }
-    },
     "Crystal helm": {
       "category": [
         "Equipment",
@@ -1053,9 +1042,9 @@
         "body"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Crystal_body_%28attuned%29.png",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Crystal_body.png",
         "name": "Crystal body",
-        "url": "/w/Crystal_body_(attuned)"
+        "url": "/w/Crystal_body#Active"
       }
     },
     "Dagon'hai robe top": {
@@ -2118,6 +2107,17 @@
         "url": "/w/Necklace_of_anguish"
       }
     },
+    "Necklace of rupture": {
+      "category": [
+        "Equipment",
+        "neck"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Necklace_of_rupture.png",
+        "name": "Necklace of rupture",
+        "url": "/w/Necklace_of_rupture"
+      }
+    },
     "Occult necklace": {
       "category": [
         "Equipment",
@@ -2525,6 +2525,17 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Sapphire_dragon_bolts_1.png",
         "name": "Sapphire dragon bolts",
         "url": "/w/Sapphire_dragon_bolts"
+      }
+    },
+    "Silvthrill javelin": {
+      "category": [
+        "Equipment",
+        "ammunition"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Silvthrill_javelin.png",
+        "name": "Silvthrill javelin",
+        "url": "/w/Silvthrill_javelin"
       }
     },
     "Topaz dragon bolts": {
@@ -3268,6 +3279,17 @@
         "url": "/w/Blisterwood_flail"
       }
     },
+    "Blisterwood sickle": {
+      "category": [
+        "Equipment",
+        "one-handed"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blisterwood_sickle_%28e%29.png",
+        "name": "Blisterwood sickle",
+        "url": "/w/Blisterwood_sickle_(e)"
+      }
+    },
     "Blood ancient sceptre": {
       "category": [
         "Equipment",
@@ -3345,6 +3367,17 @@
         "url": "/w/Cleaver"
       }
     },
+    "Corrupted staff": {
+      "category": [
+        "Equipment",
+        "one-handed"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Corrupted_staff_%28attuned%29.png",
+        "name": "Corrupted staff",
+        "url": "/w/Corrupted_staff_(attuned)"
+      }
+    },
     "Crystal axe": {
       "category": [
         "Equipment",
@@ -3376,6 +3409,17 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Crystal_pickaxe.png",
         "name": "Crystal pickaxe",
         "url": "/w/Crystal_pickaxe#Active"
+      }
+    },
+    "Crystal staff": {
+      "category": [
+        "Equipment",
+        "one-handed"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Crystal_staff_%28attuned%29.png",
+        "name": "Crystal staff",
+        "url": "/w/Crystal_staff_(attuned)"
       }
     },
     "Dawnbringer": {
@@ -3739,6 +3783,17 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Guthix_crozier.png",
         "name": "Guthix crozier",
         "url": "/w/Guthix_crozier"
+      }
+    },
+    "Hallowed flail": {
+      "category": [
+        "Equipment",
+        "one-handed"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Hallowed_flail.png",
+        "name": "Hallowed flail",
+        "url": "/w/Hallowed_flail"
       }
     },
     "Harmonised nightmare staff": {
@@ -4975,6 +5030,17 @@
         "url": "/w/Craw%27s_bow#Uncharged"
       }
     },
+    "Crimson kisten": {
+      "category": [
+        "Equipment",
+        "two-handed"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Crimson_kisten.png",
+        "name": "Crimson kisten",
+        "url": "/w/Crimson_kisten"
+      }
+    },
     "Crystal bow": {
       "category": [
         "Equipment",
@@ -5415,6 +5481,17 @@
         "url": "/w/Seercull"
       }
     },
+    "Silvthrill ballista": {
+      "category": [
+        "Equipment",
+        "two-handed"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Silvthrill_ballista.png",
+        "name": "Silvthrill ballista",
+        "url": "/w/Silvthrill_ballista"
+      }
+    },
     "Soulreaper axe": {
       "category": [
         "Equipment",
@@ -5435,6 +5512,17 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Sulphur_blades.png",
         "name": "Sulphur blades",
         "url": "/w/Sulphur_blades"
+      }
+    },
+    "Sunspear": {
+      "category": [
+        "Equipment",
+        "two-handed"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Sunspear.png",
+        "name": "Sunspear",
+        "url": "/w/Sunspear"
       }
     },
     "Tecu salamander": {
@@ -6712,6 +6800,26 @@
         "url": "https://oldschool.runescape.wiki/w/Ring_of_endurance"
       }
     },
+    "Amy's saw": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Amy%27s_saw.png",
+        "name": "Amy's saw",
+        "url": "https://oldschool.runescape.wiki/w/Amy%27s_saw"
+      }
+    },
+    "Imcando hammer": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Imcando_hammer.png",
+        "name": "Imcando hammer",
+        "url": "https://oldschool.runescape.wiki/w/Imcando_hammer"
+      }
+    },
     "Cooking gauntlets": {
       "category": [
         "Skilling Items"
@@ -6812,6 +6920,16 @@
         "url": "https://oldschool.runescape.wiki/w/Fletching_knife"
       }
     },
+    "Silklined herb sack": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Silklined_herb_sack.png",
+        "name": "Silklined herb sack",
+        "url": "https://oldschool.runescape.wiki/w/Silklined_herb_sack"
+      }
+    },
     "Amulet of chemistry": {
       "category": [
         "Skilling Items"
@@ -6830,6 +6948,16 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Alchemist%27s_amulet_%28charged%29.png",
         "name": "Alchemist's amulet",
         "url": "https://oldschool.runescape.wiki/w/Alchemist%27s_amulet"
+      }
+    },
+    "Reagent pouch": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Reagent_pouch.png",
+        "name": "Reagent pouch",
+        "url": "https://oldschool.runescape.wiki/w/Reagent_pouch"
       }
     },
     "Prescription goggles": {
@@ -6930,6 +7058,16 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Varrock_armour_1.png",
         "name": "Varrock armour",
         "url": "https://oldschool.runescape.wiki/w/Varrock_armour"
+      }
+    },
+    "Gem bag": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Gem_bag.png",
+        "name": "Gem bag",
+        "url": "https://oldschool.runescape.wiki/w/Gem_bag"
       }
     },
     "Mining cape": {
@@ -7230,6 +7368,17 @@
     }
   },
   "Teleports / Quest-related items": {
+    "Cowbell amulet": {
+      "category": [
+        "Teleports",
+        "Quest-related items"
+      ],
+      "item": {
+        "name": "Cowbell amulet",
+        "url": "https://oldschool.runescape.wiki/w/Cowbell_amulet",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Cowbell_amulet_%28charged%29.png"
+      }
+    },
     "Ectophial": {
       "category": [
         "Teleports",
@@ -7594,17 +7743,6 @@
         "url": "https://oldschool.runescape.wiki/w/Sailors%27_amulet",
         "imgUrl": "https://oldschool.runescape.wiki/images/Sailors%27_amulet.png"
       }
-    },
-    "Cowbell amulet": {
-      "category": [
-        "Teleports",
-        "Other items"
-      ],
-      "item": {
-        "name": "Cowbell amulet",
-        "url": "https://oldschool.runescape.wiki/w/Cowbell_amulet",
-        "imgUrl": "https://oldschool.runescape.wiki/images/Cowbell_amulet_%28charged%29.png"
-      }
     }
   },
   "Storage": {
@@ -7756,6 +7894,26 @@
         "name": "Master scroll book",
         "url": "https://oldschool.runescape.wiki/w/?curid=101630",
         "imgUrl": "https://oldschool.runescape.wiki/images/Master_scroll_book.png"
+      }
+    },
+    "Gem sack": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Gem sack",
+        "url": "https://oldschool.runescape.wiki/w/?curid=208706",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Gem_sack.png"
+      }
+    },
+    "Gem pouch": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Gem pouch",
+        "url": "https://oldschool.runescape.wiki/w/?curid=220762",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Gem_pouch.png"
       }
     },
     "Plank sack": {
@@ -7986,6 +8144,36 @@
         "name": "Silklined herb sack",
         "url": "https://oldschool.runescape.wiki/w/?curid=646253",
         "imgUrl": "https://oldschool.runescape.wiki/images/Silklined_herb_sack.png"
+      }
+    },
+    "Gem tote": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Gem tote",
+        "url": "https://oldschool.runescape.wiki/w/?curid=650476",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Gem_tote.png"
+      }
+    },
+    "Gem satchel": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Gem satchel",
+        "url": "https://oldschool.runescape.wiki/w/?curid=658831",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Gem_satchel.png"
+      }
+    },
+    "Gem containers": {
+      "category": [
+        "Storage"
+      ],
+      "item": {
+        "name": "Gem containers",
+        "url": "https://oldschool.runescape.wiki/w/?curid=658996",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Gem_containers.png"
       }
     }
   },
@@ -8296,16 +8484,16 @@
         "url": "https://oldschool.runescape.wiki/w/Nid"
       }
     },
-    "Araxyte venom sack": {
+    "Araxyte venom sac": {
       "category": [
         "Collection Log",
         "Bosses",
         "Araxxor"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Araxyte_venom_sack.png",
-        "name": "Araxyte venom sack",
-        "url": "https://oldschool.runescape.wiki/w/Araxyte_venom_sack"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Araxyte_venom_sac.png",
+        "name": "Araxyte venom sac",
+        "url": "https://oldschool.runescape.wiki/w/Araxyte_venom_sac"
       }
     },
     "Spider cave teleport": {
@@ -9893,6 +10081,18 @@
         "name": "Mole claw",
         "url": "https://oldschool.runescape.wiki/w/Mole_claw"
       }
+    },
+    "Immaculate mole skin": {
+      "category": [
+        "Collection Log",
+        "Bosses",
+        "Giant Mole"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Immaculate_mole_skin.png",
+        "name": "Immaculate mole skin",
+        "url": "https://oldschool.runescape.wiki/w/Immaculate_mole_skin"
+      }
     }
   },
   "Collection / Bosses / Grotesque Guardians": {
@@ -10620,6 +10820,44 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Awakener%27s_orb.png",
         "name": "Awakener's orb",
         "url": "https://oldschool.runescape.wiki/w/Awakener%27s_orb"
+      }
+    }
+  },
+  "Collection / Bosses / Maggot King": {
+    "Maggot marquess": {
+      "category": [
+        "Collection Log",
+        "Bosses",
+        "Maggot King"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Maggot_marquess.png",
+        "name": "Maggot marquess",
+        "url": "https://oldschool.runescape.wiki/w/Maggot_marquess"
+      }
+    },
+    "Crimson kisten": {
+      "category": [
+        "Collection Log",
+        "Bosses",
+        "Maggot King"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Crimson_kisten.png",
+        "name": "Crimson kisten",
+        "url": "https://oldschool.runescape.wiki/w/Crimson_kisten"
+      }
+    },
+    "Elder venator fang": {
+      "category": [
+        "Collection Log",
+        "Bosses",
+        "Maggot King"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Elder_venator_fang.png",
+        "name": "Elder venator fang",
+        "url": "https://oldschool.runescape.wiki/w/Elder_venator_fang"
       }
     }
   },
@@ -25501,6 +25739,18 @@
         "name": "Beef",
         "url": "https://oldschool.runescape.wiki/w/Beef"
       }
+    },
+    "Maggot marquess": {
+      "category": [
+        "Collection Log",
+        "Other",
+        "All Pets"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Maggot_marquess.png",
+        "name": "Maggot marquess",
+        "url": "https://oldschool.runescape.wiki/w/Maggot_marquess"
+      }
     }
   },
   "Collection / Other / Boat Paints": {
@@ -27122,6 +27372,18 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Ballistic_attractor_schematic.png",
         "name": "Ballistic attractor schematic",
         "url": "https://oldschool.runescape.wiki/w/Ballistic_attractor_schematic"
+      }
+    },
+    "Bosun's workbench schematic": {
+      "category": [
+        "Collection Log",
+        "Other",
+        "Lost Schematics"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Bosun%27s_workbench_schematic.png",
+        "name": "Bosun's workbench schematic",
+        "url": "https://oldschool.runescape.wiki/w/Bosun%27s_workbench_schematic"
       }
     }
   },
@@ -29550,16 +29812,16 @@
         "url": "https://oldschool.runescape.wiki/w/Ancient_ceremonial_boots"
       }
     },
-    "Warped sceptre": {
+    "Warped sceptre (uncharged)": {
       "category": [
         "Collection Log",
         "Other",
         "Slayer"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Warped_sceptre.png",
-        "name": "Warped sceptre",
-        "url": "https://oldschool.runescape.wiki/w/Warped_sceptre"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Warped_sceptre_%28uncharged%29.png",
+        "name": "Warped sceptre (uncharged)",
+        "url": "https://oldschool.runescape.wiki/w/Warped_sceptre_(uncharged)"
       }
     },
     "Sulphur blades": {
@@ -29716,6 +29978,30 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Gryphon_feather.png",
         "name": "Gryphon feather",
         "url": "https://oldschool.runescape.wiki/w/Gryphon_feather"
+      }
+    },
+    "Venator tooth": {
+      "category": [
+        "Collection Log",
+        "Other",
+        "Slayer"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Venator_tooth.png",
+        "name": "Venator tooth",
+        "url": "https://oldschool.runescape.wiki/w/Venator_tooth"
+      }
+    },
+    "Venator fang": {
+      "category": [
+        "Collection Log",
+        "Other",
+        "Slayer"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Venator_fang.png",
+        "name": "Venator fang",
+        "url": "https://oldschool.runescape.wiki/w/Venator_fang"
       }
     }
   },

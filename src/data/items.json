@@ -1,36 +1,36 @@
 {
   "Equipment / head": {
-    "3rd age full helmet": {
+    "3rd Age full helmet": {
       "category": [
         "Equipment",
         "head"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_full_helmet.png",
-        "name": "3rd age full helmet",
-        "url": "/w/3rd_age_full_helmet"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_full_helmet.png",
+        "name": "3rd Age full helmet",
+        "url": "/w/3rd_Age_full_helmet"
       }
     },
-    "3rd age mage hat": {
+    "3rd Age mage hat": {
       "category": [
         "Equipment",
         "head"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_mage_hat.png",
-        "name": "3rd age mage hat",
-        "url": "/w/3rd_age_mage_hat"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_mage_hat.png",
+        "name": "3rd Age mage hat",
+        "url": "/w/3rd_Age_mage_hat"
       }
     },
-    "3rd age range coif": {
+    "3rd Age range coif": {
       "category": [
         "Equipment",
         "head"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_range_coif.png",
-        "name": "3rd age range coif",
-        "url": "/w/3rd_age_range_coif"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_range_coif.png",
+        "name": "3rd Age range coif",
+        "url": "/w/3rd_Age_range_coif"
       }
     },
     "Ahrim's hood": {
@@ -187,15 +187,15 @@
         "url": "/w/Berserker_helm"
       }
     },
-    "Blood moon helm": {
+    "Blood Moon helm": {
       "category": [
         "Equipment",
         "head"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blood_moon_helm.png",
-        "name": "Blood moon helm",
-        "url": "/w/Blood_moon_helm#New"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blood_Moon_helm.png",
+        "name": "Blood Moon helm",
+        "url": "/w/Blood_Moon_helm#New"
       }
     },
     "Bloodbark helm": {
@@ -209,15 +209,15 @@
         "url": "/w/Bloodbark_helm"
       }
     },
-    "Blue moon helm": {
+    "Blue Moon helm": {
       "category": [
         "Equipment",
         "head"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_moon_helm.png",
-        "name": "Blue moon helm",
-        "url": "/w/Blue_moon_helm#New"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_Moon_helm.png",
+        "name": "Blue Moon helm",
+        "url": "/w/Blue_Moon_helm#New"
       }
     },
     "Brassica halo": {
@@ -297,15 +297,15 @@
         "url": "/w/Dwarven_helmet"
       }
     },
-    "Eclipse moon helm": {
+    "Eclipse Moon helm": {
       "category": [
         "Equipment",
         "head"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Eclipse_moon_helm.png",
-        "name": "Eclipse moon helm",
-        "url": "/w/Eclipse_moon_helm#New"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Eclipse_Moon_helm.png",
+        "name": "Eclipse Moon helm",
+        "url": "/w/Eclipse_Moon_helm#New"
       }
     },
     "Elder chaos hood": {
@@ -418,15 +418,15 @@
         "url": "/w/Healer_hat#Normal"
       }
     },
-    "Helm of neitiznot": {
+    "Helm of Neitiznot": {
       "category": [
         "Equipment",
         "head"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Helm_of_neitiznot.png",
-        "name": "Helm of neitiznot",
-        "url": "/w/Helm_of_neitiznot"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Helm_of_Neitiznot.png",
+        "name": "Helm of Neitiznot",
+        "url": "/w/Helm_of_Neitiznot"
       }
     },
     "Helmet of the moon": {
@@ -594,15 +594,15 @@
         "url": "/w/Radiant_oathplate_helm"
       }
     },
-    "Robin hood hat": {
+    "Robin Hood hat": {
       "category": [
         "Equipment",
         "head"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Robin_hood_hat.png",
-        "name": "Robin hood hat",
-        "url": "/w/Robin_hood_hat"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Robin_Hood_hat.png",
+        "name": "Robin Hood hat",
+        "url": "/w/Robin_Hood_hat"
       }
     },
     "Sanguine torva full helm": {
@@ -827,48 +827,48 @@
     }
   },
   "Equipment / body": {
-    "3rd age druidic robe top": {
+    "3rd Age druidic robe top": {
       "category": [
         "Equipment",
         "body"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_druidic_robe_top.png",
-        "name": "3rd age druidic robe top",
-        "url": "/w/3rd_age_druidic_robe_top"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_druidic_robe_top.png",
+        "name": "3rd Age druidic robe top",
+        "url": "/w/3rd_Age_druidic_robe_top"
       }
     },
-    "3rd age platebody": {
+    "3rd Age platebody": {
       "category": [
         "Equipment",
         "body"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_platebody.png",
-        "name": "3rd age platebody",
-        "url": "/w/3rd_age_platebody"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_platebody.png",
+        "name": "3rd Age platebody",
+        "url": "/w/3rd_Age_platebody"
       }
     },
-    "3rd age range top": {
+    "3rd Age range top": {
       "category": [
         "Equipment",
         "body"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_range_top.png",
-        "name": "3rd age range top",
-        "url": "/w/3rd_age_range_top"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_range_top.png",
+        "name": "3rd Age range top",
+        "url": "/w/3rd_Age_range_top"
       }
     },
-    "3rd age robe top": {
+    "3rd Age robe top": {
       "category": [
         "Equipment",
         "body"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_robe_top.png",
-        "name": "3rd age robe top",
-        "url": "/w/3rd_age_robe_top"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_robe_top.png",
+        "name": "3rd Age robe top",
+        "url": "/w/3rd_Age_robe_top"
       }
     },
     "Ahrim's robetop": {
@@ -1003,15 +1003,15 @@
         "url": "/w/Black_d%27hide_body"
       }
     },
-    "Blood moon chestplate": {
+    "Blood Moon chestplate": {
       "category": [
         "Equipment",
         "body"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blood_moon_chestplate.png",
-        "name": "Blood moon chestplate",
-        "url": "/w/Blood_moon_chestplate#New"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blood_Moon_chestplate.png",
+        "name": "Blood Moon chestplate",
+        "url": "/w/Blood_Moon_chestplate#New"
       }
     },
     "Bloodbark body": {
@@ -1025,15 +1025,15 @@
         "url": "/w/Bloodbark_body"
       }
     },
-    "Blue moon chestplate": {
+    "Blue Moon chestplate": {
       "category": [
         "Equipment",
         "body"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_moon_chestplate.png",
-        "name": "Blue moon chestplate",
-        "url": "/w/Blue_moon_chestplate#New"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_Moon_chestplate.png",
+        "name": "Blue Moon chestplate",
+        "url": "/w/Blue_Moon_chestplate#New"
       }
     },
     "Crystal body": {
@@ -1102,15 +1102,15 @@
         "url": "/w/Druid%27s_robe_top"
       }
     },
-    "Eclipse moon chestplate": {
+    "Eclipse Moon chestplate": {
       "category": [
         "Equipment",
         "body"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Eclipse_moon_chestplate.png",
-        "name": "Eclipse moon chestplate",
-        "url": "/w/Eclipse_moon_chestplate#New"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Eclipse_Moon_chestplate.png",
+        "name": "Eclipse Moon chestplate",
+        "url": "/w/Eclipse_Moon_chestplate#New"
       }
     },
     "Elder chaos top": {
@@ -1621,15 +1621,15 @@
         "url": "/w/Ava%27s_attractor"
       }
     },
-    "Blessed dizana's quiver": {
+    "Blessed Dizana's quiver": {
       "category": [
         "Equipment",
         "cape"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blessed_dizana%27s_quiver.png",
-        "name": "Blessed dizana's quiver",
-        "url": "/w/Blessed_dizana%27s_quiver#Normal"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blessed_Dizana%27s_quiver.png",
+        "name": "Blessed Dizana's quiver",
+        "url": "/w/Blessed_Dizana%27s_quiver#Normal"
       }
     },
     "Dizana's max cape": {
@@ -1698,70 +1698,70 @@
         "url": "/w/Guthix_max_cape"
       }
     },
-    "Imbued guthix cape": {
+    "Imbued Guthix cape": {
       "category": [
         "Equipment",
         "cape"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Imbued_guthix_cape.png",
-        "name": "Imbued guthix cape",
-        "url": "/w/Imbued_guthix_cape#Normal"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Imbued_Guthix_cape.png",
+        "name": "Imbued Guthix cape",
+        "url": "/w/Imbued_Guthix_cape#Normal"
       }
     },
-    "Imbued guthix max cape": {
+    "Imbued Guthix max cape": {
       "category": [
         "Equipment",
         "cape"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Imbued_guthix_max_cape.png",
-        "name": "Imbued guthix max cape",
-        "url": "/w/Imbued_guthix_max_cape#Normal"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Imbued_Guthix_max_cape.png",
+        "name": "Imbued Guthix max cape",
+        "url": "/w/Imbued_Guthix_max_cape#Normal"
       }
     },
-    "Imbued saradomin cape": {
+    "Imbued Saradomin cape": {
       "category": [
         "Equipment",
         "cape"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Imbued_saradomin_cape.png",
-        "name": "Imbued saradomin cape",
-        "url": "/w/Imbued_saradomin_cape#Normal"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Imbued_Saradomin_cape.png",
+        "name": "Imbued Saradomin cape",
+        "url": "/w/Imbued_Saradomin_cape#Normal"
       }
     },
-    "Imbued saradomin max cape": {
+    "Imbued Saradomin max cape": {
       "category": [
         "Equipment",
         "cape"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Imbued_saradomin_max_cape.png",
-        "name": "Imbued saradomin max cape",
-        "url": "/w/Imbued_saradomin_max_cape#Normal"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Imbued_Saradomin_max_cape.png",
+        "name": "Imbued Saradomin max cape",
+        "url": "/w/Imbued_Saradomin_max_cape#Normal"
       }
     },
-    "Imbued zamorak cape": {
+    "Imbued Zamorak cape": {
       "category": [
         "Equipment",
         "cape"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Imbued_zamorak_cape.png",
-        "name": "Imbued zamorak cape",
-        "url": "/w/Imbued_zamorak_cape#Normal"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Imbued_Zamorak_cape.png",
+        "name": "Imbued Zamorak cape",
+        "url": "/w/Imbued_Zamorak_cape#Normal"
       }
     },
-    "Imbued zamorak max cape": {
+    "Imbued Zamorak max cape": {
       "category": [
         "Equipment",
         "cape"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Imbued_zamorak_max_cape.png",
-        "name": "Imbued zamorak max cape",
-        "url": "/w/Imbued_zamorak_max_cape#Normal"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Imbued_Zamorak_max_cape.png",
+        "name": "Imbued Zamorak max cape",
+        "url": "/w/Imbued_Zamorak_max_cape#Normal"
       }
     },
     "Infernal cape": {
@@ -1898,15 +1898,26 @@
     }
   },
   "Equipment / neck": {
-    "3rd age amulet": {
+    "3rd Age amulet": {
       "category": [
         "Equipment",
         "neck"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_amulet.png",
-        "name": "3rd age amulet",
-        "url": "/w/3rd_age_amulet"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_amulet.png",
+        "name": "3rd Age amulet",
+        "url": "/w/3rd_Age_amulet"
+      }
+    },
+    "Amulet of air": {
+      "category": [
+        "Equipment",
+        "neck"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_air.png",
+        "name": "Amulet of air",
+        "url": "/w/Amulet_of_air"
       }
     },
     "Amulet of avarice": {
@@ -1942,6 +1953,17 @@
         "url": "/w/Amulet_of_defence"
       }
     },
+    "Amulet of earth": {
+      "category": [
+        "Equipment",
+        "neck"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_earth.png",
+        "name": "Amulet of earth",
+        "url": "/w/Amulet_of_earth"
+      }
+    },
     "Amulet of eternal glory": {
       "category": [
         "Equipment",
@@ -1951,6 +1973,17 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_eternal_glory.png",
         "name": "Amulet of eternal glory",
         "url": "/w/Amulet_of_eternal_glory"
+      }
+    },
+    "Amulet of fire": {
+      "category": [
+        "Equipment",
+        "neck"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_fire.png",
+        "name": "Amulet of fire",
+        "url": "/w/Amulet_of_fire"
       }
     },
     "Amulet of fury": {
@@ -1970,9 +2003,9 @@
         "neck"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_glory_%28t4%29.png",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_glory%284%29.png",
         "name": "Amulet of glory",
-        "url": "/w/Amulet_of_glory_(t)#(t4)"
+        "url": "/w/Amulet_of_glory#4"
       }
     },
     "Amulet of magic": {
@@ -2019,15 +2052,15 @@
         "url": "/w/Amulet_of_strength"
       }
     },
-    "Amulet of the damned": {
+    "Amulet of the Damned": {
       "category": [
         "Equipment",
         "neck"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_the_damned_%28full%29.png",
-        "name": "Amulet of the damned",
-        "url": "/w/Amulet_of_the_damned#Full"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_the_Damned_%28full%29.png",
+        "name": "Amulet of the Damned",
+        "url": "/w/Amulet_of_the_Damned#Full"
       }
     },
     "Amulet of torture": {
@@ -2041,15 +2074,26 @@
         "url": "/w/Amulet_of_torture"
       }
     },
-    "Beads of the dead": {
+    "Amulet of water": {
       "category": [
         "Equipment",
         "neck"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Beads_of_the_dead.png",
-        "name": "Beads of the dead",
-        "url": "/w/Beads_of_the_dead"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_water.png",
+        "name": "Amulet of water",
+        "url": "/w/Amulet_of_water"
+      }
+    },
+    "Beads of the Dead": {
+      "category": [
+        "Equipment",
+        "neck"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Beads_of_the_Dead.png",
+        "name": "Beads of the Dead",
+        "url": "/w/Beads_of_the_Dead"
       }
     },
     "Berserker necklace": {
@@ -2085,6 +2129,17 @@
         "url": "/w/Dragonbone_necklace"
       }
     },
+    "Elemental amulet": {
+      "category": [
+        "Equipment",
+        "neck"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Elemental_amulet.png",
+        "name": "Elemental amulet",
+        "url": "/w/Elemental_amulet"
+      }
+    },
     "Gnome amulet": {
       "category": [
         "Equipment",
@@ -2105,6 +2160,17 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Necklace_of_anguish.png",
         "name": "Necklace of anguish",
         "url": "/w/Necklace_of_anguish"
+      }
+    },
+    "Necklace of Fangs": {
+      "category": [
+        "Equipment",
+        "neck"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Necklace_of_Fangs.png",
+        "name": "Necklace of Fangs",
+        "url": "/w/Necklace_of_Fangs"
       }
     },
     "Necklace of rupture": {
@@ -2340,17 +2406,6 @@
         "url": "/w/Field_arrow"
       }
     },
-    "Ghommal's lucky penny": {
-      "category": [
-        "Equipment",
-        "ammunition"
-      ],
-      "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Ghommal%27s_lucky_penny.png",
-        "name": "Ghommal's lucky penny",
-        "url": "/w/Ghommal%27s_lucky_penny"
-      }
-    },
     "Holy blessing": {
       "category": [
         "Equipment",
@@ -2573,15 +2628,15 @@
     }
   },
   "Equipment / shield": {
-    "3rd age kiteshield": {
+    "3rd Age kiteshield": {
       "category": [
         "Equipment",
         "shield"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_kiteshield.png",
-        "name": "3rd age kiteshield",
-        "url": "/w/3rd_age_kiteshield"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_kiteshield.png",
+        "name": "3rd Age kiteshield",
+        "url": "/w/3rd_Age_kiteshield"
       }
     },
     "Ancient wyvern shield": {
@@ -2650,59 +2705,59 @@
         "url": "/w/Blessed_spirit_shield"
       }
     },
-    "Book of balance": {
+    "Book of Balance": {
       "category": [
         "Equipment",
         "shield"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Book_of_balance.png",
-        "name": "Book of balance",
-        "url": "/w/Book_of_balance"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Book_of_Balance.png",
+        "name": "Book of Balance",
+        "url": "/w/Book_of_Balance"
       }
     },
-    "Book of darkness": {
+    "Book of Darkness": {
       "category": [
         "Equipment",
         "shield"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Book_of_darkness.png",
-        "name": "Book of darkness",
-        "url": "/w/Book_of_darkness"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Book_of_Darkness.png",
+        "name": "Book of Darkness",
+        "url": "/w/Book_of_Darkness"
       }
     },
-    "Book of law": {
+    "Book of Law": {
       "category": [
         "Equipment",
         "shield"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Book_of_law.png",
-        "name": "Book of law",
-        "url": "/w/Book_of_law"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Book_of_Law.png",
+        "name": "Book of Law",
+        "url": "/w/Book_of_Law"
       }
     },
-    "Book of the dead": {
+    "Book of the Dead": {
       "category": [
         "Equipment",
         "shield"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Book_of_the_dead.png",
-        "name": "Book of the dead",
-        "url": "/w/Book_of_the_dead"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Book_of_the_Dead.png",
+        "name": "Book of the Dead",
+        "url": "/w/Book_of_the_Dead"
       }
     },
-    "Book of war": {
+    "Book of War": {
       "category": [
         "Equipment",
         "shield"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Book_of_war.png",
-        "name": "Book of war",
-        "url": "/w/Book_of_war"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Book_of_War.png",
+        "name": "Book of War",
+        "url": "/w/Book_of_War"
       }
     },
     "Broodoo shield": {
@@ -2925,37 +2980,37 @@
         "url": "/w/Toktz-ket-xil"
       }
     },
-    "Tome of earth": {
+    "Tome of Earth": {
       "category": [
         "Equipment",
         "shield"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Tome_of_earth.png",
-        "name": "Tome of earth",
-        "url": "/w/Tome_of_earth#Charged"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Tome_of_Earth.png",
+        "name": "Tome of Earth",
+        "url": "/w/Tome_of_Earth#Charged"
       }
     },
-    "Tome of fire": {
+    "Tome of Fire": {
       "category": [
         "Equipment",
         "shield"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Tome_of_fire.png",
-        "name": "Tome of fire",
-        "url": "/w/Tome_of_fire#Charged"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Tome_of_Fire.png",
+        "name": "Tome of Fire",
+        "url": "/w/Tome_of_Fire#Charged"
       }
     },
-    "Tome of water": {
+    "Tome of Water": {
       "category": [
         "Equipment",
         "shield"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Tome_of_water.png",
-        "name": "Tome of water",
-        "url": "/w/Tome_of_water#Charged"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Tome_of_Water.png",
+        "name": "Tome of Water",
+        "url": "/w/Tome_of_Water#Charged"
       }
     },
     "Twisted buckler": {
@@ -2982,59 +3037,59 @@
     }
   },
   "Equipment / one-handed": {
-    "3rd age axe": {
+    "3rd Age axe": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_axe.png",
-        "name": "3rd age axe",
-        "url": "/w/3rd_age_axe"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_axe.png",
+        "name": "3rd Age axe",
+        "url": "/w/3rd_Age_axe"
       }
     },
-    "3rd age druidic staff": {
+    "3rd Age druidic staff": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_druidic_staff.png",
-        "name": "3rd age druidic staff",
-        "url": "/w/3rd_age_druidic_staff"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_druidic_staff.png",
+        "name": "3rd Age druidic staff",
+        "url": "/w/3rd_Age_druidic_staff"
       }
     },
-    "3rd age longsword": {
+    "3rd Age longsword": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_longsword.png",
-        "name": "3rd age longsword",
-        "url": "/w/3rd_age_longsword"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_longsword.png",
+        "name": "3rd Age longsword",
+        "url": "/w/3rd_Age_longsword"
       }
     },
-    "3rd age pickaxe": {
+    "3rd Age pickaxe": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_pickaxe.png",
-        "name": "3rd age pickaxe",
-        "url": "/w/3rd_age_pickaxe"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_pickaxe.png",
+        "name": "3rd Age pickaxe",
+        "url": "/w/3rd_Age_pickaxe"
       }
     },
-    "3rd age wand": {
+    "3rd Age wand": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_wand.png",
-        "name": "3rd age wand",
-        "url": "/w/3rd_age_wand"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_wand.png",
+        "name": "3rd Age wand",
+        "url": "/w/3rd_Age_wand"
       }
     },
     "Abyssal dagger": {
@@ -3257,15 +3312,26 @@
         "url": "/w/Black_chinchompa"
       }
     },
-    "Blade of saeldor": {
+    "Blade of Saeldor": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blade_of_saeldor_%28c%29.png",
-        "name": "Blade of saeldor",
-        "url": "/w/Blade_of_saeldor_(c)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blade_of_Saeldor_%28c%29.png",
+        "name": "Blade of Saeldor",
+        "url": "/w/Blade_of_Saeldor_(c)"
+      }
+    },
+    "Blade of Saeldor (c)": {
+      "category": [
+        "Equipment",
+        "one-handed"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blade_of_Saeldor_%28c%29_%28Amlodd%29.png",
+        "name": "Blade of Saeldor (c)",
+        "url": "/w/Blade_of_Saeldor_(c)_(Amlodd)"
       }
     },
     "Blisterwood flail": {
@@ -3686,15 +3752,15 @@
         "url": "/w/Earth_battlestaff"
       }
     },
-    "Eldritch nightmare staff": {
+    "Eldritch Nightmare staff": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Eldritch_nightmare_staff.png",
-        "name": "Eldritch nightmare staff",
-        "url": "/w/Eldritch_nightmare_staff"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Eldritch_Nightmare_staff.png",
+        "name": "Eldritch Nightmare staff",
+        "url": "/w/Eldritch_Nightmare_staff"
       }
     },
     "Emberlight": {
@@ -3708,15 +3774,15 @@
         "url": "/w/Emberlight"
       }
     },
-    "Eye of ayak": {
+    "Eye of Ayak": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Eye_of_ayak.png",
-        "name": "Eye of ayak",
-        "url": "/w/Eye_of_ayak#Charged"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Eye_of_Ayak.png",
+        "name": "Eye of Ayak",
+        "url": "/w/Eye_of_Ayak#Charged"
       }
     },
     "Fire battlestaff": {
@@ -3796,15 +3862,15 @@
         "url": "/w/Hallowed_flail"
       }
     },
-    "Harmonised nightmare staff": {
+    "Harmonised Nightmare staff": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Harmonised_nightmare_staff.png",
-        "name": "Harmonised nightmare staff",
-        "url": "/w/Harmonised_nightmare_staff"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Harmonised_Nightmare_staff.png",
+        "name": "Harmonised Nightmare staff",
+        "url": "/w/Harmonised_Nightmare_staff"
       }
     },
     "Holy ghrazi rapier": {
@@ -4511,26 +4577,26 @@
         "url": "/w/Staff_of_air"
       }
     },
-    "Staff of balance": {
+    "Staff of Balance": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Staff_of_balance.png",
-        "name": "Staff of balance",
-        "url": "/w/Staff_of_balance"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Staff_of_Balance.png",
+        "name": "Staff of Balance",
+        "url": "/w/Staff_of_Balance"
       }
     },
-    "Staff of bob the cat": {
+    "Staff of Bob the Cat": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Staff_of_bob_the_cat.png",
-        "name": "Staff of bob the cat",
-        "url": "/w/Staff_of_bob_the_cat"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Staff_of_Bob_the_Cat.png",
+        "name": "Staff of Bob the Cat",
+        "url": "/w/Staff_of_Bob_the_Cat"
       }
     },
     "Staff of earth": {
@@ -4555,26 +4621,26 @@
         "url": "/w/Staff_of_fire"
       }
     },
-    "Staff of light": {
+    "Staff of Light": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Staff_of_light.png",
-        "name": "Staff of light",
-        "url": "/w/Staff_of_light"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Staff_of_Light.png",
+        "name": "Staff of Light",
+        "url": "/w/Staff_of_Light"
       }
     },
-    "Staff of the dead": {
+    "Staff of the Dead": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Staff_of_the_dead.png",
-        "name": "Staff of the dead",
-        "url": "/w/Staff_of_the_dead"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Staff_of_the_Dead.png",
+        "name": "Staff of the Dead",
+        "url": "/w/Staff_of_the_Dead"
       }
     },
     "Staff of water": {
@@ -4665,48 +4731,48 @@
         "url": "/w/Toktz-xil-ul"
       }
     },
-    "Tonalztics of ralos": {
+    "Tonalztics of Ralos": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Tonalztics_of_ralos.png",
-        "name": "Tonalztics of ralos",
-        "url": "/w/Tonalztics_of_ralos#Charged"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Tonalztics_of_Ralos.png",
+        "name": "Tonalztics of Ralos",
+        "url": "/w/Tonalztics_of_Ralos#Charged"
       }
     },
-    "Toxic staff of the dead": {
+    "Toxic Staff of the Dead": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Toxic_staff_of_the_dead.png",
-        "name": "Toxic staff of the dead",
-        "url": "/w/Toxic_staff_of_the_dead#Charged"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Toxic_Staff_of_the_Dead.png",
+        "name": "Toxic Staff of the Dead",
+        "url": "/w/Toxic_Staff_of_the_Dead#Charged"
       }
     },
-    "Trident of the seas": {
+    "Trident of the Seas": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Trident_of_the_seas_%28e%29.png",
-        "name": "Trident of the seas",
-        "url": "/w/Trident_of_the_seas_(e)#Charged"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Trident_of_the_Seas_%28e%29.png",
+        "name": "Trident of the Seas",
+        "url": "/w/Trident_of_the_Seas_(e)#Charged"
       }
     },
-    "Trident of the swamp": {
+    "Trident of the Swamp": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Trident_of_the_swamp_%28e%29.png",
-        "name": "Trident of the swamp",
-        "url": "/w/Trident_of_the_swamp_(e)#Charged"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Trident_of_the_Swamp_%28e%29.png",
+        "name": "Trident of the Swamp",
+        "url": "/w/Trident_of_the_Swamp_(e)#Charged"
       }
     },
     "Twinflame staff": {
@@ -4775,15 +4841,15 @@
         "url": "/w/Voidwaker"
       }
     },
-    "Volatile nightmare staff": {
+    "Volatile Nightmare staff": {
       "category": [
         "Equipment",
         "one-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Volatile_nightmare_staff.png",
-        "name": "Volatile nightmare staff",
-        "url": "/w/Volatile_nightmare_staff"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Volatile_Nightmare_staff.png",
+        "name": "Volatile Nightmare staff",
+        "url": "/w/Volatile_Nightmare_staff"
       }
     },
     "Warped sceptre": {
@@ -4865,26 +4931,26 @@
     }
   },
   "Equipment / two-handed": {
-    "3rd age bow": {
+    "3rd Age bow": {
       "category": [
         "Equipment",
         "two-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_bow.png",
-        "name": "3rd age bow",
-        "url": "/w/3rd_age_bow"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_bow.png",
+        "name": "3rd Age bow",
+        "url": "/w/3rd_Age_bow"
       }
     },
-    "3rd age felling axe": {
+    "3rd Age felling axe": {
       "category": [
         "Equipment",
         "two-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_felling_axe.png",
-        "name": "3rd age felling axe",
-        "url": "/w/3rd_age_felling_axe"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_felling_axe.png",
+        "name": "3rd Age felling axe",
+        "url": "/w/3rd_Age_felling_axe"
       }
     },
     "Abyssal bludgeon": {
@@ -4953,15 +5019,15 @@
         "url": "/w/Black_salamander"
       }
     },
-    "Blue moon spear": {
+    "Blue Moon spear": {
       "category": [
         "Equipment",
         "two-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_moon_spear.png",
-        "name": "Blue moon spear",
-        "url": "/w/Blue_moon_spear"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_Moon_spear.png",
+        "name": "Blue Moon spear",
+        "url": "/w/Blue_Moon_spear"
       }
     },
     "Bone shortbow": {
@@ -4975,15 +5041,15 @@
         "url": "/w/Bone_shortbow"
       }
     },
-    "Bow of faerdhinen": {
+    "Bow of Faerdhinen": {
       "category": [
         "Equipment",
         "two-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Bow_of_faerdhinen_%28c%29.png",
-        "name": "Bow of faerdhinen",
-        "url": "/w/Bow_of_faerdhinen_(c)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Bow_of_Faerdhinen_%28c%29.png",
+        "name": "Bow of Faerdhinen",
+        "url": "/w/Bow_of_Faerdhinen_(c)"
       }
     },
     "Burning claws": {
@@ -5250,6 +5316,17 @@
         "url": "/w/Guthan%27s_warspear#Undamaged"
       }
     },
+    "Hallowfell": {
+      "category": [
+        "Equipment",
+        "two-handed"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Hallowfell.png",
+        "name": "Hallowfell",
+        "url": "/w/Hallowfell"
+      }
+    },
     "Heavy ballista": {
       "category": [
         "Equipment",
@@ -5404,15 +5481,15 @@
         "url": "/w/Rune_halberd"
       }
     },
-    "Sanguine scythe of vitur": {
+    "Sanguine Scythe of Vitur": {
       "category": [
         "Equipment",
         "two-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Sanguine_scythe_of_vitur.png",
-        "name": "Sanguine scythe of vitur",
-        "url": "/w/Sanguine_scythe_of_vitur#Charged"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Sanguine_Scythe_of_Vitur.png",
+        "name": "Sanguine Scythe of Vitur",
+        "url": "/w/Sanguine_Scythe_of_Vitur#Charged"
       }
     },
     "Saradomin godsword": {
@@ -5459,15 +5536,15 @@
         "url": "/w/Scorching_bow"
       }
     },
-    "Scythe of vitur": {
+    "Scythe of Vitur": {
       "category": [
         "Equipment",
         "two-handed"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Scythe_of_vitur.png",
-        "name": "Scythe of vitur",
-        "url": "/w/Scythe_of_vitur#Charged"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Scythe_of_Vitur.png",
+        "name": "Scythe of Vitur",
+        "url": "/w/Scythe_of_Vitur#Charged"
       }
     },
     "Seercull": {
@@ -5659,15 +5736,15 @@
     }
   },
   "Equipment / hands": {
-    "3rd age vambraces": {
+    "3rd Age vambraces": {
       "category": [
         "Equipment",
         "hands"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_vambraces.png",
-        "name": "3rd age vambraces",
-        "url": "/w/3rd_age_vambraces"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_vambraces.png",
+        "name": "3rd Age vambraces",
+        "url": "/w/3rd_Age_vambraces"
       }
     },
     "Ancient bracers": {
@@ -5991,15 +6068,15 @@
         "url": "/w/Bloodbark_boots"
       }
     },
-    "Boots of brimstone": {
+    "Boots of Brimstone": {
       "category": [
         "Equipment",
         "feet"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Boots_of_brimstone.png",
-        "name": "Boots of brimstone",
-        "url": "/w/Boots_of_brimstone"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Boots_of_Brimstone.png",
+        "name": "Boots of Brimstone",
+        "url": "/w/Boots_of_Brimstone"
       }
     },
     "Boots of darkness": {
@@ -6705,7 +6782,7 @@
         "Skilling Items"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Hat_of_the_eye.png",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Hat_of_the_Eye.png",
         "name": "Raiments of the Eye",
         "url": "https://oldschool.runescape.wiki/w/Raiments_of_the_Eye"
       }
@@ -6715,7 +6792,7 @@
         "Skilling Items"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Hat_of_the_eye_%28red%29.png",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Hat_of_the_Eye_%28red%29.png",
         "name": "Red Raiments of the Eye",
         "url": "https://oldschool.runescape.wiki/w/Raiments_of_the_Eye#Components"
       }
@@ -6725,7 +6802,7 @@
         "Skilling Items"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Hat_of_the_eye_%28green%29.png",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Hat_of_the_Eye_%28green%29.png",
         "name": "Green Raiments of the Eye",
         "url": "https://oldschool.runescape.wiki/w/Raiments_of_the_Eye#Components"
       }
@@ -6735,7 +6812,7 @@
         "Skilling Items"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Hat_of_the_eye_%28blue%29.png",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Hat_of_the_Eye_%28blue%29.png",
         "name": "Blue Raiments of the Eye",
         "url": "https://oldschool.runescape.wiki/w/Raiments_of_the_Eye#Components"
       }
@@ -6800,6 +6877,16 @@
         "url": "https://oldschool.runescape.wiki/w/Ring_of_endurance"
       }
     },
+    "Medallion of the Deep": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Medallion_of_the_Deep.png",
+        "name": "Medallion of the Deep",
+        "url": "https://oldschool.runescape.wiki/w/Medallion_of_the_Deep"
+      }
+    },
     "Amy's saw": {
       "category": [
         "Skilling Items"
@@ -6820,6 +6907,16 @@
         "url": "https://oldschool.runescape.wiki/w/Imcando_hammer"
       }
     },
+    "Plank sack": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Plank_sack.png",
+        "name": "Plank sack",
+        "url": "https://oldschool.runescape.wiki/w/Plank_sack"
+      }
+    },
     "Cooking gauntlets": {
       "category": [
         "Skilling Items"
@@ -6828,6 +6925,16 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Cooking_gauntlets.png",
         "name": "Cooking gauntlets",
         "url": "https://oldschool.runescape.wiki/w/Cooking_gauntlets"
+      }
+    },
+    "Infernal harpoon": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Infernal_harpoon.png",
+        "name": "Infernal harpoon",
+        "url": "https://oldschool.runescape.wiki/w/Infernal_harpoon"
       }
     },
     "Cooking cape": {
@@ -6840,6 +6947,16 @@
         "url": "https://oldschool.runescape.wiki/w/Cooking_cape"
       }
     },
+    "Jeweller's chisel": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jeweller%27s_chisel.png",
+        "name": "Jeweller's chisel",
+        "url": "https://oldschool.runescape.wiki/w/Jeweller%27s_chisel"
+      }
+    },
     "Amulet of bounty": {
       "category": [
         "Skilling Items"
@@ -6850,14 +6967,14 @@
         "url": "https://oldschool.runescape.wiki/w/Amulet_of_bounty"
       }
     },
-    "Amulet of nature": {
+    "Amulet of Nature": {
       "category": [
         "Skilling Items"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_nature.png",
-        "name": "Amulet of nature",
-        "url": "https://oldschool.runescape.wiki/w/Amulet_of_nature"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_Nature.png",
+        "name": "Amulet of Nature",
+        "url": "https://oldschool.runescape.wiki/w/Amulet_of_Nature"
       }
     },
     "Magic secateurs": {
@@ -6880,6 +6997,26 @@
         "url": "https://oldschool.runescape.wiki/w/Farming_cape"
       }
     },
+    "Seed box": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Seed_box.png",
+        "name": "Seed box",
+        "url": "https://oldschool.runescape.wiki/w/Seed_box"
+      }
+    },
+    "Infernal axe": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Infernal_axe.png",
+        "name": "Infernal axe",
+        "url": "https://oldschool.runescape.wiki/w/Infernal_axe"
+      }
+    },
     "Fish sack barrel": {
       "category": [
         "Skilling Items"
@@ -6898,6 +7035,26 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Rada%27s_blessing_1.png",
         "name": "Rada's blessing",
         "url": "https://oldschool.runescape.wiki/w/Rada%27s_blessing"
+      }
+    },
+    "Pearl rod": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pearl_fishing_rod.png",
+        "name": "Pearl rod",
+        "url": "https://oldschool.runescape.wiki/w/Pearl_rod_(disambiguation)"
+      }
+    },
+    "Crystal harpoon": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Crystal_harpoon.png",
+        "name": "Crystal harpoon",
+        "url": "https://oldschool.runescape.wiki/w/Crystal_harpoon"
       }
     },
     "Bow string spool": {
@@ -7000,14 +7157,14 @@
         "url": "https://oldschool.runescape.wiki/w/Ring_of_pursuit"
       }
     },
-    "Horn of plenty": {
+    "Horn of Plenty": {
       "category": [
         "Skilling Items"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Horn_of_plenty.png",
-        "name": "Horn of plenty",
-        "url": "https://oldschool.runescape.wiki/w/Horn_of_plenty"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Horn_of_Plenty.png",
+        "name": "Horn of Plenty",
+        "url": "https://oldschool.runescape.wiki/w/Horn_of_Plenty"
       }
     },
     "Amulet of glory": {
@@ -7060,14 +7217,34 @@
         "url": "https://oldschool.runescape.wiki/w/Varrock_armour"
       }
     },
-    "Gem bag": {
+    "Gem sack": {
       "category": [
         "Skilling Items"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Gem_bag.png",
-        "name": "Gem bag",
-        "url": "https://oldschool.runescape.wiki/w/Gem_bag"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Gem_sack.png",
+        "name": "Gem sack",
+        "url": "https://oldschool.runescape.wiki/w/Gem_sack"
+      }
+    },
+    "Coal bag": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Coal_bag.png",
+        "name": "Coal bag",
+        "url": "https://oldschool.runescape.wiki/w/Coal_bag"
+      }
+    },
+    "Crystal pickaxe": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Crystal_pickaxe.png",
+        "name": "Crystal pickaxe",
+        "url": "https://oldschool.runescape.wiki/w/Crystal_pickaxe"
       }
     },
     "Mining cape": {
@@ -7088,6 +7265,16 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Binding_necklace.png",
         "name": "Binding necklace",
         "url": "https://oldschool.runescape.wiki/w/Binding_necklace"
+      }
+    },
+    "Abyssal lantern": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Abyssal_lantern.png",
+        "name": "Abyssal lantern",
+        "url": "https://oldschool.runescape.wiki/w/Abyssal_lantern"
       }
     },
     "Runecraft cape": {
@@ -7118,6 +7305,16 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Goldsmith_gauntlets.png",
         "name": "Goldsmith gauntlets",
         "url": "https://oldschool.runescape.wiki/w/Goldsmith_gauntlets"
+      }
+    },
+    "Infernal pickaxe": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Infernal_pickaxe.png",
+        "name": "Infernal pickaxe",
+        "url": "https://oldschool.runescape.wiki/w/Infernal_pickaxe"
       }
     },
     "Smithing cape": {
@@ -7188,6 +7385,16 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Felling_axe_handle.png",
         "name": "Felling axe handle",
         "url": "https://oldschool.runescape.wiki/w/Felling_axe_handle"
+      }
+    },
+    "Crystal axe": {
+      "category": [
+        "Skilling Items"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Crystal_axe.png",
+        "name": "Crystal axe",
+        "url": "https://oldschool.runescape.wiki/w/Crystal_axe"
       }
     },
     "Woodcutting cape": {
@@ -7467,15 +7674,15 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Kharedst%27s_memoirs.png"
       }
     },
-    "Book of the dead": {
+    "Book of the Dead": {
       "category": [
         "Teleports",
         "Quest-related items"
       ],
       "item": {
-        "name": "Book of the dead",
-        "url": "https://oldschool.runescape.wiki/w/Book_of_the_dead",
-        "imgUrl": "https://oldschool.runescape.wiki/images/Book_of_the_dead.png"
+        "name": "Book of the Dead",
+        "url": "https://oldschool.runescape.wiki/w/Book_of_the_Dead",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Book_of_the_Dead.png"
       }
     },
     "Drakan's medallion": {
@@ -7601,15 +7808,15 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Chronicle.png"
       }
     },
-    "Amulet of the eye": {
+    "Amulet of the Eye": {
       "category": [
         "Teleports",
         "Other items"
       ],
       "item": {
-        "name": "Amulet of the eye",
-        "url": "https://oldschool.runescape.wiki/w/Amulet_of_the_eye",
-        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_the_eye.png"
+        "name": "Amulet of the Eye",
+        "url": "https://oldschool.runescape.wiki/w/Amulet_of_the_Eye",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_the_Eye.png"
       }
     },
     "Ring of the elements": {
@@ -7700,15 +7907,15 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Perfected_quetzal_whistle%28i%29.png"
       }
     },
-    "Pendant of ates": {
+    "Pendant of Ates": {
       "category": [
         "Teleports",
         "Other items"
       ],
       "item": {
-        "name": "Pendant of ates",
-        "url": "https://oldschool.runescape.wiki/w/Pendant_of_ates",
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pendant_of_ates.png"
+        "name": "Pendant of Ates",
+        "url": "https://oldschool.runescape.wiki/w/Pendant_of_Ates",
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pendant_of_Ates.png"
       }
     },
     "Ring of shadows": {
@@ -8250,16 +8457,16 @@
         "url": "https://oldschool.runescape.wiki/w/Bludgeon_axon"
       }
     },
-    "Jar of miasma": {
+    "Jar of Miasma": {
       "category": [
         "Collection Log",
         "Bosses",
         "Abyssal Sire"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_miasma.png",
-        "name": "Jar of miasma",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_miasma"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Miasma.png",
+        "name": "Jar of Miasma",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Miasma"
       }
     },
     "Abyssal dagger": {
@@ -8288,16 +8495,16 @@
     }
   },
   "Collection / Bosses / Alchemical Hydra": {
-    "Ikkle hydra": {
+    "Ikkle Hydra": {
       "category": [
         "Collection Log",
         "Bosses",
         "Alchemical Hydra"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Ikkle_hydra_%28serpentine%29.png",
-        "name": "Ikkle hydra",
-        "url": "https://oldschool.runescape.wiki/w/Ikkle_hydra"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Ikkle_Hydra_%28serpentine%29.png",
+        "name": "Ikkle Hydra",
+        "url": "https://oldschool.runescape.wiki/w/Ikkle_Hydra"
       }
     },
     "Hydra's claw": {
@@ -8396,16 +8603,16 @@
         "url": "https://oldschool.runescape.wiki/w/Dragon_thrownaxe"
       }
     },
-    "Jar of chemicals": {
+    "Jar of Chemicals": {
       "category": [
         "Collection Log",
         "Bosses",
         "Alchemical Hydra"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_chemicals.png",
-        "name": "Jar of chemicals",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_chemicals"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Chemicals.png",
+        "name": "Jar of Chemicals",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Chemicals"
       }
     },
     "Alchemical hydra heads": {
@@ -8446,16 +8653,16 @@
         "url": "https://oldschool.runescape.wiki/w/Glacial_temotli"
       }
     },
-    "Pendant of ates (inert)": {
+    "Pendant of Ates (inert)": {
       "category": [
         "Collection Log",
         "Bosses",
         "Amoxliatl"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pendant_of_ates_%28inert%29.png",
-        "name": "Pendant of ates (inert)",
-        "url": "https://oldschool.runescape.wiki/w/Pendant_of_ates_(inert)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pendant_of_Ates_%28inert%29.png",
+        "name": "Pendant of Ates (inert)",
+        "url": "https://oldschool.runescape.wiki/w/Pendant_of_Ates_(inert)"
       }
     },
     "Frozen tear": {
@@ -8568,16 +8775,16 @@
         "url": "https://oldschool.runescape.wiki/w/Araxyte_head"
       }
     },
-    "Jar of venom": {
+    "Jar of Venom": {
       "category": [
         "Collection Log",
         "Bosses",
         "Araxxor"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_venom.png",
-        "name": "Jar of venom",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_venom"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Venom.png",
+        "name": "Jar of Venom",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Venom"
       }
     },
     "Coagulated venom": {
@@ -9008,16 +9215,16 @@
         "url": "https://oldschool.runescape.wiki/w/Dragon_2h_sword"
       }
     },
-    "Claws of callisto": {
+    "Claws of Callisto": {
       "category": [
         "Collection Log",
         "Bosses",
         "Callisto and Artio"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Claws_of_callisto.png",
-        "name": "Claws of callisto",
-        "url": "https://oldschool.runescape.wiki/w/Claws_of_callisto"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Claws_of_Callisto.png",
+        "name": "Claws of Callisto",
+        "url": "https://oldschool.runescape.wiki/w/Claws_of_Callisto"
       }
     },
     "Voidwaker hilt": {
@@ -9082,16 +9289,16 @@
         "url": "https://oldschool.runescape.wiki/w/Primordial_crystal"
       }
     },
-    "Jar of souls": {
+    "Jar of Souls": {
       "category": [
         "Collection Log",
         "Bosses",
         "Cerberus"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_souls.png",
-        "name": "Jar of souls",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_souls"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Souls.png",
+        "name": "Jar of Souls",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Souls"
       }
     },
     "Smouldering stone": {
@@ -9196,16 +9403,16 @@
     }
   },
   "Collection / Bosses / Commander Zilyana": {
-    "Pet zilyana": {
+    "Pet Zilyana": {
       "category": [
         "Collection Log",
         "Bosses",
         "Commander Zilyana"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_zilyana.png",
-        "name": "Pet zilyana",
-        "url": "https://oldschool.runescape.wiki/w/Pet_zilyana"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Zilyana.png",
+        "name": "Pet Zilyana",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Zilyana"
       }
     },
     "Armadyl crossbow": {
@@ -9366,16 +9573,16 @@
         "url": "https://oldschool.runescape.wiki/w/Spirit_shield"
       }
     },
-    "Jar of spirits": {
+    "Jar of Spirits": {
       "category": [
         "Collection Log",
         "Bosses",
         "Corporeal Beast"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_spirits.png",
-        "name": "Jar of spirits",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_spirits"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Spirits.png",
+        "name": "Jar of Spirits",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Spirits"
       }
     }
   },
@@ -9418,40 +9625,40 @@
     }
   },
   "Collection / Bosses / Dagannoth Kings": {
-    "Pet dagannoth prime": {
+    "Pet Dagannoth Prime": {
       "category": [
         "Collection Log",
         "Bosses",
         "Dagannoth Kings"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_dagannoth_prime.png",
-        "name": "Pet dagannoth prime",
-        "url": "https://oldschool.runescape.wiki/w/Pet_dagannoth_prime"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Dagannoth_Prime.png",
+        "name": "Pet Dagannoth Prime",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Dagannoth_Prime"
       }
     },
-    "Pet dagannoth supreme": {
+    "Pet Dagannoth Supreme": {
       "category": [
         "Collection Log",
         "Bosses",
         "Dagannoth Kings"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_dagannoth_supreme.png",
-        "name": "Pet dagannoth supreme",
-        "url": "https://oldschool.runescape.wiki/w/Pet_dagannoth_supreme"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Dagannoth_Supreme.png",
+        "name": "Pet Dagannoth Supreme",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Dagannoth_Supreme"
       }
     },
-    "Pet dagannoth rex": {
+    "Pet Dagannoth Rex": {
       "category": [
         "Collection Log",
         "Bosses",
         "Dagannoth Kings"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_dagannoth_rex.png",
-        "name": "Pet dagannoth rex",
-        "url": "https://oldschool.runescape.wiki/w/Pet_dagannoth_rex"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Dagannoth_Rex.png",
+        "name": "Pet Dagannoth Rex",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Dagannoth_Rex"
       }
     },
     "Berserker ring": {
@@ -9578,16 +9785,16 @@
         "url": "https://oldschool.runescape.wiki/w/Avernic_treads"
       }
     },
-    "Eye of ayak (uncharged)": {
+    "Eye of Ayak (uncharged)": {
       "category": [
         "Collection Log",
         "Bosses",
         "Doom of Mokhaiotl"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Eye_of_ayak_%28uncharged%29.png",
-        "name": "Eye of ayak (uncharged)",
-        "url": "https://oldschool.runescape.wiki/w/Eye_of_ayak_(uncharged)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Eye_of_Ayak_%28uncharged%29.png",
+        "name": "Eye of Ayak (uncharged)",
+        "url": "https://oldschool.runescape.wiki/w/Eye_of_Ayak_(uncharged)"
       }
     },
     "Mokhaiotl cloth": {
@@ -9640,16 +9847,16 @@
         "url": "https://oldschool.runescape.wiki/w/Baron"
       }
     },
-    "Eye of the duke": {
+    "Eye of the Duke": {
       "category": [
         "Collection Log",
         "Bosses",
         "Duke Sucellus"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Eye_of_the_duke.png",
-        "name": "Eye of the duke",
-        "url": "https://oldschool.runescape.wiki/w/Eye_of_the_duke"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Eye_of_the_Duke.png",
+        "name": "Eye of the Duke",
+        "url": "https://oldschool.runescape.wiki/w/Eye_of_the_Duke"
       }
     },
     "Virtus mask": {
@@ -9750,16 +9957,16 @@
     }
   },
   "Collection / Bosses / The Fight Caves": {
-    "Tzrek-jad": {
+    "TzRek-Jad": {
       "category": [
         "Collection Log",
         "Bosses",
         "The Fight Caves"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Tzrek-jad.png",
-        "name": "Tzrek-jad",
-        "url": "https://oldschool.runescape.wiki/w/Tzrek-jad"
+        "imgUrl": "https://oldschool.runescape.wiki/images/TzRek-Jad.png",
+        "name": "TzRek-Jad",
+        "url": "https://oldschool.runescape.wiki/w/TzRek-Jad"
       }
     },
     "Fire cape": {
@@ -9776,16 +9983,16 @@
     }
   },
   "Collection / Bosses / Fortis Colosseum": {
-    "Smol heredit": {
+    "Smol Heredit": {
       "category": [
         "Collection Log",
         "Bosses",
         "Fortis Colosseum"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Smol_heredit.png",
-        "name": "Smol heredit",
-        "url": "https://oldschool.runescape.wiki/w/Smol_heredit"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Smol_Heredit.png",
+        "name": "Smol Heredit",
+        "url": "https://oldschool.runescape.wiki/w/Smol_Heredit"
       }
     },
     "Dizana's quiver (uncharged)": {
@@ -9848,16 +10055,16 @@
         "url": "https://oldschool.runescape.wiki/w/Echo_crystal"
       }
     },
-    "Tonalztics of ralos (uncharged)": {
+    "Tonalztics of Ralos (uncharged)": {
       "category": [
         "Collection Log",
         "Bosses",
         "Fortis Colosseum"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Tonalztics_of_ralos_%28uncharged%29.png",
-        "name": "Tonalztics of ralos (uncharged)",
-        "url": "https://oldschool.runescape.wiki/w/Tonalztics_of_ralos_(uncharged)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Tonalztics_of_Ralos_%28uncharged%29.png",
+        "name": "Tonalztics of Ralos (uncharged)",
+        "url": "https://oldschool.runescape.wiki/w/Tonalztics_of_Ralos_(uncharged)"
       }
     },
     "Sunfire splinters": {
@@ -9948,16 +10155,16 @@
     }
   },
   "Collection / Bosses / General Graardor": {
-    "Pet general graardor": {
+    "Pet General Graardor": {
       "category": [
         "Collection Log",
         "Bosses",
         "General Graardor"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_general_graardor.png",
-        "name": "Pet general graardor",
-        "url": "https://oldschool.runescape.wiki/w/Pet_general_graardor"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_General_Graardor.png",
+        "name": "Pet General Graardor",
+        "url": "https://oldschool.runescape.wiki/w/Pet_General_Graardor"
       }
     },
     "Bandos chestplate": {
@@ -10046,16 +10253,16 @@
     }
   },
   "Collection / Bosses / Giant Mole": {
-    "Baby mole": {
+    "Baby Mole": {
       "category": [
         "Collection Log",
         "Bosses",
         "Giant Mole"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Baby_mole.png",
-        "name": "Baby mole",
-        "url": "https://oldschool.runescape.wiki/w/Baby_mole"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Baby_Mole.png",
+        "name": "Baby Mole",
+        "url": "https://oldschool.runescape.wiki/w/Baby_Mole"
       }
     },
     "Mole skin": {
@@ -10156,16 +10363,16 @@
         "url": "https://oldschool.runescape.wiki/w/Granite_hammer"
       }
     },
-    "Jar of stone": {
+    "Jar of Stone": {
       "category": [
         "Collection Log",
         "Bosses",
         "Grotesque Guardians"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_stone.png",
-        "name": "Jar of stone",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_stone"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Stone.png",
+        "name": "Jar of Stone",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Stone"
       }
     },
     "Granite dust": {
@@ -10256,16 +10463,16 @@
         "url": "https://oldschool.runescape.wiki/w/Dragon_hunter_wand"
       }
     },
-    "Tome of earth (empty)": {
+    "Tome of Earth (empty)": {
       "category": [
         "Collection Log",
         "Bosses",
         "The Hueycoatl"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Tome_of_earth_%28empty%29.png",
-        "name": "Tome of earth (empty)",
-        "url": "https://oldschool.runescape.wiki/w/Tome_of_earth_(empty)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Tome_of_Earth_%28empty%29.png",
+        "name": "Tome of Earth (empty)",
+        "url": "https://oldschool.runescape.wiki/w/Tome_of_Earth_(empty)"
       }
     },
     "Soiled page": {
@@ -10306,16 +10513,16 @@
     }
   },
   "Collection / Bosses / The Inferno": {
-    "Jal-nib-rek": {
+    "Jal-Nib-Rek": {
       "category": [
         "Collection Log",
         "Bosses",
         "The Inferno"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jal-nib-rek.png",
-        "name": "Jal-nib-rek",
-        "url": "https://oldschool.runescape.wiki/w/Jal-nib-rek"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jal-Nib-Rek.png",
+        "name": "Jal-Nib-Rek",
+        "url": "https://oldschool.runescape.wiki/w/Jal-Nib-Rek"
       }
     },
     "Infernal cape": {
@@ -10332,16 +10539,16 @@
     }
   },
   "Collection / Bosses / Kalphite Queen": {
-    "Kalphite princess": {
+    "Kalphite Princess": {
       "category": [
         "Collection Log",
         "Bosses",
         "Kalphite Queen"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Kalphite_princess.png",
-        "name": "Kalphite princess",
-        "url": "https://oldschool.runescape.wiki/w/Kalphite_princess"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Kalphite_Princess.png",
+        "name": "Kalphite Princess",
+        "url": "https://oldschool.runescape.wiki/w/Kalphite_Princess"
       }
     },
     "Kq head": {
@@ -10356,16 +10563,16 @@
         "url": "https://oldschool.runescape.wiki/w/Kq_head"
       }
     },
-    "Jar of sand": {
+    "Jar of Sand": {
       "category": [
         "Collection Log",
         "Bosses",
         "Kalphite Queen"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_sand.png",
-        "name": "Jar of sand",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_sand"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Sand.png",
+        "name": "Jar of Sand",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Sand"
       }
     },
     "Dragon 2h sword": {
@@ -10406,16 +10613,16 @@
     }
   },
   "Collection / Bosses / King Black Dragon": {
-    "Prince black dragon": {
+    "Prince Black Dragon": {
       "category": [
         "Collection Log",
         "Bosses",
         "King Black Dragon"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Prince_black_dragon.png",
-        "name": "Prince black dragon",
-        "url": "https://oldschool.runescape.wiki/w/Prince_black_dragon"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Prince_Black_Dragon.png",
+        "name": "Prince Black Dragon",
+        "url": "https://oldschool.runescape.wiki/w/Prince_Black_Dragon"
       }
     },
     "Kbd heads": {
@@ -10456,16 +10663,16 @@
     }
   },
   "Collection / Bosses / Kraken": {
-    "Pet kraken": {
+    "Pet Kraken": {
       "category": [
         "Collection Log",
         "Bosses",
         "Kraken"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_kraken.png",
-        "name": "Pet kraken",
-        "url": "https://oldschool.runescape.wiki/w/Pet_kraken"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Kraken.png",
+        "name": "Pet Kraken",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Kraken"
       }
     },
     "Kraken tentacle": {
@@ -10480,42 +10687,42 @@
         "url": "https://oldschool.runescape.wiki/w/Kraken_tentacle"
       }
     },
-    "Trident of the seas": {
+    "Trident of the Seas": {
       "category": [
         "Collection Log",
         "Bosses",
         "Kraken"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Trident_of_the_seas.png",
-        "name": "Trident of the seas",
-        "url": "https://oldschool.runescape.wiki/w/Trident_of_the_seas"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Trident_of_the_Seas.png",
+        "name": "Trident of the Seas",
+        "url": "https://oldschool.runescape.wiki/w/Trident_of_the_Seas"
       }
     },
-    "Jar of dirt": {
+    "Jar of Dirt": {
       "category": [
         "Collection Log",
         "Bosses",
         "Kraken"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_dirt.png",
-        "name": "Jar of dirt",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_dirt"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Dirt.png",
+        "name": "Jar of Dirt",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Dirt"
       }
     }
   },
   "Collection / Bosses / Kree'arra": {
-    "Pet kree'arra": {
+    "Pet Kree'arra": {
       "category": [
         "Collection Log",
         "Bosses",
         "Kree'arra"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_kree%27arra.png",
-        "name": "Pet kree'arra",
-        "url": "https://oldschool.runescape.wiki/w/Pet_kree%27arra"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Kree%27arra.png",
+        "name": "Pet Kree'arra",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Kree%27arra"
       }
     },
     "Armadyl helmet": {
@@ -10604,28 +10811,28 @@
     }
   },
   "Collection / Bosses / K'ril Tsutsaroth": {
-    "Pet k'ril tsutsaroth": {
+    "Pet K'ril Tsutsaroth": {
       "category": [
         "Collection Log",
         "Bosses",
         "K'ril Tsutsaroth"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_k%27ril_tsutsaroth.png",
-        "name": "Pet k'ril tsutsaroth",
-        "url": "https://oldschool.runescape.wiki/w/Pet_k%27ril_tsutsaroth"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_K%27ril_Tsutsaroth.png",
+        "name": "Pet K'ril Tsutsaroth",
+        "url": "https://oldschool.runescape.wiki/w/Pet_K%27ril_Tsutsaroth"
       }
     },
-    "Staff of the dead": {
+    "Staff of the Dead": {
       "category": [
         "Collection Log",
         "Bosses",
         "K'ril Tsutsaroth"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Staff_of_the_dead.png",
-        "name": "Staff of the dead",
-        "url": "https://oldschool.runescape.wiki/w/Staff_of_the_dead"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Staff_of_the_Dead.png",
+        "name": "Staff of the Dead",
+        "url": "https://oldschool.runescape.wiki/w/Staff_of_the_Dead"
       }
     },
     "Zamorakian spear": {
@@ -10823,6 +11030,68 @@
       }
     }
   },
+  "Collection / Bosses / The Mad Angel": {
+    "Aggy": {
+      "category": [
+        "Collection Log",
+        "Bosses",
+        "The Mad Angel"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Aggy.png",
+        "name": "Aggy",
+        "url": "https://oldschool.runescape.wiki/w/Aggy"
+      }
+    },
+    "Hallowfell": {
+      "category": [
+        "Collection Log",
+        "Bosses",
+        "The Mad Angel"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Hallowfell.png",
+        "name": "Hallowfell",
+        "url": "https://oldschool.runescape.wiki/w/Hallowfell"
+      }
+    },
+    "Ardeaglais teleport": {
+      "category": [
+        "Collection Log",
+        "Bosses",
+        "The Mad Angel"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Ardeaglais_teleport.png",
+        "name": "Ardeaglais teleport",
+        "url": "https://oldschool.runescape.wiki/w/Ardeaglais_teleport"
+      }
+    },
+    "Granite dust": {
+      "category": [
+        "Collection Log",
+        "Bosses",
+        "The Mad Angel"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Granite_dust.png",
+        "name": "Granite dust",
+        "url": "https://oldschool.runescape.wiki/w/Granite_dust"
+      }
+    },
+    "Jar of Light": {
+      "category": [
+        "Collection Log",
+        "Bosses",
+        "The Mad Angel"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Light.png",
+        "name": "Jar of Light",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Light"
+      }
+    }
+  },
   "Collection / Bosses / Maggot King": {
     "Maggot marquess": {
       "category": [
@@ -10862,40 +11131,40 @@
     }
   },
   "Collection / Bosses / Moons of Peril": {
-    "Eclipse moon chestplate": {
+    "Eclipse Moon chestplate": {
       "category": [
         "Collection Log",
         "Bosses",
         "Moons of Peril"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Eclipse_moon_chestplate.png",
-        "name": "Eclipse moon chestplate",
-        "url": "https://oldschool.runescape.wiki/w/Eclipse_moon_chestplate"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Eclipse_Moon_chestplate.png",
+        "name": "Eclipse Moon chestplate",
+        "url": "https://oldschool.runescape.wiki/w/Eclipse_Moon_chestplate"
       }
     },
-    "Eclipse moon tassets": {
+    "Eclipse Moon tassets": {
       "category": [
         "Collection Log",
         "Bosses",
         "Moons of Peril"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Eclipse_moon_tassets.png",
-        "name": "Eclipse moon tassets",
-        "url": "https://oldschool.runescape.wiki/w/Eclipse_moon_tassets"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Eclipse_Moon_tassets.png",
+        "name": "Eclipse Moon tassets",
+        "url": "https://oldschool.runescape.wiki/w/Eclipse_Moon_tassets"
       }
     },
-    "Eclipse moon helm": {
+    "Eclipse Moon helm": {
       "category": [
         "Collection Log",
         "Bosses",
         "Moons of Peril"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Eclipse_moon_helm.png",
-        "name": "Eclipse moon helm",
-        "url": "https://oldschool.runescape.wiki/w/Eclipse_moon_helm"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Eclipse_Moon_helm.png",
+        "name": "Eclipse Moon helm",
+        "url": "https://oldschool.runescape.wiki/w/Eclipse_Moon_helm"
       }
     },
     "Eclipse atlatl": {
@@ -10910,88 +11179,88 @@
         "url": "https://oldschool.runescape.wiki/w/Eclipse_atlatl"
       }
     },
-    "Blue moon chestplate": {
+    "Blue Moon chestplate": {
       "category": [
         "Collection Log",
         "Bosses",
         "Moons of Peril"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_moon_chestplate.png",
-        "name": "Blue moon chestplate",
-        "url": "https://oldschool.runescape.wiki/w/Blue_moon_chestplate"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_Moon_chestplate.png",
+        "name": "Blue Moon chestplate",
+        "url": "https://oldschool.runescape.wiki/w/Blue_Moon_chestplate"
       }
     },
-    "Blue moon tassets": {
+    "Blue Moon tassets": {
       "category": [
         "Collection Log",
         "Bosses",
         "Moons of Peril"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_moon_tassets.png",
-        "name": "Blue moon tassets",
-        "url": "https://oldschool.runescape.wiki/w/Blue_moon_tassets"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_Moon_tassets.png",
+        "name": "Blue Moon tassets",
+        "url": "https://oldschool.runescape.wiki/w/Blue_Moon_tassets"
       }
     },
-    "Blue moon helm": {
+    "Blue Moon helm": {
       "category": [
         "Collection Log",
         "Bosses",
         "Moons of Peril"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_moon_helm.png",
-        "name": "Blue moon helm",
-        "url": "https://oldschool.runescape.wiki/w/Blue_moon_helm"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_Moon_helm.png",
+        "name": "Blue Moon helm",
+        "url": "https://oldschool.runescape.wiki/w/Blue_Moon_helm"
       }
     },
-    "Blue moon spear": {
+    "Blue Moon spear": {
       "category": [
         "Collection Log",
         "Bosses",
         "Moons of Peril"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_moon_spear.png",
-        "name": "Blue moon spear",
-        "url": "https://oldschool.runescape.wiki/w/Blue_moon_spear"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blue_Moon_spear.png",
+        "name": "Blue Moon spear",
+        "url": "https://oldschool.runescape.wiki/w/Blue_Moon_spear"
       }
     },
-    "Blood moon chestplate": {
+    "Blood Moon chestplate": {
       "category": [
         "Collection Log",
         "Bosses",
         "Moons of Peril"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blood_moon_chestplate.png",
-        "name": "Blood moon chestplate",
-        "url": "https://oldschool.runescape.wiki/w/Blood_moon_chestplate"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blood_Moon_chestplate.png",
+        "name": "Blood Moon chestplate",
+        "url": "https://oldschool.runescape.wiki/w/Blood_Moon_chestplate"
       }
     },
-    "Blood moon tassets": {
+    "Blood Moon tassets": {
       "category": [
         "Collection Log",
         "Bosses",
         "Moons of Peril"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blood_moon_tassets.png",
-        "name": "Blood moon tassets",
-        "url": "https://oldschool.runescape.wiki/w/Blood_moon_tassets"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blood_Moon_tassets.png",
+        "name": "Blood Moon tassets",
+        "url": "https://oldschool.runescape.wiki/w/Blood_Moon_tassets"
       }
     },
-    "Blood moon helm": {
+    "Blood Moon helm": {
       "category": [
         "Collection Log",
         "Bosses",
         "Moons of Peril"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Blood_moon_helm.png",
-        "name": "Blood moon helm",
-        "url": "https://oldschool.runescape.wiki/w/Blood_moon_helm"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Blood_Moon_helm.png",
+        "name": "Blood Moon helm",
+        "url": "https://oldschool.runescape.wiki/w/Blood_Moon_helm"
       }
     },
     "Dual macuahuitl": {
@@ -11118,16 +11387,16 @@
     }
   },
   "Collection / Bosses / The Nightmare": {
-    "Little nightmare": {
+    "Little Nightmare": {
       "category": [
         "Collection Log",
         "Bosses",
         "The Nightmare"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Little_nightmare.png",
-        "name": "Little nightmare",
-        "url": "https://oldschool.runescape.wiki/w/Little_nightmare"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Little_Nightmare.png",
+        "name": "Little Nightmare",
+        "url": "https://oldschool.runescape.wiki/w/Little_Nightmare"
       }
     },
     "Inquisitor's mace": {
@@ -11226,16 +11495,16 @@
         "url": "https://oldschool.runescape.wiki/w/Eldritch_orb"
       }
     },
-    "Jar of dreams": {
+    "Jar of Dreams": {
       "category": [
         "Collection Log",
         "Bosses",
         "The Nightmare"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_dreams.png",
-        "name": "Jar of dreams",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_dreams"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Dreams.png",
+        "name": "Jar of Dreams",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Dreams"
       }
     },
     "Slepey tablet": {
@@ -11450,16 +11719,16 @@
         "url": "https://oldschool.runescape.wiki/w/Sraracha"
       }
     },
-    "Jar of eyes": {
+    "Jar of Eyes": {
       "category": [
         "Collection Log",
         "Bosses",
         "Sarachnis"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_eyes.png",
-        "name": "Jar of eyes",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_eyes"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Eyes.png",
+        "name": "Jar of Eyes",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Eyes"
       }
     },
     "Giant egg sac(full)": {
@@ -11588,16 +11857,16 @@
         "url": "https://oldschool.runescape.wiki/w/Gull_(pet)"
       }
     },
-    "Jar of feathers": {
+    "Jar of Feathers": {
       "category": [
         "Collection Log",
         "Bosses",
         "Shellbane Gryphon"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_feathers.png",
-        "name": "Jar of feathers",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_feathers"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Feathers.png",
+        "name": "Jar of Feathers",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Feathers"
       }
     },
     "Belle's folly (tarnished)": {
@@ -11638,16 +11907,16 @@
         "url": "https://oldschool.runescape.wiki/w/Skotos"
       }
     },
-    "Jar of darkness": {
+    "Jar of Darkness": {
       "category": [
         "Collection Log",
         "Bosses",
         "Skotizo"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_darkness.png",
-        "name": "Jar of darkness",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_darkness"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Darkness.png",
+        "name": "Jar of Darkness",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Darkness"
       }
     },
     "Dark claw": {
@@ -11772,16 +12041,16 @@
         "url": "https://oldschool.runescape.wiki/w/Spirit_angler_boots"
       }
     },
-    "Tome of water (empty)": {
+    "Tome of Water (empty)": {
       "category": [
         "Collection Log",
         "Bosses",
         "Tempoross"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Tome_of_water_%28empty%29.png",
-        "name": "Tome of water (empty)",
-        "url": "https://oldschool.runescape.wiki/w/Tome_of_water_(empty)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Tome_of_Water_%28empty%29.png",
+        "name": "Tome of Water (empty)",
+        "url": "https://oldschool.runescape.wiki/w/Tome_of_Water_(empty)"
       }
     },
     "Soaked page": {
@@ -11846,16 +12115,16 @@
     }
   },
   "Collection / Bosses / Thermonuclear smoke devil": {
-    "Pet smoke devil": {
+    "Pet Smoke Devil": {
       "category": [
         "Collection Log",
         "Bosses",
         "Thermonuclear smoke devil"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_smoke_devil.png",
-        "name": "Pet smoke devil",
-        "url": "https://oldschool.runescape.wiki/w/Pet_smoke_devil"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Smoke_Devil.png",
+        "name": "Pet Smoke Devil",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Smoke_Devil"
       }
     },
     "Occult necklace": {
@@ -11894,16 +12163,16 @@
         "url": "https://oldschool.runescape.wiki/w/Dragon_chainbody"
       }
     },
-    "Jar of smoke": {
+    "Jar of Smoke": {
       "category": [
         "Collection Log",
         "Bosses",
         "Thermonuclear smoke devil"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_smoke.png",
-        "name": "Jar of smoke",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_smoke"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Smoke.png",
+        "name": "Jar of Smoke",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Smoke"
       }
     }
   },
@@ -12078,16 +12347,16 @@
         "url": "https://oldschool.runescape.wiki/w/Dragon_2h_sword"
       }
     },
-    "Fangs of venenatis": {
+    "Fangs of Venenatis": {
       "category": [
         "Collection Log",
         "Bosses",
         "Venenatis and Spindel"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Fangs_of_venenatis.png",
-        "name": "Fangs of venenatis",
-        "url": "https://oldschool.runescape.wiki/w/Fangs_of_venenatis"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Fangs_of_Venenatis.png",
+        "name": "Fangs of Venenatis",
+        "url": "https://oldschool.runescape.wiki/w/Fangs_of_Venenatis"
       }
     },
     "Voidwaker gem": {
@@ -12104,16 +12373,16 @@
     }
   },
   "Collection / Bosses / Vet'ion and Calvar'ion": {
-    "Vet'ion jr.": {
+    "Vet'ion Jr.": {
       "category": [
         "Collection Log",
         "Bosses",
         "Vet'ion and Calvar'ion"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Vet%27ion_jr..png",
-        "name": "Vet'ion jr.",
-        "url": "https://oldschool.runescape.wiki/w/Vet%27ion_jr."
+        "imgUrl": "https://oldschool.runescape.wiki/images/Vet%27ion_Jr..png",
+        "name": "Vet'ion Jr.",
+        "url": "https://oldschool.runescape.wiki/w/Vet%27ion_Jr."
       }
     },
     "Ring of the gods": {
@@ -12152,16 +12421,16 @@
         "url": "https://oldschool.runescape.wiki/w/Dragon_2h_sword"
       }
     },
-    "Skull of vet'ion": {
+    "Skull of Vet'ion": {
       "category": [
         "Collection Log",
         "Bosses",
         "Vet'ion and Calvar'ion"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Skull_of_vet%27ion.png",
-        "name": "Skull of vet'ion",
-        "url": "https://oldschool.runescape.wiki/w/Skull_of_vet%27ion"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Skull_of_Vet%27ion.png",
+        "name": "Skull of Vet'ion",
+        "url": "https://oldschool.runescape.wiki/w/Skull_of_Vet%27ion"
       }
     },
     "Voidwaker blade": {
@@ -12226,16 +12495,16 @@
         "url": "https://oldschool.runescape.wiki/w/Skeletal_visage"
       }
     },
-    "Jar of decay": {
+    "Jar of Decay": {
       "category": [
         "Collection Log",
         "Bosses",
         "Vorkath"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_decay.png",
-        "name": "Jar of decay",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_decay"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Decay.png",
+        "name": "Jar of Decay",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Decay"
       }
     },
     "Dragonbone necklace": {
@@ -12386,16 +12655,16 @@
         "url": "https://oldschool.runescape.wiki/w/Phoenix"
       }
     },
-    "Tome of fire (empty)": {
+    "Tome of Fire (empty)": {
       "category": [
         "Collection Log",
         "Bosses",
         "Wintertodt"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Tome_of_fire_%28empty%29.png",
-        "name": "Tome of fire (empty)",
-        "url": "https://oldschool.runescape.wiki/w/Tome_of_fire_(empty)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Tome_of_Fire_%28empty%29.png",
+        "name": "Tome of Fire (empty)",
+        "url": "https://oldschool.runescape.wiki/w/Tome_of_Fire_(empty)"
       }
     },
     "Burnt page": {
@@ -12680,16 +12949,16 @@
     }
   },
   "Collection / Bosses / Zulrah": {
-    "Pet snakeling": {
+    "Pet Snakeling": {
       "category": [
         "Collection Log",
         "Bosses",
         "Zulrah"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_snakeling.png",
-        "name": "Pet snakeling",
-        "url": "https://oldschool.runescape.wiki/w/Pet_snakeling"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Snakeling.png",
+        "name": "Pet Snakeling",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Snakeling"
       }
     },
     "Tanzanite mutagen": {
@@ -12716,16 +12985,16 @@
         "url": "https://oldschool.runescape.wiki/w/Magma_mutagen"
       }
     },
-    "Jar of swamp": {
+    "Jar of Swamp": {
       "category": [
         "Collection Log",
         "Bosses",
         "Zulrah"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_swamp.png",
-        "name": "Jar of swamp",
-        "url": "https://oldschool.runescape.wiki/w/Jar_of_swamp"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jar_of_Swamp.png",
+        "name": "Jar of Swamp",
+        "url": "https://oldschool.runescape.wiki/w/Jar_of_Swamp"
       }
     },
     "Magic fang": {
@@ -13080,28 +13349,28 @@
     }
   },
   "Collection / Raids / Theatre of Blood": {
-    "Lil' zik": {
+    "Lil' Zik": {
       "category": [
         "Collection Log",
         "Raids",
         "Theatre of Blood"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Lil%27_zik.png",
-        "name": "Lil' zik",
-        "url": "https://oldschool.runescape.wiki/w/Lil%27_zik"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Lil%27_Zik.png",
+        "name": "Lil' Zik",
+        "url": "https://oldschool.runescape.wiki/w/Lil%27_Zik"
       }
     },
-    "Scythe of vitur (uncharged)": {
+    "Scythe of Vitur (uncharged)": {
       "category": [
         "Collection Log",
         "Raids",
         "Theatre of Blood"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Scythe_of_vitur_%28uncharged%29.png",
-        "name": "Scythe of vitur (uncharged)",
-        "url": "https://oldschool.runescape.wiki/w/Scythe_of_vitur_(uncharged)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Scythe_of_Vitur_%28uncharged%29.png",
+        "name": "Scythe of Vitur (uncharged)",
+        "url": "https://oldschool.runescape.wiki/w/Scythe_of_Vitur_(uncharged)"
       }
     },
     "Ghrazi rapier": {
@@ -13382,64 +13651,64 @@
         "url": "https://oldschool.runescape.wiki/w/Osmumten%27s_fang"
       }
     },
-    "Thread of elidinis": {
+    "Thread of Elidinis": {
       "category": [
         "Collection Log",
         "Raids",
         "Tombs of Amascut"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Thread_of_elidinis.png",
-        "name": "Thread of elidinis",
-        "url": "https://oldschool.runescape.wiki/w/Thread_of_elidinis"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Thread_of_Elidinis.png",
+        "name": "Thread of Elidinis",
+        "url": "https://oldschool.runescape.wiki/w/Thread_of_Elidinis"
       }
     },
-    "Breach of the scarab": {
+    "Breach of the Scarab": {
       "category": [
         "Collection Log",
         "Raids",
         "Tombs of Amascut"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Breach_of_the_scarab.png",
-        "name": "Breach of the scarab",
-        "url": "https://oldschool.runescape.wiki/w/Breach_of_the_scarab"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Breach_of_the_Scarab.png",
+        "name": "Breach of the Scarab",
+        "url": "https://oldschool.runescape.wiki/w/Breach_of_the_Scarab"
       }
     },
-    "Eye of the corruptor": {
+    "Eye of the Corruptor": {
       "category": [
         "Collection Log",
         "Raids",
         "Tombs of Amascut"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Eye_of_the_corruptor.png",
-        "name": "Eye of the corruptor",
-        "url": "https://oldschool.runescape.wiki/w/Eye_of_the_corruptor"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Eye_of_the_Corruptor.png",
+        "name": "Eye of the Corruptor",
+        "url": "https://oldschool.runescape.wiki/w/Eye_of_the_Corruptor"
       }
     },
-    "Jewel of the sun": {
+    "Jewel of the Sun": {
       "category": [
         "Collection Log",
         "Raids",
         "Tombs of Amascut"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jewel_of_the_sun.png",
-        "name": "Jewel of the sun",
-        "url": "https://oldschool.runescape.wiki/w/Jewel_of_the_sun"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jewel_of_the_Sun.png",
+        "name": "Jewel of the Sun",
+        "url": "https://oldschool.runescape.wiki/w/Jewel_of_the_Sun"
       }
     },
-    "Jewel of amascut": {
+    "Jewel of Amascut": {
       "category": [
         "Collection Log",
         "Raids",
         "Tombs of Amascut"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jewel_of_amascut.png",
-        "name": "Jewel of amascut",
-        "url": "https://oldschool.runescape.wiki/w/Jewel_of_amascut"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jewel_of_Amascut.png",
+        "name": "Jewel of Amascut",
+        "url": "https://oldschool.runescape.wiki/w/Jewel_of_Amascut"
       }
     },
     "Menaphite ornament kit": {
@@ -13550,52 +13819,52 @@
         "url": "https://oldschool.runescape.wiki/w/Icthlarin%27s_shroud_(tier_5)"
       }
     },
-    "Remnant of akkha": {
+    "Remnant of Akkha": {
       "category": [
         "Collection Log",
         "Raids",
         "Tombs of Amascut"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Remnant_of_akkha.png",
-        "name": "Remnant of akkha",
-        "url": "https://oldschool.runescape.wiki/w/Remnant_of_akkha"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Remnant_of_Akkha.png",
+        "name": "Remnant of Akkha",
+        "url": "https://oldschool.runescape.wiki/w/Remnant_of_Akkha"
       }
     },
-    "Remnant of ba-ba": {
+    "Remnant of Ba-Ba": {
       "category": [
         "Collection Log",
         "Raids",
         "Tombs of Amascut"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Remnant_of_ba-ba.png",
-        "name": "Remnant of ba-ba",
-        "url": "https://oldschool.runescape.wiki/w/Remnant_of_ba-ba"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Remnant_of_Ba-Ba.png",
+        "name": "Remnant of Ba-Ba",
+        "url": "https://oldschool.runescape.wiki/w/Remnant_of_Ba-Ba"
       }
     },
-    "Remnant of kephri": {
+    "Remnant of Kephri": {
       "category": [
         "Collection Log",
         "Raids",
         "Tombs of Amascut"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Remnant_of_kephri.png",
-        "name": "Remnant of kephri",
-        "url": "https://oldschool.runescape.wiki/w/Remnant_of_kephri"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Remnant_of_Kephri.png",
+        "name": "Remnant of Kephri",
+        "url": "https://oldschool.runescape.wiki/w/Remnant_of_Kephri"
       }
     },
-    "Remnant of zebak": {
+    "Remnant of Zebak": {
       "category": [
         "Collection Log",
         "Raids",
         "Tombs of Amascut"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Remnant_of_zebak.png",
-        "name": "Remnant of zebak",
-        "url": "https://oldschool.runescape.wiki/w/Remnant_of_zebak"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Remnant_of_Zebak.png",
+        "name": "Remnant of Zebak",
+        "url": "https://oldschool.runescape.wiki/w/Remnant_of_Zebak"
       }
     },
     "Ancient remnant": {
@@ -13756,40 +14025,40 @@
         "url": "https://oldschool.runescape.wiki/w/Sandwich_lady_bottom"
       }
     },
-    "Rune scimitar ornament kit (guthix)": {
+    "Rune scimitar ornament kit (Guthix)": {
       "category": [
         "Collection Log",
         "Clues",
         "Beginner Treasure Trails"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Rune_scimitar_ornament_kit_%28guthix%29.png",
-        "name": "Rune scimitar ornament kit (guthix)",
-        "url": "https://oldschool.runescape.wiki/w/Rune_scimitar_ornament_kit_(guthix)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Rune_scimitar_ornament_kit_%28Guthix%29.png",
+        "name": "Rune scimitar ornament kit (Guthix)",
+        "url": "https://oldschool.runescape.wiki/w/Rune_scimitar_ornament_kit_(Guthix)"
       }
     },
-    "Rune scimitar ornament kit (saradomin)": {
+    "Rune scimitar ornament kit (Saradomin)": {
       "category": [
         "Collection Log",
         "Clues",
         "Beginner Treasure Trails"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Rune_scimitar_ornament_kit_%28saradomin%29.png",
-        "name": "Rune scimitar ornament kit (saradomin)",
-        "url": "https://oldschool.runescape.wiki/w/Rune_scimitar_ornament_kit_(saradomin)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Rune_scimitar_ornament_kit_%28Saradomin%29.png",
+        "name": "Rune scimitar ornament kit (Saradomin)",
+        "url": "https://oldschool.runescape.wiki/w/Rune_scimitar_ornament_kit_(Saradomin)"
       }
     },
-    "Rune scimitar ornament kit (zamorak)": {
+    "Rune scimitar ornament kit (Zamorak)": {
       "category": [
         "Collection Log",
         "Clues",
         "Beginner Treasure Trails"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Rune_scimitar_ornament_kit_%28zamorak%29.png",
-        "name": "Rune scimitar ornament kit (zamorak)",
-        "url": "https://oldschool.runescape.wiki/w/Rune_scimitar_ornament_kit_(zamorak)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Rune_scimitar_ornament_kit_%28Zamorak%29.png",
+        "name": "Rune scimitar ornament kit (Zamorak)",
+        "url": "https://oldschool.runescape.wiki/w/Rune_scimitar_ornament_kit_(Zamorak)"
       }
     },
     "Black pickaxe": {
@@ -15150,16 +15419,16 @@
         "url": "https://oldschool.runescape.wiki/w/Black_cane"
       }
     },
-    "Staff of bob the cat": {
+    "Staff of Bob the Cat": {
       "category": [
         "Collection Log",
         "Clues",
         "Easy Treasure Trails"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Staff_of_bob_the_cat.png",
-        "name": "Staff of bob the cat",
-        "url": "https://oldschool.runescape.wiki/w/Staff_of_bob_the_cat"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Staff_of_Bob_the_Cat.png",
+        "name": "Staff of Bob the Cat",
+        "url": "https://oldschool.runescape.wiki/w/Staff_of_Bob_the_Cat"
       }
     },
     "Red elegant shirt": {
@@ -16762,16 +17031,16 @@
     }
   },
   "Collection / Clues / Hard Treasure Trails": {
-    "Robin hood hat": {
+    "Robin Hood hat": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trails"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Robin_hood_hat.png",
-        "name": "Robin hood hat",
-        "url": "https://oldschool.runescape.wiki/w/Robin_hood_hat"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Robin_Hood_hat.png",
+        "name": "Robin Hood hat",
+        "url": "https://oldschool.runescape.wiki/w/Robin_Hood_hat"
       }
     },
     "Dragon boots ornament kit": {
@@ -18372,16 +18641,16 @@
     }
   },
   "Collection / Clues / Elite Treasure Trails": {
-    "Ring of 3rd age": {
+    "Ring of 3rd Age": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trails"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Ring_of_3rd_age.png",
-        "name": "Ring of 3rd age",
-        "url": "https://oldschool.runescape.wiki/w/Ring_of_3rd_age"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Ring_of_3rd_Age.png",
+        "name": "Ring of 3rd Age",
+        "url": "https://oldschool.runescape.wiki/w/Ring_of_3rd_Age"
       }
     },
     "Fury ornament kit": {
@@ -19094,16 +19363,16 @@
         "url": "https://oldschool.runescape.wiki/w/Bloodhound"
       }
     },
-    "Ring of 3rd age": {
+    "Ring of 3rd Age": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trails"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Ring_of_3rd_age.png",
-        "name": "Ring of 3rd age",
-        "url": "https://oldschool.runescape.wiki/w/Ring_of_3rd_age"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Ring_of_3rd_Age.png",
+        "name": "Ring of 3rd Age",
+        "url": "https://oldschool.runescape.wiki/w/Ring_of_3rd_Age"
       }
     },
     "Armadyl godsword ornament kit": {
@@ -19672,160 +19941,160 @@
     }
   },
   "Collection / Clues / Hard Treasure Trail Rewards (Rare)": {
-    "3rd age range coif": {
+    "3rd Age range coif": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_range_coif.png",
-        "name": "3rd age range coif",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_range_coif"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_range_coif.png",
+        "name": "3rd Age range coif",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_range_coif"
       }
     },
-    "3rd age range top": {
+    "3rd Age range top": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_range_top.png",
-        "name": "3rd age range top",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_range_top"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_range_top.png",
+        "name": "3rd Age range top",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_range_top"
       }
     },
-    "3rd age range legs": {
+    "3rd Age range legs": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_range_legs.png",
-        "name": "3rd age range legs",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_range_legs"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_range_legs.png",
+        "name": "3rd Age range legs",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_range_legs"
       }
     },
-    "3rd age vambraces": {
+    "3rd Age vambraces": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_vambraces.png",
-        "name": "3rd age vambraces",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_vambraces"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_vambraces.png",
+        "name": "3rd Age vambraces",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_vambraces"
       }
     },
-    "3rd age robe top": {
+    "3rd Age robe top": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_robe_top.png",
-        "name": "3rd age robe top",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_robe_top"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_robe_top.png",
+        "name": "3rd Age robe top",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_robe_top"
       }
     },
-    "3rd age robe": {
+    "3rd Age robe": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_robe.png",
-        "name": "3rd age robe",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_robe"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_robe.png",
+        "name": "3rd Age robe",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_robe"
       }
     },
-    "3rd age mage hat": {
+    "3rd Age mage hat": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_mage_hat.png",
-        "name": "3rd age mage hat",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_mage_hat"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_mage_hat.png",
+        "name": "3rd Age mage hat",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_mage_hat"
       }
     },
-    "3rd age amulet": {
+    "3rd Age amulet": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_amulet.png",
-        "name": "3rd age amulet",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_amulet"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_amulet.png",
+        "name": "3rd Age amulet",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_amulet"
       }
     },
-    "3rd age plateskirt": {
+    "3rd Age plateskirt": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_plateskirt.png",
-        "name": "3rd age plateskirt",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_plateskirt"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_plateskirt.png",
+        "name": "3rd Age plateskirt",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_plateskirt"
       }
     },
-    "3rd age platelegs": {
+    "3rd Age platelegs": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_platelegs.png",
-        "name": "3rd age platelegs",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_platelegs"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_platelegs.png",
+        "name": "3rd Age platelegs",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_platelegs"
       }
     },
-    "3rd age platebody": {
+    "3rd Age platebody": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_platebody.png",
-        "name": "3rd age platebody",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_platebody"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_platebody.png",
+        "name": "3rd Age platebody",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_platebody"
       }
     },
-    "3rd age full helmet": {
+    "3rd Age full helmet": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_full_helmet.png",
-        "name": "3rd age full helmet",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_full_helmet"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_full_helmet.png",
+        "name": "3rd Age full helmet",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_full_helmet"
       }
     },
-    "3rd age kiteshield": {
+    "3rd Age kiteshield": {
       "category": [
         "Collection Log",
         "Clues",
         "Hard Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_kiteshield.png",
-        "name": "3rd age kiteshield",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_kiteshield"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_kiteshield.png",
+        "name": "3rd Age kiteshield",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_kiteshield"
       }
     },
     "Gilded platebody": {
@@ -19962,208 +20231,208 @@
     }
   },
   "Collection / Clues / Elite Treasure Trail Rewards (Rare)": {
-    "3rd age longsword": {
+    "3rd Age longsword": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_longsword.png",
-        "name": "3rd age longsword",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_longsword"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_longsword.png",
+        "name": "3rd Age longsword",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_longsword"
       }
     },
-    "3rd age wand": {
+    "3rd Age wand": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_wand.png",
-        "name": "3rd age wand",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_wand"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_wand.png",
+        "name": "3rd Age wand",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_wand"
       }
     },
-    "3rd age cloak": {
+    "3rd Age cloak": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_cloak.png",
-        "name": "3rd age cloak",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_cloak"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_cloak.png",
+        "name": "3rd Age cloak",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_cloak"
       }
     },
-    "3rd age bow": {
+    "3rd Age bow": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_bow.png",
-        "name": "3rd age bow",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_bow"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_bow.png",
+        "name": "3rd Age bow",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_bow"
       }
     },
-    "3rd age range coif": {
+    "3rd Age range coif": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_range_coif.png",
-        "name": "3rd age range coif",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_range_coif"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_range_coif.png",
+        "name": "3rd Age range coif",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_range_coif"
       }
     },
-    "3rd age range top": {
+    "3rd Age range top": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_range_top.png",
-        "name": "3rd age range top",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_range_top"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_range_top.png",
+        "name": "3rd Age range top",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_range_top"
       }
     },
-    "3rd age range legs": {
+    "3rd Age range legs": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_range_legs.png",
-        "name": "3rd age range legs",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_range_legs"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_range_legs.png",
+        "name": "3rd Age range legs",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_range_legs"
       }
     },
-    "3rd age vambraces": {
+    "3rd Age vambraces": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_vambraces.png",
-        "name": "3rd age vambraces",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_vambraces"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_vambraces.png",
+        "name": "3rd Age vambraces",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_vambraces"
       }
     },
-    "3rd age robe top": {
+    "3rd Age robe top": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_robe_top.png",
-        "name": "3rd age robe top",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_robe_top"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_robe_top.png",
+        "name": "3rd Age robe top",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_robe_top"
       }
     },
-    "3rd age robe": {
+    "3rd Age robe": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_robe.png",
-        "name": "3rd age robe",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_robe"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_robe.png",
+        "name": "3rd Age robe",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_robe"
       }
     },
-    "3rd age mage hat": {
+    "3rd Age mage hat": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_mage_hat.png",
-        "name": "3rd age mage hat",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_mage_hat"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_mage_hat.png",
+        "name": "3rd Age mage hat",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_mage_hat"
       }
     },
-    "3rd age amulet": {
+    "3rd Age amulet": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_amulet.png",
-        "name": "3rd age amulet",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_amulet"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_amulet.png",
+        "name": "3rd Age amulet",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_amulet"
       }
     },
-    "3rd age plateskirt": {
+    "3rd Age plateskirt": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_plateskirt.png",
-        "name": "3rd age plateskirt",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_plateskirt"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_plateskirt.png",
+        "name": "3rd Age plateskirt",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_plateskirt"
       }
     },
-    "3rd age platelegs": {
+    "3rd Age platelegs": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_platelegs.png",
-        "name": "3rd age platelegs",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_platelegs"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_platelegs.png",
+        "name": "3rd Age platelegs",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_platelegs"
       }
     },
-    "3rd age platebody": {
+    "3rd Age platebody": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_platebody.png",
-        "name": "3rd age platebody",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_platebody"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_platebody.png",
+        "name": "3rd Age platebody",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_platebody"
       }
     },
-    "3rd age full helmet": {
+    "3rd Age full helmet": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_full_helmet.png",
-        "name": "3rd age full helmet",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_full_helmet"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_full_helmet.png",
+        "name": "3rd Age full helmet",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_full_helmet"
       }
     },
-    "3rd age kiteshield": {
+    "3rd Age kiteshield": {
       "category": [
         "Collection Log",
         "Clues",
         "Elite Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_kiteshield.png",
-        "name": "3rd age kiteshield",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_kiteshield"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_kiteshield.png",
+        "name": "3rd Age kiteshield",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_kiteshield"
       }
     },
     "Gilded scimitar": {
@@ -20432,280 +20701,280 @@
     }
   },
   "Collection / Clues / Master Treasure Trail Rewards (Rare)": {
-    "3rd age pickaxe": {
+    "3rd Age pickaxe": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_pickaxe.png",
-        "name": "3rd age pickaxe",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_pickaxe"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_pickaxe.png",
+        "name": "3rd Age pickaxe",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_pickaxe"
       }
     },
-    "3rd age axe": {
+    "3rd Age axe": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_axe.png",
-        "name": "3rd age axe",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_axe"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_axe.png",
+        "name": "3rd Age axe",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_axe"
       }
     },
-    "3rd age longsword": {
+    "3rd Age longsword": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_longsword.png",
-        "name": "3rd age longsword",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_longsword"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_longsword.png",
+        "name": "3rd Age longsword",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_longsword"
       }
     },
-    "3rd age wand": {
+    "3rd Age wand": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_wand.png",
-        "name": "3rd age wand",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_wand"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_wand.png",
+        "name": "3rd Age wand",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_wand"
       }
     },
-    "3rd age cloak": {
+    "3rd Age cloak": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_cloak.png",
-        "name": "3rd age cloak",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_cloak"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_cloak.png",
+        "name": "3rd Age cloak",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_cloak"
       }
     },
-    "3rd age bow": {
+    "3rd Age bow": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_bow.png",
-        "name": "3rd age bow",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_bow"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_bow.png",
+        "name": "3rd Age bow",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_bow"
       }
     },
-    "3rd age range coif": {
+    "3rd Age range coif": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_range_coif.png",
-        "name": "3rd age range coif",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_range_coif"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_range_coif.png",
+        "name": "3rd Age range coif",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_range_coif"
       }
     },
-    "3rd age range top": {
+    "3rd Age range top": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_range_top.png",
-        "name": "3rd age range top",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_range_top"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_range_top.png",
+        "name": "3rd Age range top",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_range_top"
       }
     },
-    "3rd age range legs": {
+    "3rd Age range legs": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_range_legs.png",
-        "name": "3rd age range legs",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_range_legs"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_range_legs.png",
+        "name": "3rd Age range legs",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_range_legs"
       }
     },
-    "3rd age vambraces": {
+    "3rd Age vambraces": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_vambraces.png",
-        "name": "3rd age vambraces",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_vambraces"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_vambraces.png",
+        "name": "3rd Age vambraces",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_vambraces"
       }
     },
-    "3rd age robe top": {
+    "3rd Age robe top": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_robe_top.png",
-        "name": "3rd age robe top",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_robe_top"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_robe_top.png",
+        "name": "3rd Age robe top",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_robe_top"
       }
     },
-    "3rd age robe": {
+    "3rd Age robe": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_robe.png",
-        "name": "3rd age robe",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_robe"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_robe.png",
+        "name": "3rd Age robe",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_robe"
       }
     },
-    "3rd age mage hat": {
+    "3rd Age mage hat": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_mage_hat.png",
-        "name": "3rd age mage hat",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_mage_hat"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_mage_hat.png",
+        "name": "3rd Age mage hat",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_mage_hat"
       }
     },
-    "3rd age amulet": {
+    "3rd Age amulet": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_amulet.png",
-        "name": "3rd age amulet",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_amulet"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_amulet.png",
+        "name": "3rd Age amulet",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_amulet"
       }
     },
-    "3rd age plateskirt": {
+    "3rd Age plateskirt": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_plateskirt.png",
-        "name": "3rd age plateskirt",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_plateskirt"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_plateskirt.png",
+        "name": "3rd Age plateskirt",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_plateskirt"
       }
     },
-    "3rd age platelegs": {
+    "3rd Age platelegs": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_platelegs.png",
-        "name": "3rd age platelegs",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_platelegs"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_platelegs.png",
+        "name": "3rd Age platelegs",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_platelegs"
       }
     },
-    "3rd age platebody": {
+    "3rd Age platebody": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_platebody.png",
-        "name": "3rd age platebody",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_platebody"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_platebody.png",
+        "name": "3rd Age platebody",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_platebody"
       }
     },
-    "3rd age full helmet": {
+    "3rd Age full helmet": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_full_helmet.png",
-        "name": "3rd age full helmet",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_full_helmet"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_full_helmet.png",
+        "name": "3rd Age full helmet",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_full_helmet"
       }
     },
-    "3rd age kiteshield": {
+    "3rd Age kiteshield": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_kiteshield.png",
-        "name": "3rd age kiteshield",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_kiteshield"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_kiteshield.png",
+        "name": "3rd Age kiteshield",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_kiteshield"
       }
     },
-    "3rd age druidic robe bottoms": {
+    "3rd Age druidic robe bottoms": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_druidic_robe_bottoms.png",
-        "name": "3rd age druidic robe bottoms",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_druidic_robe_bottoms"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_druidic_robe_bottoms.png",
+        "name": "3rd Age druidic robe bottoms",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_druidic_robe_bottoms"
       }
     },
-    "3rd age druidic robe top": {
+    "3rd Age druidic robe top": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_druidic_robe_top.png",
-        "name": "3rd age druidic robe top",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_druidic_robe_top"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_druidic_robe_top.png",
+        "name": "3rd Age druidic robe top",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_druidic_robe_top"
       }
     },
-    "3rd age druidic staff": {
+    "3rd Age druidic staff": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_druidic_staff.png",
-        "name": "3rd age druidic staff",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_druidic_staff"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_druidic_staff.png",
+        "name": "3rd Age druidic staff",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_druidic_staff"
       }
     },
-    "3rd age druidic cloak": {
+    "3rd Age druidic cloak": {
       "category": [
         "Collection Log",
         "Clues",
         "Master Treasure Trail Rewards (Rare)"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_age_druidic_cloak.png",
-        "name": "3rd age druidic cloak",
-        "url": "https://oldschool.runescape.wiki/w/3rd_age_druidic_cloak"
+        "imgUrl": "https://oldschool.runescape.wiki/images/3rd_Age_druidic_cloak.png",
+        "name": "3rd Age druidic cloak",
+        "url": "https://oldschool.runescape.wiki/w/3rd_Age_druidic_cloak"
       }
     },
     "Gilded scimitar": {
@@ -21722,16 +21991,16 @@
     }
   },
   "Collection / Minigames / Barbarian Assault": {
-    "Pet penance queen": {
+    "Pet Penance Queen": {
       "category": [
         "Collection Log",
         "Minigames",
         "Barbarian Assault"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_penance_queen.png",
-        "name": "Pet penance queen",
-        "url": "https://oldschool.runescape.wiki/w/Pet_penance_queen"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Penance_Queen.png",
+        "name": "Pet Penance Queen",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Penance_Queen"
       }
     },
     "Fighter hat": {
@@ -21940,16 +22209,16 @@
         "url": "https://oldschool.runescape.wiki/w/Serrated_key"
       }
     },
-    "Heart of ithell": {
+    "Heart of Ithell": {
       "category": [
         "Collection Log",
         "Minigames",
         "Barracuda Trials"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Heart_of_ithell.png",
-        "name": "Heart of ithell",
-        "url": "https://oldschool.runescape.wiki/w/Heart_of_ithell"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Heart_of_Ithell.png",
+        "name": "Heart of Ithell",
+        "url": "https://oldschool.runescape.wiki/w/Heart_of_Ithell"
       }
     },
     "Gwyna's fabric roll": {
@@ -22816,52 +23085,52 @@
         "url": "https://oldschool.runescape.wiki/w/Abyssal_red_dye"
       }
     },
-    "Hat of the eye": {
+    "Hat of the Eye": {
       "category": [
         "Collection Log",
         "Minigames",
         "Guardians of the Rift"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Hat_of_the_eye.png",
-        "name": "Hat of the eye",
-        "url": "https://oldschool.runescape.wiki/w/Hat_of_the_eye"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Hat_of_the_Eye.png",
+        "name": "Hat of the Eye",
+        "url": "https://oldschool.runescape.wiki/w/Hat_of_the_Eye"
       }
     },
-    "Robe top of the eye": {
+    "Robe top of the Eye": {
       "category": [
         "Collection Log",
         "Minigames",
         "Guardians of the Rift"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Robe_top_of_the_eye.png",
-        "name": "Robe top of the eye",
-        "url": "https://oldschool.runescape.wiki/w/Robe_top_of_the_eye"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Robe_top_of_the_Eye.png",
+        "name": "Robe top of the Eye",
+        "url": "https://oldschool.runescape.wiki/w/Robe_top_of_the_Eye"
       }
     },
-    "Robe bottoms of the eye": {
+    "Robe bottoms of the Eye": {
       "category": [
         "Collection Log",
         "Minigames",
         "Guardians of the Rift"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Robe_bottoms_of_the_eye.png",
-        "name": "Robe bottoms of the eye",
-        "url": "https://oldschool.runescape.wiki/w/Robe_bottoms_of_the_eye"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Robe_bottoms_of_the_Eye.png",
+        "name": "Robe bottoms of the Eye",
+        "url": "https://oldschool.runescape.wiki/w/Robe_bottoms_of_the_Eye"
       }
     },
-    "Boots of the eye": {
+    "Boots of the Eye": {
       "category": [
         "Collection Log",
         "Minigames",
         "Guardians of the Rift"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Boots_of_the_eye.png",
-        "name": "Boots of the eye",
-        "url": "https://oldschool.runescape.wiki/w/Boots_of_the_eye"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Boots_of_the_Eye.png",
+        "name": "Boots of the Eye",
+        "url": "https://oldschool.runescape.wiki/w/Boots_of_the_Eye"
       }
     },
     "Ring of the elements": {
@@ -23180,7 +23449,7 @@
         "url": "https://oldschool.runescape.wiki/w/Brassica_halo"
       }
     },
-    "Golden armadyl special attack": {
+    "Golden Armadyl special attack": {
       "category": [
         "Collection Log",
         "Minigames",
@@ -23188,11 +23457,11 @@
       ],
       "item": {
         "imgUrl": "https://oldschool.runescape.wiki/images/Armadyl_hilt.png",
-        "name": "Golden armadyl special attack",
+        "name": "Golden Armadyl special attack",
         "url": "https://oldschool.runescape.wiki/w/Animation_overrides#Godswords"
       }
     },
-    "Golden bandos special attack": {
+    "Golden Bandos special attack": {
       "category": [
         "Collection Log",
         "Minigames",
@@ -23200,11 +23469,11 @@
       ],
       "item": {
         "imgUrl": "https://oldschool.runescape.wiki/images/Bandos_hilt.png",
-        "name": "Golden bandos special attack",
+        "name": "Golden Bandos special attack",
         "url": "https://oldschool.runescape.wiki/w/Animation_overrides#Godswords"
       }
     },
-    "Golden saradomin special attack": {
+    "Golden Saradomin special attack": {
       "category": [
         "Collection Log",
         "Minigames",
@@ -23212,11 +23481,11 @@
       ],
       "item": {
         "imgUrl": "https://oldschool.runescape.wiki/images/Saradomin_hilt.png",
-        "name": "Golden saradomin special attack",
+        "name": "Golden Saradomin special attack",
         "url": "https://oldschool.runescape.wiki/w/Animation_overrides#Godswords"
       }
     },
-    "Golden zamorak special attack": {
+    "Golden Zamorak special attack": {
       "category": [
         "Collection Log",
         "Minigames",
@@ -23224,7 +23493,7 @@
       ],
       "item": {
         "imgUrl": "https://oldschool.runescape.wiki/images/Zamorak_hilt.png",
-        "name": "Golden zamorak special attack",
+        "name": "Golden Zamorak special attack",
         "url": "https://oldschool.runescape.wiki/w/Animation_overrides#Godswords"
       }
     },
@@ -23972,16 +24241,16 @@
     }
   },
   "Collection / Minigames / Shades of Mort'ton": {
-    "Amulet of the damned": {
+    "Amulet of the Damned": {
       "category": [
         "Collection Log",
         "Minigames",
         "Shades of Mort'ton"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_the_damned.png",
-        "name": "Amulet of the damned",
-        "url": "https://oldschool.runescape.wiki/w/Amulet_of_the_damned"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Amulet_of_the_Damned.png",
+        "name": "Amulet of the Damned",
+        "url": "https://oldschool.runescape.wiki/w/Amulet_of_the_Damned"
       }
     },
     "Flamtaer bag": {
@@ -24142,16 +24411,16 @@
     }
   },
   "Collection / Minigames / Soul Wars": {
-    "Lil' creator": {
+    "Lil' Creator": {
       "category": [
         "Collection Log",
         "Minigames",
         "Soul Wars"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Lil%27_creator.png",
-        "name": "Lil' creator",
-        "url": "https://oldschool.runescape.wiki/w/Lil%27_creator"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Lil%27_Creator.png",
+        "name": "Lil' Creator",
+        "url": "https://oldschool.runescape.wiki/w/Lil%27_Creator"
       }
     },
     "Soul cape": {
@@ -24936,16 +25205,16 @@
         "url": "https://oldschool.runescape.wiki/w/Abyssal_orphan"
       }
     },
-    "Ikkle hydra": {
+    "Ikkle Hydra": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Ikkle_hydra_%28serpentine%29.png",
-        "name": "Ikkle hydra",
-        "url": "https://oldschool.runescape.wiki/w/Ikkle_hydra"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Ikkle_Hydra_%28serpentine%29.png",
+        "name": "Ikkle Hydra",
+        "url": "https://oldschool.runescape.wiki/w/Ikkle_Hydra"
       }
     },
     "Callisto cub": {
@@ -24984,16 +25253,16 @@
         "url": "https://oldschool.runescape.wiki/w/Pet_chaos_elemental"
       }
     },
-    "Pet zilyana": {
+    "Pet Zilyana": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_zilyana.png",
-        "name": "Pet zilyana",
-        "url": "https://oldschool.runescape.wiki/w/Pet_zilyana"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Zilyana.png",
+        "name": "Pet Zilyana",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Zilyana"
       }
     },
     "Pet dark core": {
@@ -25008,76 +25277,76 @@
         "url": "https://oldschool.runescape.wiki/w/Pet_dark_core"
       }
     },
-    "Pet dagannoth prime": {
+    "Pet Dagannoth Prime": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_dagannoth_prime.png",
-        "name": "Pet dagannoth prime",
-        "url": "https://oldschool.runescape.wiki/w/Pet_dagannoth_prime"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Dagannoth_Prime.png",
+        "name": "Pet Dagannoth Prime",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Dagannoth_Prime"
       }
     },
-    "Pet dagannoth supreme": {
+    "Pet Dagannoth Supreme": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_dagannoth_supreme.png",
-        "name": "Pet dagannoth supreme",
-        "url": "https://oldschool.runescape.wiki/w/Pet_dagannoth_supreme"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Dagannoth_Supreme.png",
+        "name": "Pet Dagannoth Supreme",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Dagannoth_Supreme"
       }
     },
-    "Pet dagannoth rex": {
+    "Pet Dagannoth Rex": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_dagannoth_rex.png",
-        "name": "Pet dagannoth rex",
-        "url": "https://oldschool.runescape.wiki/w/Pet_dagannoth_rex"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Dagannoth_Rex.png",
+        "name": "Pet Dagannoth Rex",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Dagannoth_Rex"
       }
     },
-    "Tzrek-jad": {
+    "TzRek-Jad": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Tzrek-jad.png",
-        "name": "Tzrek-jad",
-        "url": "https://oldschool.runescape.wiki/w/Tzrek-jad"
+        "imgUrl": "https://oldschool.runescape.wiki/images/TzRek-Jad.png",
+        "name": "TzRek-Jad",
+        "url": "https://oldschool.runescape.wiki/w/TzRek-Jad"
       }
     },
-    "Pet general graardor": {
+    "Pet General Graardor": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_general_graardor.png",
-        "name": "Pet general graardor",
-        "url": "https://oldschool.runescape.wiki/w/Pet_general_graardor"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_General_Graardor.png",
+        "name": "Pet General Graardor",
+        "url": "https://oldschool.runescape.wiki/w/Pet_General_Graardor"
       }
     },
-    "Baby mole": {
+    "Baby Mole": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Baby_mole.png",
-        "name": "Baby mole",
-        "url": "https://oldschool.runescape.wiki/w/Baby_mole"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Baby_Mole.png",
+        "name": "Baby Mole",
+        "url": "https://oldschool.runescape.wiki/w/Baby_Mole"
       }
     },
     "Noon": {
@@ -25092,76 +25361,76 @@
         "url": "https://oldschool.runescape.wiki/w/Noon"
       }
     },
-    "Jal-nib-rek": {
+    "Jal-Nib-Rek": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Jal-nib-rek.png",
-        "name": "Jal-nib-rek",
-        "url": "https://oldschool.runescape.wiki/w/Jal-nib-rek"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jal-Nib-Rek.png",
+        "name": "Jal-Nib-Rek",
+        "url": "https://oldschool.runescape.wiki/w/Jal-Nib-Rek"
       }
     },
-    "Kalphite princess": {
+    "Kalphite Princess": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Kalphite_princess.png",
-        "name": "Kalphite princess",
-        "url": "https://oldschool.runescape.wiki/w/Kalphite_princess"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Kalphite_Princess.png",
+        "name": "Kalphite Princess",
+        "url": "https://oldschool.runescape.wiki/w/Kalphite_Princess"
       }
     },
-    "Prince black dragon": {
+    "Prince Black Dragon": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Prince_black_dragon.png",
-        "name": "Prince black dragon",
-        "url": "https://oldschool.runescape.wiki/w/Prince_black_dragon"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Prince_Black_Dragon.png",
+        "name": "Prince Black Dragon",
+        "url": "https://oldschool.runescape.wiki/w/Prince_Black_Dragon"
       }
     },
-    "Pet kraken": {
+    "Pet Kraken": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_kraken.png",
-        "name": "Pet kraken",
-        "url": "https://oldschool.runescape.wiki/w/Pet_kraken"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Kraken.png",
+        "name": "Pet Kraken",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Kraken"
       }
     },
-    "Pet kree'arra": {
+    "Pet Kree'arra": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_kree%27arra.png",
-        "name": "Pet kree'arra",
-        "url": "https://oldschool.runescape.wiki/w/Pet_kree%27arra"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Kree%27arra.png",
+        "name": "Pet Kree'arra",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Kree%27arra"
       }
     },
-    "Pet k'ril tsutsaroth": {
+    "Pet K'ril Tsutsaroth": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_k%27ril_tsutsaroth.png",
-        "name": "Pet k'ril tsutsaroth",
-        "url": "https://oldschool.runescape.wiki/w/Pet_k%27ril_tsutsaroth"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_K%27ril_Tsutsaroth.png",
+        "name": "Pet K'ril Tsutsaroth",
+        "url": "https://oldschool.runescape.wiki/w/Pet_K%27ril_Tsutsaroth"
       }
     },
     "Scorpia's offspring": {
@@ -25188,16 +25457,16 @@
         "url": "https://oldschool.runescape.wiki/w/Skotos"
       }
     },
-    "Pet smoke devil": {
+    "Pet Smoke Devil": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_smoke_devil.png",
-        "name": "Pet smoke devil",
-        "url": "https://oldschool.runescape.wiki/w/Pet_smoke_devil"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Smoke_Devil.png",
+        "name": "Pet Smoke Devil",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Smoke_Devil"
       }
     },
     "Venenatis spiderling": {
@@ -25212,16 +25481,16 @@
         "url": "https://oldschool.runescape.wiki/w/Venenatis_spiderling"
       }
     },
-    "Vet'ion jr.": {
+    "Vet'ion Jr.": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Vet%27ion_jr..png",
-        "name": "Vet'ion jr.",
-        "url": "https://oldschool.runescape.wiki/w/Vet%27ion_jr."
+        "imgUrl": "https://oldschool.runescape.wiki/images/Vet%27ion_Jr..png",
+        "name": "Vet'ion Jr.",
+        "url": "https://oldschool.runescape.wiki/w/Vet%27ion_Jr."
       }
     },
     "Vorki": {
@@ -25248,16 +25517,16 @@
         "url": "https://oldschool.runescape.wiki/w/Phoenix"
       }
     },
-    "Pet snakeling": {
+    "Pet Snakeling": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_snakeling.png",
-        "name": "Pet snakeling",
-        "url": "https://oldschool.runescape.wiki/w/Pet_snakeling"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Snakeling.png",
+        "name": "Pet Snakeling",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Snakeling"
       }
     },
     "Olmlet": {
@@ -25272,16 +25541,16 @@
         "url": "https://oldschool.runescape.wiki/w/Olmlet"
       }
     },
-    "Lil' zik": {
+    "Lil' Zik": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Lil%27_zik.png",
-        "name": "Lil' zik",
-        "url": "https://oldschool.runescape.wiki/w/Lil%27_zik"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Lil%27_Zik.png",
+        "name": "Lil' Zik",
+        "url": "https://oldschool.runescape.wiki/w/Lil%27_Zik"
       }
     },
     "Bloodhound": {
@@ -25296,16 +25565,16 @@
         "url": "https://oldschool.runescape.wiki/w/Bloodhound"
       }
     },
-    "Pet penance queen": {
+    "Pet Penance Queen": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_penance_queen.png",
-        "name": "Pet penance queen",
-        "url": "https://oldschool.runescape.wiki/w/Pet_penance_queen"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pet_Penance_Queen.png",
+        "name": "Pet Penance Queen",
+        "url": "https://oldschool.runescape.wiki/w/Pet_Penance_Queen"
       }
     },
     "Heron": {
@@ -25356,16 +25625,16 @@
         "url": "https://oldschool.runescape.wiki/w/Baby_chinchompa"
       }
     },
-    "Giant squirrel": {
+    "Giant Squirrel": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Giant_squirrel.png",
-        "name": "Giant squirrel",
-        "url": "https://oldschool.runescape.wiki/w/Giant_squirrel"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Giant_Squirrel.png",
+        "name": "Giant Squirrel",
+        "url": "https://oldschool.runescape.wiki/w/Giant_Squirrel"
       }
     },
     "Tangleroot": {
@@ -25464,28 +25733,28 @@
         "url": "https://oldschool.runescape.wiki/w/Youngllef"
       }
     },
-    "Little nightmare": {
+    "Little Nightmare": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Little_nightmare.png",
-        "name": "Little nightmare",
-        "url": "https://oldschool.runescape.wiki/w/Little_nightmare"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Little_Nightmare.png",
+        "name": "Little Nightmare",
+        "url": "https://oldschool.runescape.wiki/w/Little_Nightmare"
       }
     },
-    "Lil' creator": {
+    "Lil' Creator": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Lil%27_creator.png",
-        "name": "Lil' creator",
-        "url": "https://oldschool.runescape.wiki/w/Lil%27_creator"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Lil%27_Creator.png",
+        "name": "Lil' Creator",
+        "url": "https://oldschool.runescape.wiki/w/Lil%27_Creator"
       }
     },
     "Tiny tempor": {
@@ -25608,16 +25877,16 @@
         "url": "https://oldschool.runescape.wiki/w/Scurry"
       }
     },
-    "Smol heredit": {
+    "Smol Heredit": {
       "category": [
         "Collection Log",
         "Other",
         "All Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Smol_heredit.png",
-        "name": "Smol heredit",
-        "url": "https://oldschool.runescape.wiki/w/Smol_heredit"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Smol_Heredit.png",
+        "name": "Smol Heredit",
+        "url": "https://oldschool.runescape.wiki/w/Smol_Heredit"
       }
     },
     "Quetzin": {
@@ -25750,6 +26019,30 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Maggot_marquess.png",
         "name": "Maggot marquess",
         "url": "https://oldschool.runescape.wiki/w/Maggot_marquess"
+      }
+    },
+    "Mr McGroot": {
+      "category": [
+        "Collection Log",
+        "Other",
+        "All Pets"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Mr_McGroot.png",
+        "name": "Mr McGroot",
+        "url": "https://oldschool.runescape.wiki/w/Mr_McGroot"
+      }
+    },
+    "Aggy": {
+      "category": [
+        "Collection Log",
+        "Other",
+        "All Pets"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Aggy.png",
+        "name": "Aggy",
+        "url": "https://oldschool.runescape.wiki/w/Aggy"
       }
     }
   },
@@ -28132,16 +28425,16 @@
     }
   },
   "Collection / Other / Rooftop Agility": {
-    "Mark of grace": {
+    "Mark of Grace": {
       "category": [
         "Collection Log",
         "Other",
         "Rooftop Agility"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Mark_of_grace.png",
-        "name": "Mark of grace",
-        "url": "https://oldschool.runescape.wiki/w/Mark_of_grace"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Mark_of_Grace.png",
+        "name": "Mark of Grace",
+        "url": "https://oldschool.runescape.wiki/w/Mark_of_Grace"
       }
     },
     "Graceful hood": {
@@ -28862,16 +29155,16 @@
         "url": "https://oldschool.runescape.wiki/w/Baby_chinchompa"
       }
     },
-    "Giant squirrel": {
+    "Giant Squirrel": {
       "category": [
         "Collection Log",
         "Other",
         "Skilling Pets"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Giant_squirrel.png",
-        "name": "Giant squirrel",
-        "url": "https://oldschool.runescape.wiki/w/Giant_squirrel"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Giant_Squirrel.png",
+        "name": "Giant Squirrel",
+        "url": "https://oldschool.runescape.wiki/w/Giant_Squirrel"
       }
     },
     "Tangleroot": {
@@ -29102,6 +29395,18 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Leaf-bladed_sword.png",
         "name": "Leaf-bladed sword",
         "url": "https://oldschool.runescape.wiki/w/Leaf-bladed_sword"
+      }
+    },
+    "Necklace of Fangs": {
+      "category": [
+        "Collection Log",
+        "Other",
+        "Slayer"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Necklace_of_Fangs.png",
+        "name": "Necklace of Fangs",
+        "url": "https://oldschool.runescape.wiki/w/Necklace_of_Fangs"
       }
     },
     "Leaf-bladed battleaxe": {
@@ -29872,16 +30177,16 @@
         "url": "https://oldschool.runescape.wiki/w/Glacial_temotli"
       }
     },
-    "Pendant of ates (inert)": {
+    "Pendant of Ates (inert)": {
       "category": [
         "Collection Log",
         "Other",
         "Slayer"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Pendant_of_ates_%28inert%29.png",
-        "name": "Pendant of ates (inert)",
-        "url": "https://oldschool.runescape.wiki/w/Pendant_of_ates_(inert)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Pendant_of_Ates_%28inert%29.png",
+        "name": "Pendant of Ates (inert)",
+        "url": "https://oldschool.runescape.wiki/w/Pendant_of_Ates_(inert)"
       }
     },
     "Frozen tear": {
@@ -29956,16 +30261,16 @@
         "url": "https://oldschool.runescape.wiki/w/Dragon_metal_sheet"
       }
     },
-    "Horn of plenty (empty)": {
+    "Horn of Plenty (empty)": {
       "category": [
         "Collection Log",
         "Other",
         "Slayer"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Horn_of_plenty_%28empty%29.png",
-        "name": "Horn of plenty (empty)",
-        "url": "https://oldschool.runescape.wiki/w/Horn_of_plenty_(empty)"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Horn_of_Plenty_%28empty%29.png",
+        "name": "Horn of Plenty (empty)",
+        "url": "https://oldschool.runescape.wiki/w/Horn_of_Plenty_(empty)"
       }
     },
     "Gryphon feather": {
@@ -30002,6 +30307,54 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Venator_fang.png",
         "name": "Venator fang",
         "url": "https://oldschool.runescape.wiki/w/Venator_fang"
+      }
+    },
+    "Air diamond": {
+      "category": [
+        "Collection Log",
+        "Other",
+        "Slayer"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Air_diamond.png",
+        "name": "Air diamond",
+        "url": "https://oldschool.runescape.wiki/w/Air_diamond"
+      }
+    },
+    "Water sapphire": {
+      "category": [
+        "Collection Log",
+        "Other",
+        "Slayer"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Water_sapphire.png",
+        "name": "Water sapphire",
+        "url": "https://oldschool.runescape.wiki/w/Water_sapphire"
+      }
+    },
+    "Earth emerald": {
+      "category": [
+        "Collection Log",
+        "Other",
+        "Slayer"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Earth_emerald.png",
+        "name": "Earth emerald",
+        "url": "https://oldschool.runescape.wiki/w/Earth_emerald"
+      }
+    },
+    "Fire ruby": {
+      "category": [
+        "Collection Log",
+        "Other",
+        "Slayer"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Fire_ruby.png",
+        "name": "Fire ruby",
+        "url": "https://oldschool.runescape.wiki/w/Fire_ruby"
       }
     }
   },
@@ -30706,16 +31059,16 @@
         "url": "https://oldschool.runescape.wiki/w/Xeric%27s_talisman_(inert)"
       }
     },
-    "Mask of ranul": {
+    "Mask of Ranul": {
       "category": [
         "Collection Log",
         "Other",
         "Miscellaneous"
       ],
       "item": {
-        "imgUrl": "https://oldschool.runescape.wiki/images/Mask_of_ranul.png",
-        "name": "Mask of ranul",
-        "url": "https://oldschool.runescape.wiki/w/Mask_of_ranul"
+        "imgUrl": "https://oldschool.runescape.wiki/images/Mask_of_Ranul.png",
+        "name": "Mask of Ranul",
+        "url": "https://oldschool.runescape.wiki/w/Mask_of_Ranul"
       }
     },
     "Elven signet": {
@@ -30908,6 +31261,18 @@
         "imgUrl": "https://oldschool.runescape.wiki/images/Squid_beak.png",
         "name": "Squid beak",
         "url": "https://oldschool.runescape.wiki/w/Squid_beak"
+      }
+    },
+    "Jeweller's chisel": {
+      "category": [
+        "Collection Log",
+        "Other",
+        "Miscellaneous"
+      ],
+      "item": {
+        "imgUrl": "https://oldschool.runescape.wiki/images/Jeweller%27s_chisel.png",
+        "name": "Jeweller's chisel",
+        "url": "https://oldschool.runescape.wiki/w/Jeweller%27s_chisel"
       }
     }
   }

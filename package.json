@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "update": "node ./scripts/scraper.js",
+    "update": "npx tsx scripts/scraper.ts",
     "fetch:diaries": "npx tsx scripts/fetchDiaries.ts",
     "fetch:furniture": "npx tsx scripts/fetchFurniture.ts",
     "fetch:items": "npx tsx scripts/fetchItems.ts",

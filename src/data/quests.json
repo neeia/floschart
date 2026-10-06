@@ -3406,16 +3406,7 @@
           "name": "Skippy and the Mogres"
         },
         {
-          "name": "Horror from the Deep"
-        },
-        {
-          "name": "The Fremennik Trials"
-        },
-        {
           "name": "Creature of Fenkenstrain"
-        },
-        {
-          "name": "Waterfall Quest"
         }
       ]
     }
@@ -5443,6 +5434,86 @@
           "name": "Children of the Sun"
         }
       ]
+    }
+  },
+  "Fallen From Grace": {
+    "isMiniquest": false,
+    "id": 181,
+    "name": "Fallen From Grace",
+    "title": "Fallen_From_Grace",
+    "difficulty": "Experienced",
+    "length": "Short",
+    "qp": 2,
+    "members": true,
+    "url": "https://oldschool.runescape.wiki/w/Fallen_From_Grace",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Sailing",
+          "target": 62
+        },
+        {
+          "name": "Crafting",
+          "target": 60
+        },
+        {
+          "name": "Runecraft",
+          "target": 47
+        },
+        {
+          "name": "Mining",
+          "target": 53
+        }
+      ],
+      "quests": [
+        {
+          "name": "Pandemonium"
+        }
+      ]
+    }
+  },
+  "A Ruff Situation": {
+    "isMiniquest": false,
+    "id": 182,
+    "name": "A Ruff Situation",
+    "title": "A_Ruff_Situation",
+    "difficulty": "Novice",
+    "length": "Short",
+    "qp": 1,
+    "members": true,
+    "url": "https://oldschool.runescape.wiki/w/A_Ruff_Situation",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Crafting",
+          "target": 15
+        }
+      ],
+      "quests": []
+    }
+  },
+  "Crab Quest": {
+    "isMiniquest": false,
+    "id": 183,
+    "name": "Crab Quest",
+    "title": "Crab_Quest",
+    "difficulty": "Intermediate",
+    "length": "Short",
+    "qp": 1,
+    "members": true,
+    "url": "https://oldschool.runescape.wiki/w/Crab_Quest",
+    "requirements": {
+      "skills": [
+        {
+          "name": "Sailing",
+          "target": 40
+        },
+        {
+          "name": "Fishing",
+          "target": 30
+        }
+      ],
+      "quests": []
     }
   }
 }

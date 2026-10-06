@@ -6,6 +6,12 @@
       "url": "https://oldschool.runescape.wiki/w/Lumbridge_Home_Teleport",
       "levelRequirement": 0
     },
+    "Minigame Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Minigame_Teleport_icon_%28mobile%29.png",
+      "name": "Minigame Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Minigame_Teleport",
+      "levelRequirement": 1
+    },
     "Wind Strike": {
       "imgUrl": "https://oldschool.runescape.wiki/images/Wind_Strike_icon_%28mobile%29.png",
       "name": "Wind Strike",
@@ -506,6 +512,12 @@
       "url": "https://oldschool.runescape.wiki/w/Edgeville_Home_Teleport",
       "levelRequirement": 0
     },
+    "Minigame Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Minigame_Teleport_icon_%28mobile%29.png",
+      "name": "Minigame Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Minigame_Teleport",
+      "levelRequirement": 1
+    },
     "Smoke Rush": {
       "imgUrl": "https://oldschool.runescape.wiki/images/Smoke_Rush_icon_%28mobile%29.png",
       "name": "Smoke Rush",
@@ -664,6 +676,12 @@
       "url": "https://oldschool.runescape.wiki/w/Lunar_Home_Teleport",
       "levelRequirement": 0
     },
+    "Minigame Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Minigame_Teleport_icon_%28mobile%29.png",
+      "name": "Minigame Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Minigame_Teleport",
+      "levelRequirement": 1
+    },
     "Bake Pie": {
       "imgUrl": "https://oldschool.runescape.wiki/images/Bake_Pie_icon_%28mobile%29.png",
       "name": "Bake Pie",
@@ -688,10 +706,10 @@
       "url": "https://oldschool.runescape.wiki/w/Monster_Examine",
       "levelRequirement": 66
     },
-    "NPC Contact": {
-      "imgUrl": "https://oldschool.runescape.wiki/images/NPC_Contact_icon_%28mobile%29.png",
-      "name": "NPC Contact",
-      "url": "https://oldschool.runescape.wiki/w/NPC_Contact",
+    "Astral Contact": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Astral_Contact_icon_%28mobile%29.png",
+      "name": "Astral Contact",
+      "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
       "levelRequirement": 67
     },
     "Cure Other": {
@@ -934,6 +952,12 @@
       "imgUrl": "https://oldschool.runescape.wiki/images/Arceuus_Home_Teleport_icon_%28mobile%29.png",
       "name": "Arceuus Home Teleport",
       "url": "https://oldschool.runescape.wiki/w/Arceuus_Home_Teleport",
+      "levelRequirement": 1
+    },
+    "Minigame Teleport": {
+      "imgUrl": "https://oldschool.runescape.wiki/images/Minigame_Teleport_icon_%28mobile%29.png",
+      "name": "Minigame Teleport",
+      "url": "https://oldschool.runescape.wiki/w/Minigame_Teleport",
       "levelRequirement": 1
     },
     "Arceuus Library Teleport": {
